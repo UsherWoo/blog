@@ -1,0 +1,14 @@
+<!--
+	htmls/index.html
+-->
+<html><head><title>歡迎</title></head>
+<body>
+<h1>Welcome</h1>
+<hr>
+{%for post in posts%}
+	<p><a href="/post/{{post.slug}}">{{post}}</a></p>
+{%endfor%}
+<hr>
+<h3>現在時刻:{{now}}</h3>
+</body>
+</html>

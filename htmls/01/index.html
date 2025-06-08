@@ -1,0 +1,11 @@
+<!--
+	htmls/01/index.html
+-->
+{%extends 'base.html'%}
+{%block title%}歡迎{%endblock%}
+{%block headmessage%}文章列表{%endblock%}
+{%block content%}
+	{%for post in posts%}
+		<p><a href="/post/{{post.slug}}">{{post}}</a></p>
+	{%endfor%}
+{%endblock%}

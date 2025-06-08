@@ -1,0 +1,285 @@
+[Thu Jun 05 07:14:04.308121 2025] [mpm_event:notice] [pid 3291:tid 3291] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Thu Jun 05 07:14:04.308183 2025] [core:notice] [pid 3291:tid 3291] AH00094: Command line: 'httpd (mod_wsgi-express) -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Thu Jun 05 07:15:52.688464 2025] [wsgi:error] [pid 3295:tid 3312] [remote 192.168.231.1:51505] Not Found: /static/imgs/uchlogo.png
+[Thu Jun 05 07:15:52.946060 2025] [wsgi:error] [pid 3295:tid 3316] [remote 192.168.231.1:51505] Not Found: /favicon.ico
+[Thu Jun 05 07:15:56.746432 2025] [wsgi:error] [pid 3295:tid 3316] [remote 192.168.231.1:51506] Not Found: /static/imgs/uchlogo.png
+[Thu Jun 05 07:15:58.069358 2025] [wsgi:error] [pid 3295:tid 3316] [remote 192.168.231.1:51506] Not Found: /static/imgs/uchlogo.png
+[Thu Jun 05 07:15:59.279412 2025] [wsgi:error] [pid 3295:tid 3316] [remote 192.168.231.1:51506] Not Found: /static/imgs/uchlogo.png
+[Thu Jun 05 07:16:00.215308 2025] [wsgi:error] [pid 3295:tid 3316] [remote 192.168.231.1:51506] Not Found: /static/imgs/uchlogo.png
+[Thu Jun 05 07:16:05.470281 2025] [wsgi:error] [pid 3295:tid 3316] [remote 192.168.231.1:51507] Not Found: /static/imgs/uchlogo.png
+[Thu Jun 05 07:16:06.217670 2025] [wsgi:error] [pid 3295:tid 3316] [remote 192.168.231.1:51507] Not Found: /static/imgs/uchlogo.png
+[Thu Jun 05 07:16:07.960036 2025] [wsgi:error] [pid 3295:tid 3316] [remote 192.168.231.1:51507] Not Found: /static/imgs/uchlogo.png
+[Thu Jun 05 07:16:09.778362 2025] [wsgi:error] [pid 3295:tid 3316] [remote 192.168.231.1:51507] Not Found: /static/imgs/uchlogo.png
+[Thu Jun 05 07:16:15.920276 2025] [wsgi:error] [pid 3295:tid 3316] [remote 192.168.231.1:51509] Not Found: /static/admin/css/base.css
+[Thu Jun 05 07:16:15.923604 2025] [wsgi:error] [pid 3295:tid 3315] [remote 192.168.231.1:51516] Not Found: /static/admin/css/nav_sidebar.css
+[Thu Jun 05 07:16:15.926940 2025] [wsgi:error] [pid 3295:tid 3314] [remote 192.168.231.1:51517] Not Found: /static/admin/css/responsive.css
+[Thu Jun 05 07:16:15.929538 2025] [wsgi:error] [pid 3295:tid 3316] [remote 192.168.231.1:51515] Not Found: /static/admin/css/dashboard.css
+[Thu Jun 05 07:16:15.932644 2025] [wsgi:error] [pid 3295:tid 3313] [remote 192.168.231.1:51518] Not Found: /static/admin/js/theme.js
+[Thu Jun 05 07:16:15.935366 2025] [wsgi:error] [pid 3295:tid 3312] [remote 192.168.231.1:51514] Not Found: /static/admin/css/dark_mode.css
+[Thu Jun 05 07:16:15.939324 2025] [wsgi:error] [pid 3295:tid 3315] [remote 192.168.231.1:51518] Not Found: /static/admin/js/nav_sidebar.js
+[Thu Jun 05 07:16:15.946312 2025] [wsgi:error] [pid 3295:tid 3313] [remote 192.168.231.1:51514] Not Found: /static/admin/css/nav_sidebar.css
+[Thu Jun 05 07:16:15.946562 2025] [wsgi:error] [pid 3295:tid 3316] [remote 192.168.231.1:51515] Not Found: /static/admin/css/dashboard.css
+[Thu Jun 05 07:16:15.946795 2025] [wsgi:error] [pid 3295:tid 3312] [remote 192.168.231.1:51517] Not Found: /static/admin/css/responsive.css
+[Thu Jun 05 07:16:33.550044 2025] [wsgi:error] [pid 3295:tid 3312] [remote 192.168.231.1:51523] Not Found: /static/admin/css/base.css
+[Thu Jun 05 07:16:33.552788 2025] [wsgi:error] [pid 3295:tid 3314] [remote 192.168.231.1:51524] Not Found: /static/admin/css/dark_mode.css
+[Thu Jun 05 07:16:33.555855 2025] [wsgi:error] [pid 3295:tid 3315] [remote 192.168.231.1:51525] Not Found: /static/admin/css/nav_sidebar.css
+[Thu Jun 05 07:16:33.558542 2025] [wsgi:error] [pid 3295:tid 3313] [remote 192.168.231.1:51527] Not Found: /static/admin/css/responsive.css
+[Thu Jun 05 07:16:33.562968 2025] [wsgi:error] [pid 3295:tid 3316] [remote 192.168.231.1:51526] Not Found: /static/admin/css/forms.css
+[Thu Jun 05 07:16:33.566144 2025] [wsgi:error] [pid 3295:tid 3314] [remote 192.168.231.1:51528] Not Found: /static/admin/js/theme.js
+[Thu Jun 05 07:16:33.569447 2025] [wsgi:error] [pid 3295:tid 3316] [remote 192.168.231.1:51527] Not Found: /static/admin/js/core.js
+[Thu Jun 05 07:16:33.573021 2025] [wsgi:error] [pid 3295:tid 3316] [remote 192.168.231.1:51525] Not Found: /static/admin/js/jquery.init.js
+[Thu Jun 05 07:16:33.577501 2025] [wsgi:error] [pid 3295:tid 3315] [remote 192.168.231.1:51526] Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+[Thu Jun 05 07:16:33.580236 2025] [wsgi:error] [pid 3295:tid 3313] [remote 192.168.231.1:51524] Not Found: /static/admin/js/vendor/jquery/jquery.js
+[Thu Jun 05 07:16:33.583004 2025] [wsgi:error] [pid 3295:tid 3316] [remote 192.168.231.1:51527] Not Found: /static/admin/css/nav_sidebar.css
+[Thu Jun 05 07:16:33.587347 2025] [wsgi:error] [pid 3295:tid 3314] [remote 192.168.231.1:51528] Not Found: /static/admin/js/actions.js
+[Thu Jun 05 07:16:33.591740 2025] [wsgi:error] [pid 3295:tid 3312] [remote 192.168.231.1:51525] Not Found: /static/admin/css/forms.css
+[Thu Jun 05 07:16:33.601689 2025] [wsgi:error] [pid 3295:tid 3313] [remote 192.168.231.1:51523] Not Found: /static/admin/js/prepopulate_init.js
+[Thu Jun 05 07:16:33.601884 2025] [wsgi:error] [pid 3295:tid 3314] [remote 192.168.231.1:51524] Not Found: /static/admin/js/prepopulate.js
+[Thu Jun 05 07:16:33.602272 2025] [wsgi:error] [pid 3295:tid 3315] [remote 192.168.231.1:51527] Not Found: /static/admin/js/vendor/xregexp/xregexp.js
+[Thu Jun 05 07:16:33.602509 2025] [wsgi:error] [pid 3295:tid 3316] [remote 192.168.231.1:51526] Not Found: /static/admin/js/urlify.js
+[Thu Jun 05 07:16:33.608975 2025] [wsgi:error] [pid 3295:tid 3312] [remote 192.168.231.1:51526] Not Found: /static/admin/js/nav_sidebar.js
+[Thu Jun 05 07:16:33.612620 2025] [wsgi:error] [pid 3295:tid 3314] [remote 192.168.231.1:51527] Not Found: /static/admin/js/change_form.js
+[Thu Jun 05 07:16:33.615511 2025] [wsgi:error] [pid 3295:tid 3316] [remote 192.168.231.1:51524] Not Found: /static/admin/css/responsive.css
+[Thu Jun 05 07:16:42.233945 2025] [wsgi:error] [pid 3295:tid 3316] [remote 192.168.231.1:51531] Not Found: /static/admin/css/dark_mode.css
+[Thu Jun 05 07:16:42.237262 2025] [wsgi:error] [pid 3295:tid 3314] [remote 192.168.231.1:51534] Not Found: /static/admin/css/nav_sidebar.css
+[Thu Jun 05 07:16:42.240562 2025] [wsgi:error] [pid 3295:tid 3315] [remote 192.168.231.1:51530] Not Found: /static/admin/css/base.css
+[Thu Jun 05 07:16:42.243446 2025] [wsgi:error] [pid 3295:tid 3312] [remote 192.168.231.1:51533] Not Found: /static/admin/css/dashboard.css
+[Thu Jun 05 07:16:42.246273 2025] [wsgi:error] [pid 3295:tid 3313] [remote 192.168.231.1:51535] Not Found: /static/admin/js/theme.js
+[Thu Jun 05 07:16:42.249273 2025] [wsgi:error] [pid 3295:tid 3316] [remote 192.168.231.1:51532] Not Found: /static/admin/css/responsive.css
+[Thu Jun 05 07:16:42.252208 2025] [wsgi:error] [pid 3295:tid 3314] [remote 192.168.231.1:51535] Not Found: /static/admin/js/nav_sidebar.js
+[Thu Jun 05 07:16:42.255583 2025] [wsgi:error] [pid 3295:tid 3313] [remote 192.168.231.1:51533] Not Found: /static/admin/css/nav_sidebar.css
+[Thu Jun 05 07:16:42.259241 2025] [wsgi:error] [pid 3295:tid 3312] [remote 192.168.231.1:51530] Not Found: /static/admin/css/dashboard.css
+[Thu Jun 05 07:17:22.219433 2025] [mpm_event:notice] [pid 3291:tid 3291] AH00491: caught SIGTERM, shutting down
+[Thu Jun 05 07:18:00.997686 2025] [mpm_event:notice] [pid 3517:tid 3517] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Thu Jun 05 07:18:00.997750 2025] [core:notice] [pid 3517:tid 3517] AH00094: Command line: 'httpd (mod_wsgi-express) -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Thu Jun 05 07:18:35.324952 2025] [mpm_event:notice] [pid 3517:tid 3517] AH00491: caught SIGTERM, shutting down
+[Thu Jun 05 07:21:01.897253 2025] [mpm_event:notice] [pid 3908:tid 3908] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Thu Jun 05 07:21:01.897314 2025] [core:notice] [pid 3908:tid 3908] AH00094: Command line: 'httpd (mod_wsgi-express) -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Thu Jun 05 07:21:14.562462 2025] [mpm_event:notice] [pid 3908:tid 3908] AH00491: caught SIGTERM, shutting down
+[Thu Jun 05 07:24:18.405371 2025] [mpm_event:notice] [pid 4681:tid 4681] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Thu Jun 05 07:24:18.405434 2025] [core:notice] [pid 4681:tid 4681] AH00094: Command line: 'httpd (mod_wsgi-express) -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Thu Jun 05 07:26:16.403399 2025] [mpm_event:notice] [pid 4681:tid 4681] AH00491: caught SIGTERM, shutting down
+[Thu Jun 05 07:26:43.091828 2025] [mpm_event:notice] [pid 4796:tid 4796] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Thu Jun 05 07:26:43.091888 2025] [core:notice] [pid 4796:tid 4796] AH00094: Command line: 'httpd (mod_wsgi-express) -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Thu Jun 05 07:26:56.643763 2025] [mpm_event:notice] [pid 4796:tid 4796] AH00491: caught SIGTERM, shutting down
+[Thu Jun 05 07:27:17.379059 2025] [mpm_event:notice] [pid 4925:tid 4925] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Thu Jun 05 07:27:17.379125 2025] [core:notice] [pid 4925:tid 4925] AH00094: Command line: 'httpd (mod_wsgi-express) -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Thu Jun 05 07:27:47.451837 2025] [mpm_event:notice] [pid 4925:tid 4925] AH00491: caught SIGTERM, shutting down
+[Thu Jun 05 08:22:42.033601 2025] [mpm_event:notice] [pid 7103:tid 7103] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Thu Jun 05 08:22:42.033806 2025] [core:notice] [pid 7103:tid 7103] AH00094: Command line: 'httpd (mod_wsgi-express) -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Thu Jun 05 08:23:02.220406 2025] [mpm_event:notice] [pid 7103:tid 7103] AH00491: caught SIGTERM, shutting down
+[Thu Jun 05 08:24:07.734508 2025] [mpm_event:notice] [pid 7587:tid 7587] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Thu Jun 05 08:24:07.734594 2025] [core:notice] [pid 7587:tid 7587] AH00094: Command line: 'httpd (mod_wsgi-express) -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Thu Jun 05 08:24:16.264104 2025] [mpm_event:notice] [pid 7587:tid 7587] AH00491: caught SIGTERM, shutting down
+[Thu Jun 05 08:39:02.240057 2025] [mpm_event:notice] [pid 8182:tid 8182] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Thu Jun 05 08:39:02.240117 2025] [core:notice] [pid 8182:tid 8182] AH00094: Command line: 'httpd (mod_wsgi-express) -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Thu Jun 05 09:05:47.233500 2025] [mpm_event:notice] [pid 8182:tid 8182] AH00491: caught SIGTERM, shutting down
+[Thu Jun 05 09:05:54.852021 2025] [mpm_event:notice] [pid 9163:tid 9163] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Thu Jun 05 09:05:54.852082 2025] [core:notice] [pid 9163:tid 9163] AH00094: Command line: 'httpd (mod_wsgi-express) -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Thu Jun 05 09:06:01.344762 2025] [mpm_event:notice] [pid 9163:tid 9163] AH00491: caught SIGTERM, shutting down
+[Thu Jun 05 09:06:09.579664 2025] [mpm_event:notice] [pid 9205:tid 9205] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Thu Jun 05 09:06:09.579924 2025] [core:notice] [pid 9205:tid 9205] AH00094: Command line: 'httpd (mod_wsgi-express) -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Thu Jun 05 09:27:55.293300 2025] [mpm_event:notice] [pid 9205:tid 9205] AH00491: caught SIGTERM, shutting down
+[Thu Jun 05 09:28:05.461889 2025] [mpm_event:notice] [pid 10014:tid 10014] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Thu Jun 05 09:28:05.461979 2025] [core:notice] [pid 10014:tid 10014] AH00094: Command line: 'httpd (mod_wsgi-express) -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Thu Jun 05 09:28:09.646689 2025] [wsgi:error] [pid 10018:tid 10035] [remote 127.0.0.1:52780] Not Found: /server-status
+[Thu Jun 05 09:30:48.944321 2025] [mpm_event:notice] [pid 10014:tid 10014] AH00491: caught SIGTERM, shutting down
+[Thu Jun 05 09:30:57.123802 2025] [mpm_event:notice] [pid 10235:tid 10235] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Thu Jun 05 09:30:57.123859 2025] [core:notice] [pid 10235:tid 10235] AH00094: Command line: 'httpd (mod_wsgi-express) -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Thu Jun 05 09:49:37.397395 2025] [mpm_event:notice] [pid 10235:tid 10235] AH00491: caught SIGTERM, shutting down
+[Thu Jun 05 10:14:38.471104 2025] [mpm_event:notice] [pid 12380:tid 12380] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Thu Jun 05 10:14:38.471165 2025] [core:notice] [pid 12380:tid 12380] AH00094: Command line: 'httpd (mod_wsgi-express) -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Thu Jun 05 10:15:18.120034 2025] [wsgi:error] [pid 12384:tid 12405] [remote 192.168.231.128:41854] Not Found: /admin/admin
+[Thu Jun 05 10:15:40.239115 2025] [wsgi:error] [pid 12384:tid 12405] [remote 192.168.231.128:44482] Not Found: /static/admin/js/prepopulate_init.js
+[Thu Jun 05 10:15:40.242834 2025] [wsgi:error] [pid 12384:tid 12404] [remote 192.168.231.128:44472] Not Found: /static/admin/js/change_form.js
+[Thu Jun 05 10:15:40.352145 2025] [wsgi:error] [pid 12384:tid 12403] [remote 192.168.231.128:44464] Not Found: /favicon.ico
+[Thu Jun 05 10:16:21.942536 2025] [wsgi:error] [pid 12384:tid 12401] [remote 192.168.231.128:43436] Not Found: /static/admin/css/changelists.css
+[Thu Jun 05 10:16:21.953550 2025] [wsgi:error] [pid 12384:tid 12404] [remote 192.168.231.128:43436] Not Found: /static/admin/js/filters.js
+[Thu Jun 05 10:16:21.982755 2025] [wsgi:error] [pid 12384:tid 12401] [remote 192.168.231.128:43436] Not Found: /static/admin/js/filters.js
+[Thu Jun 05 10:16:21.987926 2025] [wsgi:error] [pid 12384:tid 12403] [remote 192.168.231.128:43436] Not Found: /static/admin/img/icon-yes.svg
+[Thu Jun 05 10:16:21.993045 2025] [wsgi:error] [pid 12384:tid 12401] [remote 192.168.231.128:43436] Not Found: /static/admin/img/tooltag-add.svg
+[Thu Jun 05 10:16:21.996277 2025] [wsgi:error] [pid 12384:tid 12403] [remote 192.168.231.128:43442] Not Found: /static/admin/img/sorting-icons.svg
+[Thu Jun 05 10:17:02.916920 2025] [wsgi:error] [pid 12384:tid 12403] [remote 192.168.231.128:36186] Not Found: /favicon.ico
+[Thu Jun 05 10:17:32.978263 2025] [wsgi:error] [pid 12384:tid 12403] [remote 192.168.231.128:47718] Not Found: /static/admin/css/changelists.css
+[Thu Jun 05 10:17:32.988397 2025] [wsgi:error] [pid 12384:tid 12403] [remote 192.168.231.128:47722] Not Found: /static/admin/js/filters.js
+[Thu Jun 05 10:17:33.002166 2025] [wsgi:error] [pid 12384:tid 12401] [remote 192.168.231.128:47722] Not Found: /static/admin/img/search.svg
+[Thu Jun 05 10:17:33.025256 2025] [wsgi:error] [pid 12384:tid 12403] [remote 192.168.231.128:47718] Not Found: /static/admin/js/filters.js
+[Thu Jun 05 10:17:33.027964 2025] [wsgi:error] [pid 12384:tid 12401] [remote 192.168.231.128:47722] Not Found: /static/admin/img/search.svg
+[Thu Jun 05 10:17:33.041889 2025] [wsgi:error] [pid 12384:tid 12404] [remote 192.168.231.128:47718] Not Found: /favicon.ico
+[Thu Jun 05 10:17:36.934332 2025] [wsgi:error] [pid 12384:tid 12404] [remote 192.168.231.128:34962] Not Found: /favicon.ico
+[Thu Jun 05 10:17:37.850283 2025] [wsgi:error] [pid 12384:tid 12404] [remote 192.168.231.128:34964] Not Found: /static/admin/css/changelists.css
+[Thu Jun 05 10:17:37.858227 2025] [wsgi:error] [pid 12384:tid 12403] [remote 192.168.231.128:34964] Not Found: /static/admin/js/filters.js
+[Thu Jun 05 10:17:37.869731 2025] [wsgi:error] [pid 12384:tid 12404] [remote 192.168.231.128:34964] Not Found: /static/admin/img/search.svg
+[Thu Jun 05 10:17:37.872473 2025] [wsgi:error] [pid 12384:tid 12401] [remote 192.168.231.128:34974] Not Found: /static/admin/img/icon-yes.svg
+[Thu Jun 05 10:17:37.898152 2025] [wsgi:error] [pid 12384:tid 12403] [remote 192.168.231.128:34964] Not Found: /static/admin/js/filters.js
+[Thu Jun 05 10:17:37.906259 2025] [wsgi:error] [pid 12384:tid 12401] [remote 192.168.231.128:34964] Not Found: /static/admin/img/icon-viewlink.svg
+[Thu Jun 05 10:17:49.723680 2025] [wsgi:error] [pid 12384:tid 12403] [remote 192.168.231.128:41404] Not Found: /favicon.ico
+[Thu Jun 05 10:17:57.606734 2025] [wsgi:error] [pid 12384:tid 12403] [remote 192.168.231.128:47320] Not Found: /static/admin/css/changelists.css
+[Thu Jun 05 10:17:57.622534 2025] [wsgi:error] [pid 12384:tid 12403] [remote 192.168.231.128:47322] Not Found: /static/admin/js/filters.js
+[Thu Jun 05 10:17:57.652500 2025] [wsgi:error] [pid 12384:tid 12404] [remote 192.168.231.128:47320] Not Found: /static/admin/js/filters.js
+[Thu Jun 05 10:18:57.447067 2025] [mpm_event:notice] [pid 12380:tid 12380] AH00491: caught SIGTERM, shutting down
+[Sat Jun 07 23:25:34.610757 2025] [mpm_event:notice] [pid 3368:tid 3368] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Sat Jun 07 23:25:34.611424 2025] [core:notice] [pid 3368:tid 3368] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_WITH_LISTENER_HOST -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Sat Jun 07 23:26:21.597769 2025] [wsgi:error] [pid 3372:tid 3393] [remote 127.0.0.1:48864] Not Found: /static/imgs/uchlogo.png
+[Sat Jun 07 23:26:25.295477 2025] [wsgi:error] [pid 3372:tid 3393] [remote 127.0.0.1:48872] Not Found: /static/imgs/uchlogo.png
+[Sat Jun 07 23:27:08.100207 2025] [mpm_event:notice] [pid 3368:tid 3368] AH00491: caught SIGTERM, shutting down
+[Sat Jun 07 23:28:25.424424 2025] [mpm_event:notice] [pid 3889:tid 3889] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Sat Jun 07 23:28:25.424498 2025] [core:notice] [pid 3889:tid 3889] AH00094: Command line: 'httpd (mod_wsgi-express)         -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_WITH_LISTENER_HOST -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Sat Jun 07 23:28:29.879136 2025] [wsgi:error] [pid 3893:tid 3914] [remote 192.168.231.128:39232] Not Found: /static/imgs/uchlogo.png
+[Sat Jun 07 23:28:39.509203 2025] [wsgi:error] [pid 3893:tid 3914] [remote 192.168.231.128:44192] Not Found: /static/admin/css/base.css
+[Sat Jun 07 23:28:39.516805 2025] [wsgi:error] [pid 3893:tid 3910] [remote 192.168.231.128:44192] Not Found: /static/admin/css/dark_mode.css
+[Sat Jun 07 23:28:39.521575 2025] [wsgi:error] [pid 3893:tid 3914] [remote 192.168.231.128:44198] Not Found: /static/admin/js/theme.js
+[Sat Jun 07 23:28:39.525974 2025] [wsgi:error] [pid 3893:tid 3910] [remote 192.168.231.128:44192] Not Found: /static/admin/css/nav_sidebar.css
+[Sat Jun 07 23:28:39.534764 2025] [wsgi:error] [pid 3893:tid 3914] [remote 192.168.231.128:44198] Not Found: /static/admin/css/dashboard.css
+[Sat Jun 07 23:28:39.534840 2025] [wsgi:error] [pid 3893:tid 3913] [remote 192.168.231.128:44224] Not Found: /static/admin/js/nav_sidebar.js
+[Sat Jun 07 23:28:39.538390 2025] [wsgi:error] [pid 3893:tid 3912] [remote 192.168.231.128:44216] Not Found: /static/admin/css/responsive.css
+[Sat Jun 07 23:28:43.061095 2025] [wsgi:error] [pid 3893:tid 3912] [remote 192.168.231.128:44208] Not Found: /static/admin/css/base.css
+[Sat Jun 07 23:28:43.065399 2025] [wsgi:error] [pid 3893:tid 3911] [remote 192.168.231.128:44204] Not Found: /static/admin/css/dark_mode.css
+[Sat Jun 07 23:28:43.068116 2025] [wsgi:error] [pid 3893:tid 3912] [remote 192.168.231.128:44208] Not Found: /static/admin/css/nav_sidebar.css
+[Sat Jun 07 23:28:43.071339 2025] [wsgi:error] [pid 3893:tid 3913] [remote 192.168.231.128:48244] Not Found: /static/admin/js/theme.js
+[Sat Jun 07 23:28:43.081315 2025] [wsgi:error] [pid 3893:tid 3914] [remote 192.168.231.128:48248] Not Found: /static/admin/js/nav_sidebar.js
+[Sat Jun 07 23:28:43.081775 2025] [wsgi:error] [pid 3893:tid 3910] [remote 192.168.231.128:48242] Not Found: /static/admin/css/responsive.css
+[Sat Jun 07 23:28:43.090084 2025] [wsgi:error] [pid 3893:tid 3914] [remote 192.168.231.128:48252] Not Found: /static/admin/js/vendor/jquery/jquery.js
+[Sat Jun 07 23:28:43.095111 2025] [wsgi:error] [pid 3893:tid 3912] [remote 192.168.231.128:44208] Not Found: /static/admin/css/forms.css
+[Sat Jun 07 23:28:43.095287 2025] [wsgi:error] [pid 3893:tid 3910] [remote 192.168.231.128:48244] Not Found: /static/admin/js/core.js
+[Sat Jun 07 23:28:43.095539 2025] [wsgi:error] [pid 3893:tid 3913] [remote 192.168.231.128:48248] Not Found: /static/admin/js/jquery.init.js
+[Sat Jun 07 23:28:43.101219 2025] [wsgi:error] [pid 3893:tid 3910] [remote 192.168.231.128:48242] Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+[Sat Jun 07 23:28:43.114855 2025] [wsgi:error] [pid 3893:tid 3913] [remote 192.168.231.128:44208] Not Found: /static/admin/js/urlify.js
+[Sat Jun 07 23:28:43.122396 2025] [wsgi:error] [pid 3893:tid 3912] [remote 192.168.231.128:48248] Not Found: /static/admin/js/prepopulate.js
+[Sat Jun 07 23:28:43.122556 2025] [wsgi:error] [pid 3893:tid 3914] [remote 192.168.231.128:48244] Not Found: /static/admin/js/vendor/xregexp/xregexp.js
+[Sat Jun 07 23:28:43.125846 2025] [wsgi:error] [pid 3893:tid 3910] [remote 192.168.231.128:48252] Not Found: /static/admin/js/actions.js
+[Sat Jun 07 23:28:43.128933 2025] [wsgi:error] [pid 3893:tid 3913] [remote 192.168.231.128:48242] Not Found: /static/admin/js/change_form.js
+[Sat Jun 07 23:28:43.131890 2025] [wsgi:error] [pid 3893:tid 3914] [remote 192.168.231.128:44208] Not Found: /static/admin/js/prepopulate_init.js
+[Sat Jun 07 23:28:43.132565 2025] [wsgi:error] [pid 3893:tid 3912] [remote 192.168.231.128:48244] Not Found: /static/admin/js/nav_sidebar.js
+[Sat Jun 07 23:28:43.132798 2025] [wsgi:error] [pid 3893:tid 3913] [remote 192.168.231.128:48248] Not Found: /static/admin/css/nav_sidebar.css
+[Sat Jun 07 23:28:43.145499 2025] [wsgi:error] [pid 3893:tid 3912] [remote 192.168.231.128:44208] Not Found: /static/admin/js/vendor/jquery/jquery.js
+[Sat Jun 07 23:28:43.150625 2025] [wsgi:error] [pid 3893:tid 3911] [remote 192.168.231.128:44208] Not Found: /static/admin/js/jquery.init.js
+[Sat Jun 07 23:28:43.160372 2025] [wsgi:error] [pid 3893:tid 3912] [remote 192.168.231.128:44208] Not Found: /static/admin/js/core.js
+[Sat Jun 07 23:28:43.165845 2025] [wsgi:error] [pid 3893:tid 3911] [remote 192.168.231.128:44208] Not Found: /static/admin/js/admin/RelatedObjectLookups.js
+[Sat Jun 07 23:28:43.174853 2025] [wsgi:error] [pid 3893:tid 3912] [remote 192.168.231.128:44208] Not Found: /static/admin/js/actions.js
+[Sat Jun 07 23:28:43.180772 2025] [wsgi:error] [pid 3893:tid 3911] [remote 192.168.231.128:44208] Not Found: /static/admin/js/urlify.js
+[Sat Jun 07 23:28:43.185830 2025] [wsgi:error] [pid 3893:tid 3912] [remote 192.168.231.128:44208] Not Found: /static/admin/js/prepopulate.js
+[Sat Jun 07 23:28:43.191670 2025] [wsgi:error] [pid 3893:tid 3911] [remote 192.168.231.128:44208] Not Found: /static/admin/js/vendor/xregexp/xregexp.js
+[Sat Jun 07 23:28:43.198753 2025] [wsgi:error] [pid 3893:tid 3912] [remote 192.168.231.128:44208] Not Found: /static/admin/css/responsive.css
+[Sat Jun 07 23:28:43.201949 2025] [wsgi:error] [pid 3893:tid 3911] [remote 192.168.231.128:44204] Not Found: /static/admin/js/change_form.js
+[Sat Jun 07 23:28:43.204791 2025] [wsgi:error] [pid 3893:tid 3912] [remote 192.168.231.128:48242] Not Found: /static/admin/js/prepopulate_init.js
+[Sat Jun 07 23:28:47.799989 2025] [wsgi:error] [pid 3893:tid 3912] [remote 192.168.231.128:48256] Not Found: /static/admin/css/base.css
+[Sat Jun 07 23:28:47.803096 2025] [wsgi:error] [pid 3893:tid 3913] [remote 192.168.231.128:48308] Not Found: /static/admin/css/responsive.css
+[Sat Jun 07 23:28:47.806556 2025] [wsgi:error] [pid 3893:tid 3910] [remote 192.168.231.128:48298] Not Found: /static/admin/css/nav_sidebar.css
+[Sat Jun 07 23:28:47.810186 2025] [wsgi:error] [pid 3893:tid 3914] [remote 192.168.231.128:48284] Not Found: /static/admin/js/theme.js
+[Sat Jun 07 23:28:47.813060 2025] [wsgi:error] [pid 3893:tid 3911] [remote 192.168.231.128:48304] Not Found: /static/admin/js/nav_sidebar.js
+[Sat Jun 07 23:28:47.816651 2025] [wsgi:error] [pid 3893:tid 3912] [remote 192.168.231.128:48272] Not Found: /static/admin/css/dark_mode.css
+[Sat Jun 07 23:28:47.827323 2025] [wsgi:error] [pid 3893:tid 3913] [remote 192.168.231.128:48256] Not Found: /static/admin/css/nav_sidebar.css
+[Sat Jun 07 23:28:47.830082 2025] [wsgi:error] [pid 3893:tid 3912] [remote 192.168.231.128:48298] Not Found: /static/admin/css/responsive.css
+[Sat Jun 07 23:28:56.362768 2025] [wsgi:error] [pid 3893:tid 3913] [remote 192.168.231.128:56786] Not Found: /static/imgs/uchlogo.png
+[Sat Jun 07 23:28:57.980124 2025] [wsgi:error] [pid 3893:tid 3913] [remote 192.168.231.128:56786] Not Found: /static/imgs/uchlogo.png
+[Sat Jun 07 23:28:59.248671 2025] [wsgi:error] [pid 3893:tid 3913] [remote 192.168.231.128:56786] Not Found: /static/imgs/uchlogo.png
+[Sat Jun 07 23:29:06.665466 2025] [wsgi:error] [pid 3893:tid 3913] [remote 192.168.231.128:56688] Not Found: /static/imgs/uchlogo.png
+[Sat Jun 07 23:29:07.416254 2025] [wsgi:error] [pid 3893:tid 3913] [remote 192.168.231.128:56688] Not Found: /static/imgs/uchlogo.png
+[Sat Jun 07 23:31:46.249157 2025] [mpm_event:notice] [pid 3889:tid 3889] AH00491: caught SIGTERM, shutting down
+[Sat Jun 07 23:31:56.373663 2025] [mpm_event:notice] [pid 4156:tid 4156] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Sat Jun 07 23:31:56.373725 2025] [core:notice] [pid 4156:tid 4156] AH00094: Command line: 'httpd (mod_wsgi-express)         -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_WITH_LISTENER_HOST -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Sat Jun 07 23:32:10.697489 2025] [mpm_event:notice] [pid 4156:tid 4156] AH00491: caught SIGTERM, shutting down
+[Sat Jun 07 23:42:07.177931 2025] [mpm_event:notice] [pid 4735:tid 4735] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Sat Jun 07 23:42:07.178020 2025] [core:notice] [pid 4735:tid 4735] AH00094: Command line: 'httpd (mod_wsgi-express)         -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_WITH_LISTENER_HOST -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Sat Jun 07 23:42:12.759530 2025] [wsgi:error] [pid 4739:tid 4761] [remote 192.168.231.128:41366] Not Found: /static/imgs/uchlogo.png
+[Sat Jun 07 23:42:13.684561 2025] [wsgi:error] [pid 4739:tid 4761] [remote 192.168.231.128:41366] Not Found: /static/imgs/uchlogo.png
+[Sat Jun 07 23:42:14.706241 2025] [wsgi:error] [pid 4739:tid 4761] [remote 192.168.231.128:41366] Not Found: /static/imgs/uchlogo.png
+[Sat Jun 07 23:42:15.432540 2025] [wsgi:error] [pid 4739:tid 4761] [remote 192.168.231.128:41366] Not Found: /static/imgs/uchlogo.png
+[Sat Jun 07 23:42:15.866237 2025] [wsgi:error] [pid 4739:tid 4761] [remote 192.168.231.128:41366] Not Found: /static/imgs/uchlogo.png
+[Sat Jun 07 23:42:41.363267 2025] [mpm_event:notice] [pid 4735:tid 4735] AH00494: SIGHUP received.  Attempting to restart
+[Sat Jun 07 23:42:41.478144 2025] [mpm_event:notice] [pid 4735:tid 4735] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Sat Jun 07 23:42:41.478158 2025] [core:notice] [pid 4735:tid 4735] AH00094: Command line: 'httpd (mod_wsgi-express)         -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_WITH_LISTENER_HOST -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Sat Jun 07 23:43:16.324942 2025] [mpm_event:notice] [pid 4735:tid 4735] AH00491: caught SIGTERM, shutting down
+[Sat Jun 07 23:43:18.768425 2025] [mpm_event:notice] [pid 4893:tid 4893] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Sat Jun 07 23:43:18.768487 2025] [core:notice] [pid 4893:tid 4893] AH00094: Command line: 'httpd (mod_wsgi-express)         -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_WITH_LISTENER_HOST -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Sat Jun 07 23:43:37.571871 2025] [mpm_event:notice] [pid 4893:tid 4893] AH00491: caught SIGTERM, shutting down
+[Sat Jun 07 23:44:39.707815 2025] [mpm_event:notice] [pid 5017:tid 5017] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Sat Jun 07 23:44:39.707892 2025] [core:notice] [pid 5017:tid 5017] AH00094: Command line: 'httpd (mod_wsgi-express)         -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_WITH_LISTENER_HOST -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Sat Jun 07 23:44:50.285790 2025] [wsgi:error] [pid 5021:tid 5042] [remote 192.168.231.128:59210] Not Found: /static/admin/css/base.css
+[Sat Jun 07 23:44:50.290186 2025] [wsgi:error] [pid 5021:tid 5038] [remote 192.168.231.128:59210] Not Found: /static/admin/css/dark_mode.css
+[Sat Jun 07 23:44:50.295634 2025] [wsgi:error] [pid 5021:tid 5042] [remote 192.168.231.128:59210] Not Found: /static/admin/js/theme.js
+[Sat Jun 07 23:44:50.298497 2025] [wsgi:error] [pid 5021:tid 5041] [remote 192.168.231.128:59226] Not Found: /static/admin/js/nav_sidebar.js
+[Sat Jun 07 23:44:50.302526 2025] [wsgi:error] [pid 5021:tid 5040] [remote 192.168.231.128:59238] Not Found: /static/admin/css/dashboard.css
+[Sat Jun 07 23:44:50.305918 2025] [wsgi:error] [pid 5021:tid 5039] [remote 192.168.231.128:59242] Not Found: /static/admin/css/responsive.css
+[Sat Jun 07 23:44:50.309078 2025] [wsgi:error] [pid 5021:tid 5038] [remote 192.168.231.128:59220] Not Found: /static/admin/css/nav_sidebar.css
+[Sat Jun 07 23:44:52.199739 2025] [wsgi:error] [pid 5021:tid 5038] [remote 192.168.231.128:59210] Not Found: /static/admin/css/base.css
+[Sat Jun 07 23:44:52.209224 2025] [wsgi:error] [pid 5021:tid 5042] [remote 192.168.231.128:59220] Not Found: /static/admin/css/dark_mode.css
+[Sat Jun 07 23:44:52.211816 2025] [wsgi:error] [pid 5021:tid 5039] [remote 192.168.231.128:59226] Not Found: /static/admin/css/nav_sidebar.css
+[Sat Jun 07 23:44:52.212054 2025] [wsgi:error] [pid 5021:tid 5040] [remote 192.168.231.128:59242] Not Found: /static/admin/js/theme.js
+[Sat Jun 07 23:44:52.212177 2025] [wsgi:error] [pid 5021:tid 5041] [remote 192.168.231.128:59238] Not Found: /static/admin/js/nav_sidebar.js
+[Sat Jun 07 23:44:52.217660 2025] [wsgi:error] [pid 5021:tid 5039] [remote 192.168.231.128:59888] Not Found: /static/admin/css/dashboard.css
+[Sat Jun 07 23:44:52.217889 2025] [wsgi:error] [pid 5021:tid 5038] [remote 192.168.231.128:59210] Not Found: /static/admin/css/responsive.css
+[Sat Jun 07 23:44:52.228654 2025] [wsgi:error] [pid 5021:tid 5040] [remote 192.168.231.128:59210] Not Found: /static/admin/js/nav_sidebar.js
+[Sat Jun 07 23:44:57.818970 2025] [wsgi:error] [pid 5021:tid 5040] [remote 192.168.231.128:59890] Not Found: /static/imgs/uchlogo.png
+[Sat Jun 07 23:45:06.659067 2025] [mpm_event:notice] [pid 5017:tid 5017] AH00491: caught SIGTERM, shutting down
+[Sat Jun 07 23:45:18.662921 2025] [mpm_event:notice] [pid 5115:tid 5115] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Sat Jun 07 23:45:18.662992 2025] [core:notice] [pid 5115:tid 5115] AH00094: Command line: 'httpd (mod_wsgi-express)         -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_WITH_LISTENER_HOST -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Sat Jun 07 23:45:22.560371 2025] [wsgi:error] [pid 5119:tid 5140] [remote 192.168.231.128:55516] Not Found: /static/imgs/uchlogo.png
+[Sat Jun 07 23:45:45.890687 2025] [mpm_event:notice] [pid 5115:tid 5115] AH00491: caught SIGTERM, shutting down
+[Sat Jun 07 23:46:59.463551 2025] [mpm_event:notice] [pid 5292:tid 5292] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Sat Jun 07 23:46:59.463652 2025] [core:notice] [pid 5292:tid 5292] AH00094: Command line: 'httpd (mod_wsgi-express)         -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_WITH_LISTENER_HOST -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Sat Jun 07 23:47:06.587990 2025] [wsgi:error] [pid 5296:tid 5317] [remote 192.168.231.128:49812] Not Found: /static/admin/css/base.css
+[Sat Jun 07 23:47:06.591200 2025] [wsgi:error] [pid 5296:tid 5317] [remote 192.168.231.128:49832] Not Found: /static/admin/js/theme.js
+[Sat Jun 07 23:47:06.594689 2025] [wsgi:error] [pid 5296:tid 5315] [remote 192.168.231.128:49840] Not Found: /static/admin/css/nav_sidebar.css
+[Sat Jun 07 23:47:06.600337 2025] [wsgi:error] [pid 5296:tid 5316] [remote 192.168.231.128:49848] Not Found: /static/admin/js/nav_sidebar.js
+[Sat Jun 07 23:47:06.603812 2025] [wsgi:error] [pid 5296:tid 5314] [remote 192.168.231.128:49856] Not Found: /static/admin/css/dashboard.css
+[Sat Jun 07 23:47:06.609582 2025] [wsgi:error] [pid 5296:tid 5316] [remote 192.168.231.128:49812] Not Found: /static/admin/css/responsive.css
+[Sat Jun 07 23:47:06.609774 2025] [wsgi:error] [pid 5296:tid 5313] [remote 192.168.231.128:49822] Not Found: /static/admin/css/dark_mode.css
+[Sat Jun 07 23:47:07.763096 2025] [wsgi:error] [pid 5296:tid 5313] [remote 192.168.231.128:49812] Not Found: /static/admin/css/base.css
+[Sat Jun 07 23:47:07.767480 2025] [wsgi:error] [pid 5296:tid 5317] [remote 192.168.231.128:49840] Not Found: /static/admin/css/dark_mode.css
+[Sat Jun 07 23:47:07.770668 2025] [wsgi:error] [pid 5296:tid 5313] [remote 192.168.231.128:49848] Not Found: /static/admin/js/theme.js
+[Sat Jun 07 23:47:07.781020 2025] [wsgi:error] [pid 5296:tid 5316] [remote 192.168.231.128:49856] Not Found: /static/admin/css/nav_sidebar.css
+[Sat Jun 07 23:47:07.781135 2025] [wsgi:error] [pid 5296:tid 5314] [remote 192.168.231.128:49822] Not Found: /static/admin/css/dashboard.css
+[Sat Jun 07 23:47:07.784079 2025] [wsgi:error] [pid 5296:tid 5315] [remote 192.168.231.128:49812] Not Found: /static/admin/js/nav_sidebar.js
+[Sat Jun 07 23:47:07.784387 2025] [wsgi:error] [pid 5296:tid 5314] [remote 192.168.231.128:49832] Not Found: /static/admin/css/responsive.css
+[Sat Jun 07 23:47:07.795382 2025] [wsgi:error] [pid 5296:tid 5315] [remote 192.168.231.128:49812] Not Found: /static/admin/css/nav_sidebar.css
+[Sat Jun 07 23:47:07.798033 2025] [wsgi:error] [pid 5296:tid 5313] [remote 192.168.231.128:49840] Not Found: /static/admin/js/nav_sidebar.js
+[Sat Jun 07 23:47:07.804143 2025] [wsgi:error] [pid 5296:tid 5317] [remote 192.168.231.128:49856] Not Found: /static/admin/css/dashboard.css
+[Sat Jun 07 23:47:07.804306 2025] [wsgi:error] [pid 5296:tid 5314] [remote 192.168.231.128:49832] Not Found: /static/admin/css/responsive.css
+[Sat Jun 07 23:47:11.753640 2025] [wsgi:error] [pid 5296:tid 5317] [remote 192.168.231.128:39448] Not Found: /static/imgs/uchlogo.png
+[Sat Jun 07 23:47:35.429466 2025] [mpm_event:notice] [pid 5292:tid 5292] AH00491: caught SIGTERM, shutting down
+[Sat Jun 07 23:51:46.029634 2025] [mpm_event:notice] [pid 5682:tid 5682] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Sat Jun 07 23:51:46.029758 2025] [core:notice] [pid 5682:tid 5682] AH00094: Command line: 'httpd (mod_wsgi-express)         -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_WITH_LISTENER_HOST -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Sat Jun 07 23:51:56.117919 2025] [wsgi:error] [pid 5686:tid 5707] [remote 192.168.231.128:36026] Not Found: /static/admin/css/base.css
+[Sat Jun 07 23:51:56.123443 2025] [wsgi:error] [pid 5686:tid 5703] [remote 192.168.231.128:36030] Not Found: /static/admin/js/theme.js
+[Sat Jun 07 23:51:56.127863 2025] [wsgi:error] [pid 5686:tid 5707] [remote 192.168.231.128:36076] Not Found: /static/admin/css/dashboard.css
+[Sat Jun 07 23:51:56.131245 2025] [wsgi:error] [pid 5686:tid 5706] [remote 192.168.231.128:36066] Not Found: /static/admin/js/nav_sidebar.js
+[Sat Jun 07 23:51:56.140897 2025] [wsgi:error] [pid 5686:tid 5705] [remote 192.168.231.128:36050] Not Found: /static/admin/css/nav_sidebar.css
+[Sat Jun 07 23:51:56.141204 2025] [wsgi:error] [pid 5686:tid 5704] [remote 192.168.231.128:36046] Not Found: /static/admin/css/responsive.css
+[Sat Jun 07 23:51:56.144687 2025] [wsgi:error] [pid 5686:tid 5707] [remote 192.168.231.128:36026] Not Found: /static/admin/css/dark_mode.css
+[Sat Jun 07 23:52:01.696004 2025] [wsgi:error] [pid 5686:tid 5707] [remote 192.168.231.128:48674] Not Found: /static/imgs/uchlogo.png
+[Sat Jun 07 23:53:07.922030 2025] [mpm_event:notice] [pid 5682:tid 5682] AH00491: caught SIGTERM, shutting down
+[Sat Jun 07 23:53:31.653330 2025] [mpm_event:notice] [pid 5891:tid 5891] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Sat Jun 07 23:53:31.653403 2025] [core:notice] [pid 5891:tid 5891] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_WITH_LISTENER_HOST -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Sat Jun 07 23:53:42.778892 2025] [wsgi:error] [pid 5895:tid 5915] [remote 127.0.0.1:33370] Not Found: /static/imgs/uchlogo.png
+[Sat Jun 07 23:53:44.424238 2025] [wsgi:error] [pid 5895:tid 5915] [remote 127.0.0.1:33370] Not Found: /static/imgs/uchlogo.png
+[Sat Jun 07 23:53:45.096249 2025] [wsgi:error] [pid 5895:tid 5915] [remote 127.0.0.1:33370] Not Found: /static/imgs/uchlogo.png
+[Sat Jun 07 23:53:45.654008 2025] [wsgi:error] [pid 5895:tid 5915] [remote 127.0.0.1:33370] Not Found: /static/imgs/uchlogo.png
+[Sat Jun 07 23:53:46.996463 2025] [wsgi:error] [pid 5895:tid 5915] [remote 127.0.0.1:33370] Not Found: /static/imgs/uchlogo.png
+[Sat Jun 07 23:53:47.669091 2025] [wsgi:error] [pid 5895:tid 5915] [remote 127.0.0.1:33370] Not Found: /static/imgs/uchlogo.png
+[Sat Jun 07 23:55:05.578985 2025] [mpm_event:notice] [pid 5891:tid 5891] AH00491: caught SIGTERM, shutting down
+[Sat Jun 07 23:57:12.916877 2025] [mpm_event:notice] [pid 6357:tid 6357] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Sat Jun 07 23:57:12.916970 2025] [core:notice] [pid 6357:tid 6357] AH00094: Command line: 'httpd (mod_wsgi-express)         -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_WITH_LISTENER_HOST -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Sat Jun 07 23:57:16.614383 2025] [wsgi:error] [pid 6361:tid 6382] [remote 192.168.231.128:37790] Not Found: /static/admin/css/base.css
+[Sat Jun 07 23:57:16.618500 2025] [wsgi:error] [pid 6361:tid 6378] [remote 192.168.231.128:37790] Not Found: /static/admin/css/dark_mode.css
+[Sat Jun 07 23:57:16.622200 2025] [wsgi:error] [pid 6361:tid 6382] [remote 192.168.231.128:37848] Not Found: /static/admin/css/dashboard.css
+[Sat Jun 07 23:57:16.630774 2025] [wsgi:error] [pid 6361:tid 6380] [remote 192.168.231.128:37822] Not Found: /static/admin/css/nav_sidebar.css
+[Sat Jun 07 23:57:16.633216 2025] [wsgi:error] [pid 6361:tid 6381] [remote 192.168.231.128:37836] Not Found: /static/admin/js/nav_sidebar.js
+[Sat Jun 07 23:57:16.633435 2025] [wsgi:error] [pid 6361:tid 6382] [remote 192.168.231.128:37806] Not Found: /static/admin/css/responsive.css
+[Sat Jun 07 23:57:16.633907 2025] [wsgi:error] [pid 6361:tid 6379] [remote 192.168.231.128:37814] Not Found: /static/admin/js/theme.js
+[Sat Jun 07 23:57:16.645708 2025] [wsgi:error] [pid 6361:tid 6381] [remote 192.168.231.128:37790] Not Found: /static/admin/css/nav_sidebar.css
+[Sat Jun 07 23:57:16.649243 2025] [wsgi:error] [pid 6361:tid 6379] [remote 192.168.231.128:37790] Not Found: /static/admin/js/nav_sidebar.js
+[Sat Jun 07 23:57:16.652255 2025] [wsgi:error] [pid 6361:tid 6381] [remote 192.168.231.128:37822] Not Found: /static/admin/css/dashboard.css
+[Sat Jun 07 23:57:16.655686 2025] [wsgi:error] [pid 6361:tid 6382] [remote 192.168.231.128:37806] Not Found: /static/admin/css/responsive.css
+[Sat Jun 07 23:57:21.440171 2025] [wsgi:error] [pid 6361:tid 6382] [remote 192.168.231.128:46902] Not Found: /static/imgs/uchlogo.png
+[Sat Jun 07 23:57:23.478457 2025] [wsgi:error] [pid 6361:tid 6382] [remote 192.168.231.128:46902] Not Found: /static/imgs/uchlogo.png
+[Sat Jun 07 23:57:24.951213 2025] [wsgi:error] [pid 6361:tid 6382] [remote 192.168.231.128:46902] Not Found: /static/imgs/uchlogo.png
+[Sat Jun 07 23:57:31.225884 2025] [mpm_event:notice] [pid 6357:tid 6357] AH00491: caught SIGTERM, shutting down
+[Sun Jun 08 00:02:46.869394 2025] [mpm_event:notice] [pid 6779:tid 6779] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Sun Jun 08 00:02:46.869458 2025] [core:notice] [pid 6779:tid 6779] AH00094: Command line: 'httpd (mod_wsgi-express)         -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_WITH_LISTENER_HOST -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Sun Jun 08 00:02:51.194995 2025] [wsgi:error] [pid 6782:tid 6803] [remote 192.168.231.128:50072] Not Found: /static/imgs/uchlogo.png
+[Sun Jun 08 00:02:51.928086 2025] [wsgi:error] [pid 6782:tid 6803] [remote 192.168.231.128:50072] Not Found: /static/imgs/uchlogo.png
+[Sun Jun 08 00:02:52.410826 2025] [wsgi:error] [pid 6782:tid 6803] [remote 192.168.231.128:50072] Not Found: /static/imgs/uchlogo.png
+[Sun Jun 08 00:02:52.943319 2025] [wsgi:error] [pid 6782:tid 6803] [remote 192.168.231.128:50072] Not Found: /static/imgs/uchlogo.png
+[Sun Jun 08 00:04:36.718427 2025] [mpm_event:notice] [pid 6779:tid 6779] AH00491: caught SIGTERM, shutting down
