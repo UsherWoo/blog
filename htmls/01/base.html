@@ -3,7 +3,10 @@
 -->
 <html><head><title>
 {% block title%}{%endblock%}
-</title></head>
+</title>
+{%load static%}
+<link rel='stylesheet' type='text/css' href="{%static '/css/style.css'%}" />
+</head>
 <body>
 {%include 'header.html'%}
 {%block headmessage%}{%endblock%}<hr>

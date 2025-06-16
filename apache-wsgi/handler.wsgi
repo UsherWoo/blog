@@ -29,7 +29,7 @@ recorder_directory = ''
 enable_gdb = False
 
 os.environ['MOD_WSGI_EXPRESS'] = 'true'
-os.environ['MOD_WSGI_SERVER_NAME'] = '192.168.231.129'
+os.environ['MOD_WSGI_SERVER_NAME'] = 'localhost'
 os.environ['MOD_WSGI_SERVER_ALIASES'] = None or ''
 
 if reload_on_changes:

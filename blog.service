@@ -1,0 +1,10 @@
+[Unit]
+Description=blog application daemon
+
+[Service]
+Type=simple
+WorkingDirectory=/mnt/django/blog
+ExecStart=/mnt/django/myenv/bin/mod_wsgi-express start-server --url-alias /static /mnt/django/blog/statics blog/wsgi.py
+Group=apache
+User=apache
+Restart=always

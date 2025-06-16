@@ -283,3 +283,901 @@
 [Sun Jun 08 00:02:52.410826 2025] [wsgi:error] [pid 6782:tid 6803] [remote 192.168.231.128:50072] Not Found: /static/imgs/uchlogo.png
 [Sun Jun 08 00:02:52.943319 2025] [wsgi:error] [pid 6782:tid 6803] [remote 192.168.231.128:50072] Not Found: /static/imgs/uchlogo.png
 [Sun Jun 08 00:04:36.718427 2025] [mpm_event:notice] [pid 6779:tid 6779] AH00491: caught SIGTERM, shutting down
+[Sun Jun 08 21:05:34.193314 2025] [mpm_event:notice] [pid 10830:tid 10830] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Sun Jun 08 21:05:34.193738 2025] [core:notice] [pid 10830:tid 10830] AH00094: Command line: 'httpd (mod_wsgi-express)         -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_WITH_LISTENER_HOST -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Sun Jun 08 21:12:19.182003 2025] [wsgi:error] [pid 10834:tid 10855] [remote 192.168.231.128:42370] Not Found: /static/imgs/uchlogo.png
+[Sun Jun 08 21:12:19.197419 2025] [wsgi:error] [pid 10834:tid 10851] [remote 192.168.231.128:42370] Not Found: /favicon.ico
+[Sun Jun 08 21:12:20.438459 2025] [wsgi:error] [pid 10834:tid 10851] [remote 192.168.231.128:42370] Not Found: /static/imgs/uchlogo.png
+[Sun Jun 08 21:12:20.463962 2025] [wsgi:error] [pid 10834:tid 10855] [remote 192.168.231.128:42370] Not Found: /favicon.ico
+[Sun Jun 08 21:12:21.482504 2025] [wsgi:error] [pid 10834:tid 10855] [remote 192.168.231.128:42370] Not Found: /static/imgs/uchlogo.png
+[Sun Jun 08 21:12:21.488858 2025] [wsgi:error] [pid 10834:tid 10851] [remote 192.168.231.128:42370] Not Found: /favicon.ico
+[Sun Jun 08 21:12:22.600869 2025] [wsgi:error] [pid 10834:tid 10851] [remote 192.168.231.128:42370] Not Found: /static/imgs/uchlogo.png
+[Sun Jun 08 21:12:22.619011 2025] [wsgi:error] [pid 10834:tid 10855] [remote 192.168.231.128:42370] Not Found: /favicon.ico
+[Sun Jun 08 21:12:23.538985 2025] [wsgi:error] [pid 10834:tid 10855] [remote 192.168.231.128:42370] Not Found: /static/imgs/uchlogo.png
+[Sun Jun 08 21:12:23.560061 2025] [wsgi:error] [pid 10834:tid 10851] [remote 192.168.231.128:42370] Not Found: /favicon.ico
+[Sun Jun 08 21:13:38.913168 2025] [mpm_event:notice] [pid 10830:tid 10830] AH00491: caught SIGTERM, shutting down
+[Sun Jun 08 21:13:48.102016 2025] [mpm_event:notice] [pid 11075:tid 11075] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Sun Jun 08 21:13:48.102085 2025] [core:notice] [pid 11075:tid 11075] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Sun Jun 08 21:13:52.200600 2025] [wsgi:error] [pid 11079:tid 11100] [remote 192.168.231.128:59018] Not Found: /static/imgs/uchlogo.png
+[Sun Jun 08 21:13:52.226397 2025] [wsgi:error] [pid 11079:tid 11096] [remote 192.168.231.128:59018] Not Found: /favicon.ico
+[Sun Jun 08 21:13:52.957631 2025] [wsgi:error] [pid 11079:tid 11096] [remote 192.168.231.128:59018] Not Found: /static/imgs/uchlogo.png
+[Sun Jun 08 21:13:52.976222 2025] [wsgi:error] [pid 11079:tid 11100] [remote 192.168.231.128:59018] Not Found: /favicon.ico
+[Sun Jun 08 21:13:54.132869 2025] [wsgi:error] [pid 11079:tid 11100] [remote 192.168.231.128:59018] Not Found: /static/imgs/uchlogo.png
+[Sun Jun 08 21:13:54.140018 2025] [wsgi:error] [pid 11079:tid 11096] [remote 192.168.231.128:59018] Not Found: /favicon.ico
+[Sun Jun 08 21:13:54.847677 2025] [wsgi:error] [pid 11079:tid 11096] [remote 192.168.231.128:59018] Not Found: /static/imgs/uchlogo.png
+[Sun Jun 08 21:13:54.854322 2025] [wsgi:error] [pid 11079:tid 11100] [remote 192.168.231.128:59018] Not Found: /favicon.ico
+[Sun Jun 08 21:14:19.799634 2025] [wsgi:error] [pid 11079:tid 11100] [remote 127.0.0.1:54590] Not Found: /static/imgs/uchlogo.png
+[Sun Jun 08 21:14:19.805373 2025] [wsgi:error] [pid 11079:tid 11096] [remote 127.0.0.1:54590] Not Found: /favicon.ico
+[Sun Jun 08 21:14:21.349702 2025] [wsgi:error] [pid 11079:tid 11096] [remote 127.0.0.1:54590] Not Found: /static/imgs/uchlogo.png
+[Sun Jun 08 21:14:21.365790 2025] [wsgi:error] [pid 11079:tid 11100] [remote 127.0.0.1:54590] Not Found: /favicon.ico
+[Sun Jun 08 21:14:21.977022 2025] [wsgi:error] [pid 11079:tid 11100] [remote 127.0.0.1:54590] Not Found: /static/imgs/uchlogo.png
+[Sun Jun 08 21:14:21.989727 2025] [wsgi:error] [pid 11079:tid 11096] [remote 127.0.0.1:54590] Not Found: /favicon.ico
+[Sun Jun 08 21:14:22.561192 2025] [wsgi:error] [pid 11079:tid 11096] [remote 127.0.0.1:54590] Not Found: /static/imgs/uchlogo.png
+[Sun Jun 08 21:14:22.571989 2025] [wsgi:error] [pid 11079:tid 11100] [remote 127.0.0.1:54590] Not Found: /favicon.ico
+[Sun Jun 08 21:14:49.400514 2025] [wsgi:error] [pid 11079:tid 11100] [remote 127.0.0.1:55274] Not Found: /static/imgs/uchlogo.png
+[Sun Jun 08 21:14:49.411468 2025] [wsgi:error] [pid 11079:tid 11096] [remote 127.0.0.1:55274] Not Found: /favicon.ico
+[Sun Jun 08 21:14:50.059696 2025] [wsgi:error] [pid 11079:tid 11096] [remote 127.0.0.1:55274] Not Found: /static/imgs/uchlogo.png
+[Sun Jun 08 21:14:50.075663 2025] [wsgi:error] [pid 11079:tid 11100] [remote 127.0.0.1:55274] Not Found: /favicon.ico
+[Sun Jun 08 21:14:52.781193 2025] [wsgi:error] [pid 11079:tid 11100] [remote 127.0.0.1:55280] Not Found: /static/imgs/uchlogo.png
+[Sun Jun 08 21:14:52.795231 2025] [wsgi:error] [pid 11079:tid 11096] [remote 127.0.0.1:55280] Not Found: /favicon.ico
+[Sun Jun 08 21:14:54.578427 2025] [wsgi:error] [pid 11079:tid 11096] [remote 127.0.0.1:55280] Not Found: /static/imgs/uchlogo.png
+[Sun Jun 08 21:14:54.607508 2025] [wsgi:error] [pid 11079:tid 11100] [remote 127.0.0.1:55280] Not Found: /favicon.ico
+[Sun Jun 08 21:14:55.644211 2025] [wsgi:error] [pid 11079:tid 11100] [remote 127.0.0.1:55280] Not Found: /static/imgs/uchlogo.png
+[Sun Jun 08 21:14:55.655076 2025] [wsgi:error] [pid 11079:tid 11096] [remote 127.0.0.1:55280] Not Found: /favicon.ico
+[Sun Jun 08 21:15:04.273915 2025] [mpm_event:notice] [pid 11075:tid 11075] AH00491: caught SIGTERM, shutting down
+[Sun Jun 08 21:29:12.697322 2025] [mpm_event:notice] [pid 11577:tid 11577] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Sun Jun 08 21:29:12.697406 2025] [core:notice] [pid 11577:tid 11577] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Sun Jun 08 21:29:16.650121 2025] [wsgi:error] [pid 11581:tid 11602] [remote 192.168.231.128:54406] Not Found: /static/imgs/uchlogo.png
+[Sun Jun 08 21:29:16.662185 2025] [wsgi:error] [pid 11581:tid 11598] [remote 192.168.231.128:54406] Not Found: /favicon.ico
+[Sun Jun 08 21:34:13.856833 2025] [wsgi:error] [pid 11581:tid 11598] [remote 192.168.231.128:45352] Not Found: /static/imgs/uchlogo.png
+[Sun Jun 08 21:34:13.870857 2025] [wsgi:error] [pid 11581:tid 11602] [remote 192.168.231.128:45352] Not Found: /favicon.ico
+[Sun Jun 08 21:34:15.510337 2025] [wsgi:error] [pid 11581:tid 11602] [remote 192.168.231.128:45352] Not Found: /static/imgs/uchlogo.png
+[Sun Jun 08 21:34:15.530061 2025] [wsgi:error] [pid 11581:tid 11598] [remote 192.168.231.128:45352] Not Found: /favicon.ico
+[Sun Jun 08 21:34:55.214080 2025] [mpm_event:notice] [pid 11577:tid 11577] AH00491: caught SIGTERM, shutting down
+[Sun Jun 08 21:36:58.903062 2025] [mpm_event:notice] [pid 11860:tid 11860] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Sun Jun 08 21:36:58.903126 2025] [core:notice] [pid 11860:tid 11860] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Sun Jun 08 21:37:03.202819 2025] [wsgi:error] [pid 11864:tid 11884] [remote 192.168.231.128:35252] Not Found: /static/imgs/uchlogo.png
+[Sun Jun 08 21:37:03.212460 2025] [wsgi:error] [pid 11864:tid 11881] [remote 192.168.231.128:35252] Not Found: /favicon.ico
+[Sun Jun 08 21:50:38.022654 2025] [mpm_event:notice] [pid 11860:tid 11860] AH00491: caught SIGTERM, shutting down
+[Sun Jun 08 22:05:43.911090 2025] [mpm_event:notice] [pid 12365:tid 12365] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Sun Jun 08 22:05:43.911155 2025] [core:notice] [pid 12365:tid 12365] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Sun Jun 08 22:05:48.920543 2025] [wsgi:error] [pid 12369:tid 12390] [remote 192.168.231.128:49686] Not Found: /static/imgs/uchlogo.png
+[Sun Jun 08 22:05:48.947913 2025] [wsgi:error] [pid 12369:tid 12386] [remote 192.168.231.128:49686] Not Found: /favicon.ico
+[Sun Jun 08 22:05:49.716245 2025] [wsgi:error] [pid 12369:tid 12386] [remote 192.168.231.128:49686] Not Found: /static/imgs/uchlogo.png
+[Sun Jun 08 22:05:49.733914 2025] [wsgi:error] [pid 12369:tid 12390] [remote 192.168.231.128:49686] Not Found: /favicon.ico
+[Sun Jun 08 22:05:50.346651 2025] [wsgi:error] [pid 12369:tid 12390] [remote 192.168.231.128:49686] Not Found: /static/imgs/uchlogo.png
+[Sun Jun 08 22:05:50.359629 2025] [wsgi:error] [pid 12369:tid 12386] [remote 192.168.231.128:49686] Not Found: /favicon.ico
+[Sun Jun 08 22:05:51.832081 2025] [wsgi:error] [pid 12369:tid 12386] [remote 192.168.231.128:49686] Not Found: /static/imgs/uchlogo.png
+[Sun Jun 08 22:05:51.847885 2025] [wsgi:error] [pid 12369:tid 12390] [remote 192.168.231.128:49686] Not Found: /favicon.ico
+[Sun Jun 08 22:06:01.120971 2025] [mpm_event:notice] [pid 12365:tid 12365] AH00491: caught SIGTERM, shutting down
+[Sun Jun 08 22:07:15.396091 2025] [mpm_event:notice] [pid 12466:tid 12466] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Sun Jun 08 22:07:15.396155 2025] [core:notice] [pid 12466:tid 12466] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Sun Jun 08 22:07:18.984676 2025] [wsgi:error] [pid 12470:tid 12491] [remote 192.168.231.128:50824] Not Found: /favicon.ico
+[Sun Jun 08 22:07:20.599289 2025] [wsgi:error] [pid 12470:tid 12491] [remote 192.168.231.128:50824] Not Found: /favicon.ico
+[Sun Jun 08 22:07:21.779046 2025] [wsgi:error] [pid 12470:tid 12491] [remote 192.168.231.128:50824] Not Found: /favicon.ico
+[Sun Jun 08 22:07:22.843774 2025] [wsgi:error] [pid 12470:tid 12491] [remote 192.168.231.128:50824] Not Found: /favicon.ico
+[Sun Jun 08 22:07:24.121167 2025] [wsgi:error] [pid 12470:tid 12491] [remote 192.168.231.128:50824] Not Found: /favicon.ico
+[Sun Jun 08 22:07:36.672230 2025] [mpm_event:notice] [pid 12466:tid 12466] AH00491: caught SIGTERM, shutting down
+[Sun Jun 08 22:07:52.579675 2025] [mpm_event:notice] [pid 12527:tid 12527] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Sun Jun 08 22:07:52.579746 2025] [core:notice] [pid 12527:tid 12527] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Sun Jun 08 22:07:56.071446 2025] [wsgi:error] [pid 12531:tid 12550] [remote 192.168.231.128:40128] Not Found: /favicon.ico
+[Sun Jun 08 22:07:56.670119 2025] [wsgi:error] [pid 12531:tid 12550] [remote 192.168.231.128:40128] Not Found: /favicon.ico
+[Sun Jun 08 22:07:57.441222 2025] [wsgi:error] [pid 12531:tid 12550] [remote 192.168.231.128:40128] Not Found: /favicon.ico
+[Sun Jun 08 22:07:58.490268 2025] [wsgi:error] [pid 12531:tid 12550] [remote 192.168.231.128:40128] Not Found: /favicon.ico
+[Sun Jun 08 22:07:59.522397 2025] [wsgi:error] [pid 12531:tid 12550] [remote 192.168.231.128:40128] Not Found: /favicon.ico
+[Sun Jun 08 22:08:04.060571 2025] [wsgi:error] [pid 12531:tid 12550] [remote 192.168.231.128:46886] Not Found: /favicon.ico
+[Sun Jun 08 22:08:09.116975 2025] [wsgi:error] [pid 12531:tid 12548] [remote 192.168.231.128:54388] Not Found: /favicon.ico
+[Sun Jun 08 22:08:16.571362 2025] [wsgi:error] [pid 12531:tid 12548] [remote 192.168.231.128:54410] Not Found: /favicon.ico
+[Sun Jun 08 22:08:18.603140 2025] [wsgi:error] [pid 12531:tid 12548] [remote 192.168.231.128:54410] Not Found: /favicon.ico
+[Sun Jun 08 22:08:29.577284 2025] [mpm_event:notice] [pid 12527:tid 12527] AH00491: caught SIGTERM, shutting down
+[Mon Jun 09 08:22:24.328618 2025] [mpm_event:notice] [pid 37852:tid 37852] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Mon Jun 09 08:22:24.329454 2025] [core:notice] [pid 37852:tid 37852] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Mon Jun 09 08:22:45.548690 2025] [wsgi:error] [pid 37856:tid 37873] [remote 192.168.231.129:53690] Not Found: /favicon.ico
+[Mon Jun 09 08:23:21.041075 2025] [mpm_event:notice] [pid 37852:tid 37852] AH00491: caught SIGTERM, shutting down
+[Tue Jun 10 02:17:23.414568 2025] [mpm_event:notice] [pid 8866:tid 8866] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Tue Jun 10 02:17:23.420064 2025] [core:notice] [pid 8866:tid 8866] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Tue Jun 10 02:17:30.137729 2025] [wsgi:error] [pid 8870:tid 8891] [remote 192.168.231.128:33172] Not Found: /192.168.231.129/css/style.css
+[Tue Jun 10 02:17:30.144416 2025] [wsgi:error] [pid 8870:tid 8887] [remote 192.168.231.128:33172] Not Found: /192.168.231.129/imgs/uchlogo.png
+[Tue Jun 10 02:17:30.164935 2025] [wsgi:error] [pid 8870:tid 8891] [remote 192.168.231.128:33172] Not Found: /favicon.ico
+[Tue Jun 10 02:17:31.586033 2025] [wsgi:error] [pid 8870:tid 8891] [remote 192.168.231.128:33172] Not Found: /192.168.231.129/css/style.css
+[Tue Jun 10 02:17:31.589374 2025] [wsgi:error] [pid 8870:tid 8887] [remote 192.168.231.128:33180] Not Found: /192.168.231.129/imgs/uchlogo.png
+[Tue Jun 10 02:17:31.608131 2025] [wsgi:error] [pid 8870:tid 8891] [remote 192.168.231.128:33172] Not Found: /favicon.ico
+[Tue Jun 10 02:17:32.702831 2025] [wsgi:error] [pid 8870:tid 8891] [remote 192.168.231.128:33172] Not Found: /192.168.231.129/css/style.css
+[Tue Jun 10 02:17:32.706487 2025] [wsgi:error] [pid 8870:tid 8887] [remote 192.168.231.128:33180] Not Found: /192.168.231.129/imgs/uchlogo.png
+[Tue Jun 10 02:17:32.718226 2025] [wsgi:error] [pid 8870:tid 8891] [remote 192.168.231.128:33172] Not Found: /favicon.ico
+[Tue Jun 10 02:17:34.620216 2025] [wsgi:error] [pid 8870:tid 8891] [remote 192.168.231.128:33172] Not Found: /192.168.231.129/css/style.css
+[Tue Jun 10 02:17:34.627572 2025] [wsgi:error] [pid 8870:tid 8887] [remote 192.168.231.128:33180] Not Found: /192.168.231.129/imgs/uchlogo.png
+[Tue Jun 10 02:17:34.638782 2025] [wsgi:error] [pid 8870:tid 8891] [remote 192.168.231.128:33172] Not Found: /favicon.ico
+[Tue Jun 10 02:17:48.074266 2025] [wsgi:error] [pid 8870:tid 8891] [remote 192.168.231.128:56058] Not Found: /192.168.231.129/css/style.css
+[Tue Jun 10 02:17:48.082139 2025] [wsgi:error] [pid 8870:tid 8887] [remote 192.168.231.128:56058] Not Found: /192.168.231.129/imgs/uchlogo.png
+[Tue Jun 10 02:17:48.095928 2025] [wsgi:error] [pid 8870:tid 8891] [remote 192.168.231.128:56058] Not Found: /favicon.ico
+[Tue Jun 10 02:17:49.232845 2025] [wsgi:error] [pid 8870:tid 8891] [remote 192.168.231.128:56058] Not Found: /192.168.231.129/css/style.css
+[Tue Jun 10 02:17:49.235956 2025] [wsgi:error] [pid 8870:tid 8887] [remote 192.168.231.128:56058] Not Found: /192.168.231.129/imgs/uchlogo.png
+[Tue Jun 10 02:17:49.247712 2025] [wsgi:error] [pid 8870:tid 8891] [remote 192.168.231.128:56058] Not Found: /favicon.ico
+[Tue Jun 10 02:17:50.151369 2025] [wsgi:error] [pid 8870:tid 8891] [remote 192.168.231.128:56058] Not Found: /192.168.231.129/css/style.css
+[Tue Jun 10 02:17:50.160543 2025] [wsgi:error] [pid 8870:tid 8887] [remote 192.168.231.128:56058] Not Found: /192.168.231.129/imgs/uchlogo.png
+[Tue Jun 10 02:17:50.180254 2025] [wsgi:error] [pid 8870:tid 8891] [remote 192.168.231.128:56058] Not Found: /favicon.ico
+[Tue Jun 10 02:17:51.356085 2025] [wsgi:error] [pid 8870:tid 8891] [remote 192.168.231.128:56058] Not Found: /192.168.231.129/css/style.css
+[Tue Jun 10 02:17:51.359813 2025] [wsgi:error] [pid 8870:tid 8887] [remote 192.168.231.128:56066] Not Found: /192.168.231.129/imgs/uchlogo.png
+[Tue Jun 10 02:17:51.372435 2025] [wsgi:error] [pid 8870:tid 8891] [remote 192.168.231.128:56058] Not Found: /favicon.ico
+[Tue Jun 10 02:17:52.570861 2025] [wsgi:error] [pid 8870:tid 8891] [remote 192.168.231.128:56058] Not Found: /192.168.231.129/css/style.css
+[Tue Jun 10 02:17:52.574751 2025] [wsgi:error] [pid 8870:tid 8887] [remote 192.168.231.128:56066] Not Found: /192.168.231.129/imgs/uchlogo.png
+[Tue Jun 10 02:17:52.583605 2025] [wsgi:error] [pid 8870:tid 8891] [remote 192.168.231.128:56058] Not Found: /favicon.ico
+[Tue Jun 10 02:19:48.773174 2025] [mpm_event:notice] [pid 8866:tid 8866] AH00494: SIGHUP received.  Attempting to restart
+[Tue Jun 10 02:19:48.888486 2025] [mpm_event:notice] [pid 8866:tid 8866] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Tue Jun 10 02:19:48.888498 2025] [core:notice] [pid 8866:tid 8866] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Tue Jun 10 02:19:53.888939 2025] [wsgi:error] [pid 8961:tid 8982] [remote 192.168.231.128:40806] Not Found: /192.168.231.129/static/css/style.css
+[Tue Jun 10 02:19:53.895467 2025] [wsgi:error] [pid 8961:tid 8978] [remote 192.168.231.128:40806] Not Found: /192.168.231.129/static/imgs/uchlogo.png
+[Tue Jun 10 02:19:53.911224 2025] [wsgi:error] [pid 8961:tid 8982] [remote 192.168.231.128:40806] Not Found: /favicon.ico
+[Tue Jun 10 02:19:55.859474 2025] [wsgi:error] [pid 8961:tid 8982] [remote 192.168.231.128:40806] Not Found: /192.168.231.129/static/css/style.css
+[Tue Jun 10 02:19:55.863616 2025] [wsgi:error] [pid 8961:tid 8978] [remote 192.168.231.128:40806] Not Found: /192.168.231.129/static/imgs/uchlogo.png
+[Tue Jun 10 02:19:55.870244 2025] [wsgi:error] [pid 8961:tid 8982] [remote 192.168.231.128:40806] Not Found: /favicon.ico
+[Tue Jun 10 02:19:57.203092 2025] [wsgi:error] [pid 8961:tid 8982] [remote 192.168.231.128:40806] Not Found: /192.168.231.129/static/css/style.css
+[Tue Jun 10 02:19:57.206377 2025] [wsgi:error] [pid 8961:tid 8978] [remote 192.168.231.128:40806] Not Found: /192.168.231.129/static/imgs/uchlogo.png
+[Tue Jun 10 02:19:57.216256 2025] [wsgi:error] [pid 8961:tid 8982] [remote 192.168.231.128:40806] Not Found: /favicon.ico
+[Tue Jun 10 02:22:48.428670 2025] [mpm_event:notice] [pid 8866:tid 8866] AH00494: SIGHUP received.  Attempting to restart
+[Tue Jun 10 02:22:48.558207 2025] [mpm_event:notice] [pid 8866:tid 8866] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Tue Jun 10 02:22:48.558219 2025] [core:notice] [pid 8866:tid 8866] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Tue Jun 10 02:22:48.729881 2025] [wsgi:error] [pid 9137:tid 9137] mod_wsgi (pid=9137): Failed to exec Python script file '/mnt/django/blog/apache-wsgi/handler.wsgi'.
+[Tue Jun 10 02:22:48.729910 2025] [wsgi:error] [pid 9137:tid 9137] mod_wsgi (pid=9137): Exception occurred processing WSGI script '/mnt/django/blog/apache-wsgi/handler.wsgi'.
+[Tue Jun 10 02:22:48.733414 2025] [wsgi:error] [pid 9137:tid 9137] Traceback (most recent call last):
+[Tue Jun 10 02:22:48.734608 2025] [wsgi:error] [pid 9137:tid 9137]   File "/mnt/django/blog/apache-wsgi/handler.wsgi", line 90, in <module>
+[Tue Jun 10 02:22:48.734620 2025] [wsgi:error] [pid 9137:tid 9137]     handler = mod_wsgi.server.ApplicationHandler(entry_point,
+[Tue Jun 10 02:22:48.734622 2025] [wsgi:error] [pid 9137:tid 9137]             application_type=application_type, callable_object=callable_object,
+[Tue Jun 10 02:22:48.734624 2025] [wsgi:error] [pid 9137:tid 9137]     ...<2 lines>...
+[Tue Jun 10 02:22:48.734625 2025] [wsgi:error] [pid 9137:tid 9137]             debugger_startup=debugger_startup, enable_recorder=enable_recorder,
+[Tue Jun 10 02:22:48.734627 2025] [wsgi:error] [pid 9137:tid 9137]             recorder_directory=recorder_directory)
+[Tue Jun 10 02:22:48.734634 2025] [wsgi:error] [pid 9137:tid 9137]   File "/mnt/django/myenv/lib/python3.13/site-packages/mod_wsgi/server/__init__.py", line 1477, in __init__
+[Tue Jun 10 02:22:48.734637 2025] [wsgi:error] [pid 9137:tid 9137]     exec(code, self.module.__dict__)
+[Tue Jun 10 02:22:48.734638 2025] [wsgi:error] [pid 9137:tid 9137]     ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:22:48.734646 2025] [wsgi:error] [pid 9137:tid 9137]   File "/mnt/django/blog/blog/wsgi.py", line 18, in <module>
+[Tue Jun 10 02:22:48.734649 2025] [wsgi:error] [pid 9137:tid 9137]     application = get_wsgi_application()
+[Tue Jun 10 02:22:48.734653 2025] [wsgi:error] [pid 9137:tid 9137]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+[Tue Jun 10 02:22:48.734655 2025] [wsgi:error] [pid 9137:tid 9137]     django.setup(set_prefix=False)
+[Tue Jun 10 02:22:48.734656 2025] [wsgi:error] [pid 9137:tid 9137]     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:22:48.734660 2025] [wsgi:error] [pid 9137:tid 9137]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/__init__.py", line 19, in setup
+[Tue Jun 10 02:22:48.734662 2025] [wsgi:error] [pid 9137:tid 9137]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Tue Jun 10 02:22:48.734664 2025] [wsgi:error] [pid 9137:tid 9137]                       ^^^^^^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:22:48.734667 2025] [wsgi:error] [pid 9137:tid 9137]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/conf/__init__.py", line 81, in __getattr__
+[Tue Jun 10 02:22:48.734669 2025] [wsgi:error] [pid 9137:tid 9137]     self._setup(name)
+[Tue Jun 10 02:22:48.734670 2025] [wsgi:error] [pid 9137:tid 9137]     ~~~~~~~~~~~^^^^^^
+[Tue Jun 10 02:22:48.734674 2025] [wsgi:error] [pid 9137:tid 9137]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/conf/__init__.py", line 68, in _setup
+[Tue Jun 10 02:22:48.734676 2025] [wsgi:error] [pid 9137:tid 9137]     self._wrapped = Settings(settings_module)
+[Tue Jun 10 02:22:48.734677 2025] [wsgi:error] [pid 9137:tid 9137]                     ~~~~~~~~^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:22:48.734681 2025] [wsgi:error] [pid 9137:tid 9137]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/conf/__init__.py", line 166, in __init__
+[Tue Jun 10 02:22:48.734682 2025] [wsgi:error] [pid 9137:tid 9137]     mod = importlib.import_module(self.SETTINGS_MODULE)
+[Tue Jun 10 02:22:48.734686 2025] [wsgi:error] [pid 9137:tid 9137]   File "/usr/local/lib/python3.13/importlib/__init__.py", line 88, in import_module
+[Tue Jun 10 02:22:48.734688 2025] [wsgi:error] [pid 9137:tid 9137]     return _bootstrap._gcd_import(name[level:], package, level)
+[Tue Jun 10 02:22:48.734694 2025] [wsgi:error] [pid 9137:tid 9137]            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:22:48.734698 2025] [wsgi:error] [pid 9137:tid 9137]   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+[Tue Jun 10 02:22:48.734702 2025] [wsgi:error] [pid 9137:tid 9137]   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+[Tue Jun 10 02:22:48.734705 2025] [wsgi:error] [pid 9137:tid 9137]   File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+[Tue Jun 10 02:22:48.734709 2025] [wsgi:error] [pid 9137:tid 9137]   File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+[Tue Jun 10 02:22:48.734712 2025] [wsgi:error] [pid 9137:tid 9137]   File "<frozen importlib._bootstrap_external>", line 1022, in exec_module
+[Tue Jun 10 02:22:48.734715 2025] [wsgi:error] [pid 9137:tid 9137]   File "<frozen importlib._bootstrap_external>", line 1160, in get_code
+[Tue Jun 10 02:22:48.734719 2025] [wsgi:error] [pid 9137:tid 9137]   File "<frozen importlib._bootstrap_external>", line 1090, in source_to_code
+[Tue Jun 10 02:22:48.734722 2025] [wsgi:error] [pid 9137:tid 9137]   File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+[Tue Jun 10 02:22:48.734744 2025] [wsgi:error] [pid 9137:tid 9137]   File "/mnt/django/blog/blog/settings.py", line 134
+[Tue Jun 10 02:22:48.734749 2025] [wsgi:error] [pid 9137:tid 9137]     BASE_DIR  'static'
+[Tue Jun 10 02:22:48.734752 2025] [wsgi:error] [pid 9137:tid 9137]               ^^^^^^^^
+[Tue Jun 10 02:22:48.734756 2025] [wsgi:error] [pid 9137:tid 9137] SyntaxError: invalid syntax
+[Tue Jun 10 02:22:52.094941 2025] [wsgi:error] [pid 9137:tid 9153] [remote 192.168.231.128:45056] mod_wsgi (pid=9137): Failed to exec Python script file '/mnt/django/blog/apache-wsgi/handler.wsgi'.
+[Tue Jun 10 02:22:52.094976 2025] [wsgi:error] [pid 9137:tid 9153] [remote 192.168.231.128:45056] mod_wsgi (pid=9137): Exception occurred processing WSGI script '/mnt/django/blog/apache-wsgi/handler.wsgi'.
+[Tue Jun 10 02:22:52.095434 2025] [wsgi:error] [pid 9137:tid 9153] [remote 192.168.231.128:45056] Traceback (most recent call last):
+[Tue Jun 10 02:22:52.096273 2025] [wsgi:error] [pid 9137:tid 9153] [remote 192.168.231.128:45056]   File "/mnt/django/blog/apache-wsgi/handler.wsgi", line 90, in <module>
+[Tue Jun 10 02:22:52.096283 2025] [wsgi:error] [pid 9137:tid 9153] [remote 192.168.231.128:45056]     handler = mod_wsgi.server.ApplicationHandler(entry_point,
+[Tue Jun 10 02:22:52.096285 2025] [wsgi:error] [pid 9137:tid 9153] [remote 192.168.231.128:45056]             application_type=application_type, callable_object=callable_object,
+[Tue Jun 10 02:22:52.096287 2025] [wsgi:error] [pid 9137:tid 9153] [remote 192.168.231.128:45056]     ...<2 lines>...
+[Tue Jun 10 02:22:52.096288 2025] [wsgi:error] [pid 9137:tid 9153] [remote 192.168.231.128:45056]             debugger_startup=debugger_startup, enable_recorder=enable_recorder,
+[Tue Jun 10 02:22:52.096290 2025] [wsgi:error] [pid 9137:tid 9153] [remote 192.168.231.128:45056]             recorder_directory=recorder_directory)
+[Tue Jun 10 02:22:52.096296 2025] [wsgi:error] [pid 9137:tid 9153] [remote 192.168.231.128:45056]   File "/mnt/django/myenv/lib/python3.13/site-packages/mod_wsgi/server/__init__.py", line 1477, in __init__
+[Tue Jun 10 02:22:52.096298 2025] [wsgi:error] [pid 9137:tid 9153] [remote 192.168.231.128:45056]     exec(code, self.module.__dict__)
+[Tue Jun 10 02:22:52.096300 2025] [wsgi:error] [pid 9137:tid 9153] [remote 192.168.231.128:45056]     ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:22:52.096304 2025] [wsgi:error] [pid 9137:tid 9153] [remote 192.168.231.128:45056]   File "/mnt/django/blog/blog/wsgi.py", line 18, in <module>
+[Tue Jun 10 02:22:52.096306 2025] [wsgi:error] [pid 9137:tid 9153] [remote 192.168.231.128:45056]     application = get_wsgi_application()
+[Tue Jun 10 02:22:52.096310 2025] [wsgi:error] [pid 9137:tid 9153] [remote 192.168.231.128:45056]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+[Tue Jun 10 02:22:52.096319 2025] [wsgi:error] [pid 9137:tid 9153] [remote 192.168.231.128:45056]     django.setup(set_prefix=False)
+[Tue Jun 10 02:22:52.096321 2025] [wsgi:error] [pid 9137:tid 9153] [remote 192.168.231.128:45056]     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:22:52.096325 2025] [wsgi:error] [pid 9137:tid 9153] [remote 192.168.231.128:45056]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/__init__.py", line 19, in setup
+[Tue Jun 10 02:22:52.096327 2025] [wsgi:error] [pid 9137:tid 9153] [remote 192.168.231.128:45056]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Tue Jun 10 02:22:52.096329 2025] [wsgi:error] [pid 9137:tid 9153] [remote 192.168.231.128:45056]                       ^^^^^^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:22:52.096333 2025] [wsgi:error] [pid 9137:tid 9153] [remote 192.168.231.128:45056]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/conf/__init__.py", line 81, in __getattr__
+[Tue Jun 10 02:22:52.096334 2025] [wsgi:error] [pid 9137:tid 9153] [remote 192.168.231.128:45056]     self._setup(name)
+[Tue Jun 10 02:22:52.096336 2025] [wsgi:error] [pid 9137:tid 9153] [remote 192.168.231.128:45056]     ~~~~~~~~~~~^^^^^^
+[Tue Jun 10 02:22:52.096339 2025] [wsgi:error] [pid 9137:tid 9153] [remote 192.168.231.128:45056]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/conf/__init__.py", line 68, in _setup
+[Tue Jun 10 02:22:52.096341 2025] [wsgi:error] [pid 9137:tid 9153] [remote 192.168.231.128:45056]     self._wrapped = Settings(settings_module)
+[Tue Jun 10 02:22:52.096343 2025] [wsgi:error] [pid 9137:tid 9153] [remote 192.168.231.128:45056]                     ~~~~~~~~^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:22:52.096347 2025] [wsgi:error] [pid 9137:tid 9153] [remote 192.168.231.128:45056]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/conf/__init__.py", line 166, in __init__
+[Tue Jun 10 02:22:52.096349 2025] [wsgi:error] [pid 9137:tid 9153] [remote 192.168.231.128:45056]     mod = importlib.import_module(self.SETTINGS_MODULE)
+[Tue Jun 10 02:22:52.096352 2025] [wsgi:error] [pid 9137:tid 9153] [remote 192.168.231.128:45056]   File "/usr/local/lib/python3.13/importlib/__init__.py", line 88, in import_module
+[Tue Jun 10 02:22:52.096354 2025] [wsgi:error] [pid 9137:tid 9153] [remote 192.168.231.128:45056]     return _bootstrap._gcd_import(name[level:], package, level)
+[Tue Jun 10 02:22:52.096356 2025] [wsgi:error] [pid 9137:tid 9153] [remote 192.168.231.128:45056]            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:22:52.096359 2025] [wsgi:error] [pid 9137:tid 9153] [remote 192.168.231.128:45056]   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+[Tue Jun 10 02:22:52.096362 2025] [wsgi:error] [pid 9137:tid 9153] [remote 192.168.231.128:45056]   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+[Tue Jun 10 02:22:52.096366 2025] [wsgi:error] [pid 9137:tid 9153] [remote 192.168.231.128:45056]   File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+[Tue Jun 10 02:22:52.096369 2025] [wsgi:error] [pid 9137:tid 9153] [remote 192.168.231.128:45056]   File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+[Tue Jun 10 02:22:52.096387 2025] [wsgi:error] [pid 9137:tid 9153] [remote 192.168.231.128:45056]   File "<frozen importlib._bootstrap_external>", line 1022, in exec_module
+[Tue Jun 10 02:22:52.096394 2025] [wsgi:error] [pid 9137:tid 9153] [remote 192.168.231.128:45056]   File "<frozen importlib._bootstrap_external>", line 1160, in get_code
+[Tue Jun 10 02:22:52.096398 2025] [wsgi:error] [pid 9137:tid 9153] [remote 192.168.231.128:45056]   File "<frozen importlib._bootstrap_external>", line 1090, in source_to_code
+[Tue Jun 10 02:22:52.096401 2025] [wsgi:error] [pid 9137:tid 9153] [remote 192.168.231.128:45056]   File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+[Tue Jun 10 02:22:52.096424 2025] [wsgi:error] [pid 9137:tid 9153] [remote 192.168.231.128:45056]   File "/mnt/django/blog/blog/settings.py", line 134
+[Tue Jun 10 02:22:52.096434 2025] [wsgi:error] [pid 9137:tid 9153] [remote 192.168.231.128:45056]     BASE_DIR  'static'
+[Tue Jun 10 02:22:52.096437 2025] [wsgi:error] [pid 9137:tid 9153] [remote 192.168.231.128:45056]               ^^^^^^^^
+[Tue Jun 10 02:22:52.096441 2025] [wsgi:error] [pid 9137:tid 9153] [remote 192.168.231.128:45056] SyntaxError: invalid syntax
+[Tue Jun 10 02:22:52.182399 2025] [wsgi:error] [pid 9137:tid 9157] [remote 192.168.231.128:45058] mod_wsgi (pid=9137): Failed to exec Python script file '/mnt/django/blog/apache-wsgi/handler.wsgi'.
+[Tue Jun 10 02:22:52.182429 2025] [wsgi:error] [pid 9137:tid 9157] [remote 192.168.231.128:45058] mod_wsgi (pid=9137): Exception occurred processing WSGI script '/mnt/django/blog/apache-wsgi/handler.wsgi'.
+[Tue Jun 10 02:22:52.182876 2025] [wsgi:error] [pid 9137:tid 9157] [remote 192.168.231.128:45058] Traceback (most recent call last):
+[Tue Jun 10 02:22:52.183629 2025] [wsgi:error] [pid 9137:tid 9157] [remote 192.168.231.128:45058]   File "/mnt/django/blog/apache-wsgi/handler.wsgi", line 90, in <module>
+[Tue Jun 10 02:22:52.183638 2025] [wsgi:error] [pid 9137:tid 9157] [remote 192.168.231.128:45058]     handler = mod_wsgi.server.ApplicationHandler(entry_point,
+[Tue Jun 10 02:22:52.183641 2025] [wsgi:error] [pid 9137:tid 9157] [remote 192.168.231.128:45058]             application_type=application_type, callable_object=callable_object,
+[Tue Jun 10 02:22:52.183642 2025] [wsgi:error] [pid 9137:tid 9157] [remote 192.168.231.128:45058]     ...<2 lines>...
+[Tue Jun 10 02:22:52.183644 2025] [wsgi:error] [pid 9137:tid 9157] [remote 192.168.231.128:45058]             debugger_startup=debugger_startup, enable_recorder=enable_recorder,
+[Tue Jun 10 02:22:52.183645 2025] [wsgi:error] [pid 9137:tid 9157] [remote 192.168.231.128:45058]             recorder_directory=recorder_directory)
+[Tue Jun 10 02:22:52.183651 2025] [wsgi:error] [pid 9137:tid 9157] [remote 192.168.231.128:45058]   File "/mnt/django/myenv/lib/python3.13/site-packages/mod_wsgi/server/__init__.py", line 1477, in __init__
+[Tue Jun 10 02:22:52.183653 2025] [wsgi:error] [pid 9137:tid 9157] [remote 192.168.231.128:45058]     exec(code, self.module.__dict__)
+[Tue Jun 10 02:22:52.183655 2025] [wsgi:error] [pid 9137:tid 9157] [remote 192.168.231.128:45058]     ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:22:52.183659 2025] [wsgi:error] [pid 9137:tid 9157] [remote 192.168.231.128:45058]   File "/mnt/django/blog/blog/wsgi.py", line 18, in <module>
+[Tue Jun 10 02:22:52.183661 2025] [wsgi:error] [pid 9137:tid 9157] [remote 192.168.231.128:45058]     application = get_wsgi_application()
+[Tue Jun 10 02:22:52.183665 2025] [wsgi:error] [pid 9137:tid 9157] [remote 192.168.231.128:45058]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+[Tue Jun 10 02:22:52.183667 2025] [wsgi:error] [pid 9137:tid 9157] [remote 192.168.231.128:45058]     django.setup(set_prefix=False)
+[Tue Jun 10 02:22:52.183668 2025] [wsgi:error] [pid 9137:tid 9157] [remote 192.168.231.128:45058]     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:22:52.183672 2025] [wsgi:error] [pid 9137:tid 9157] [remote 192.168.231.128:45058]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/__init__.py", line 19, in setup
+[Tue Jun 10 02:22:52.183674 2025] [wsgi:error] [pid 9137:tid 9157] [remote 192.168.231.128:45058]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Tue Jun 10 02:22:52.183675 2025] [wsgi:error] [pid 9137:tid 9157] [remote 192.168.231.128:45058]                       ^^^^^^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:22:52.183679 2025] [wsgi:error] [pid 9137:tid 9157] [remote 192.168.231.128:45058]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/conf/__init__.py", line 81, in __getattr__
+[Tue Jun 10 02:22:52.183681 2025] [wsgi:error] [pid 9137:tid 9157] [remote 192.168.231.128:45058]     self._setup(name)
+[Tue Jun 10 02:22:52.183683 2025] [wsgi:error] [pid 9137:tid 9157] [remote 192.168.231.128:45058]     ~~~~~~~~~~~^^^^^^
+[Tue Jun 10 02:22:52.183694 2025] [wsgi:error] [pid 9137:tid 9157] [remote 192.168.231.128:45058]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/conf/__init__.py", line 68, in _setup
+[Tue Jun 10 02:22:52.183696 2025] [wsgi:error] [pid 9137:tid 9157] [remote 192.168.231.128:45058]     self._wrapped = Settings(settings_module)
+[Tue Jun 10 02:22:52.183698 2025] [wsgi:error] [pid 9137:tid 9157] [remote 192.168.231.128:45058]                     ~~~~~~~~^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:22:52.183702 2025] [wsgi:error] [pid 9137:tid 9157] [remote 192.168.231.128:45058]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/conf/__init__.py", line 166, in __init__
+[Tue Jun 10 02:22:52.183704 2025] [wsgi:error] [pid 9137:tid 9157] [remote 192.168.231.128:45058]     mod = importlib.import_module(self.SETTINGS_MODULE)
+[Tue Jun 10 02:22:52.183707 2025] [wsgi:error] [pid 9137:tid 9157] [remote 192.168.231.128:45058]   File "/usr/local/lib/python3.13/importlib/__init__.py", line 88, in import_module
+[Tue Jun 10 02:22:52.183709 2025] [wsgi:error] [pid 9137:tid 9157] [remote 192.168.231.128:45058]     return _bootstrap._gcd_import(name[level:], package, level)
+[Tue Jun 10 02:22:52.183711 2025] [wsgi:error] [pid 9137:tid 9157] [remote 192.168.231.128:45058]            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:22:52.183714 2025] [wsgi:error] [pid 9137:tid 9157] [remote 192.168.231.128:45058]   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+[Tue Jun 10 02:22:52.183717 2025] [wsgi:error] [pid 9137:tid 9157] [remote 192.168.231.128:45058]   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+[Tue Jun 10 02:22:52.183721 2025] [wsgi:error] [pid 9137:tid 9157] [remote 192.168.231.128:45058]   File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+[Tue Jun 10 02:22:52.183724 2025] [wsgi:error] [pid 9137:tid 9157] [remote 192.168.231.128:45058]   File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+[Tue Jun 10 02:22:52.183728 2025] [wsgi:error] [pid 9137:tid 9157] [remote 192.168.231.128:45058]   File "<frozen importlib._bootstrap_external>", line 1022, in exec_module
+[Tue Jun 10 02:22:52.183731 2025] [wsgi:error] [pid 9137:tid 9157] [remote 192.168.231.128:45058]   File "<frozen importlib._bootstrap_external>", line 1160, in get_code
+[Tue Jun 10 02:22:52.183734 2025] [wsgi:error] [pid 9137:tid 9157] [remote 192.168.231.128:45058]   File "<frozen importlib._bootstrap_external>", line 1090, in source_to_code
+[Tue Jun 10 02:22:52.183738 2025] [wsgi:error] [pid 9137:tid 9157] [remote 192.168.231.128:45058]   File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+[Tue Jun 10 02:22:52.183756 2025] [wsgi:error] [pid 9137:tid 9157] [remote 192.168.231.128:45058]   File "/mnt/django/blog/blog/settings.py", line 134
+[Tue Jun 10 02:22:52.183760 2025] [wsgi:error] [pid 9137:tid 9157] [remote 192.168.231.128:45058]     BASE_DIR  'static'
+[Tue Jun 10 02:22:52.183764 2025] [wsgi:error] [pid 9137:tid 9157] [remote 192.168.231.128:45058]               ^^^^^^^^
+[Tue Jun 10 02:22:52.183767 2025] [wsgi:error] [pid 9137:tid 9157] [remote 192.168.231.128:45058] SyntaxError: invalid syntax
+[Tue Jun 10 02:23:08.757549 2025] [wsgi:error] [pid 9185:tid 9185] mod_wsgi (pid=9185): Failed to exec Python script file '/mnt/django/blog/apache-wsgi/handler.wsgi'.
+[Tue Jun 10 02:23:08.757598 2025] [wsgi:error] [pid 9185:tid 9185] mod_wsgi (pid=9185): Exception occurred processing WSGI script '/mnt/django/blog/apache-wsgi/handler.wsgi'.
+[Tue Jun 10 02:23:08.758678 2025] [wsgi:error] [pid 9185:tid 9185] Traceback (most recent call last):
+[Tue Jun 10 02:23:08.759736 2025] [wsgi:error] [pid 9185:tid 9185]   File "/mnt/django/blog/apache-wsgi/handler.wsgi", line 90, in <module>
+[Tue Jun 10 02:23:08.759745 2025] [wsgi:error] [pid 9185:tid 9185]     handler = mod_wsgi.server.ApplicationHandler(entry_point,
+[Tue Jun 10 02:23:08.759747 2025] [wsgi:error] [pid 9185:tid 9185]             application_type=application_type, callable_object=callable_object,
+[Tue Jun 10 02:23:08.759756 2025] [wsgi:error] [pid 9185:tid 9185]     ...<2 lines>...
+[Tue Jun 10 02:23:08.759758 2025] [wsgi:error] [pid 9185:tid 9185]             debugger_startup=debugger_startup, enable_recorder=enable_recorder,
+[Tue Jun 10 02:23:08.759760 2025] [wsgi:error] [pid 9185:tid 9185]             recorder_directory=recorder_directory)
+[Tue Jun 10 02:23:08.759767 2025] [wsgi:error] [pid 9185:tid 9185]   File "/mnt/django/myenv/lib/python3.13/site-packages/mod_wsgi/server/__init__.py", line 1477, in __init__
+[Tue Jun 10 02:23:08.759769 2025] [wsgi:error] [pid 9185:tid 9185]     exec(code, self.module.__dict__)
+[Tue Jun 10 02:23:08.759770 2025] [wsgi:error] [pid 9185:tid 9185]     ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:23:08.759777 2025] [wsgi:error] [pid 9185:tid 9185]   File "/mnt/django/blog/blog/wsgi.py", line 18, in <module>
+[Tue Jun 10 02:23:08.759779 2025] [wsgi:error] [pid 9185:tid 9185]     application = get_wsgi_application()
+[Tue Jun 10 02:23:08.759783 2025] [wsgi:error] [pid 9185:tid 9185]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+[Tue Jun 10 02:23:08.759786 2025] [wsgi:error] [pid 9185:tid 9185]     django.setup(set_prefix=False)
+[Tue Jun 10 02:23:08.759787 2025] [wsgi:error] [pid 9185:tid 9185]     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:23:08.759791 2025] [wsgi:error] [pid 9185:tid 9185]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/__init__.py", line 19, in setup
+[Tue Jun 10 02:23:08.759793 2025] [wsgi:error] [pid 9185:tid 9185]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Tue Jun 10 02:23:08.759794 2025] [wsgi:error] [pid 9185:tid 9185]                       ^^^^^^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:23:08.759798 2025] [wsgi:error] [pid 9185:tid 9185]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/conf/__init__.py", line 81, in __getattr__
+[Tue Jun 10 02:23:08.759800 2025] [wsgi:error] [pid 9185:tid 9185]     self._setup(name)
+[Tue Jun 10 02:23:08.759801 2025] [wsgi:error] [pid 9185:tid 9185]     ~~~~~~~~~~~^^^^^^
+[Tue Jun 10 02:23:08.759805 2025] [wsgi:error] [pid 9185:tid 9185]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/conf/__init__.py", line 68, in _setup
+[Tue Jun 10 02:23:08.759807 2025] [wsgi:error] [pid 9185:tid 9185]     self._wrapped = Settings(settings_module)
+[Tue Jun 10 02:23:08.759808 2025] [wsgi:error] [pid 9185:tid 9185]                     ~~~~~~~~^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:23:08.759812 2025] [wsgi:error] [pid 9185:tid 9185]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/conf/__init__.py", line 166, in __init__
+[Tue Jun 10 02:23:08.759814 2025] [wsgi:error] [pid 9185:tid 9185]     mod = importlib.import_module(self.SETTINGS_MODULE)
+[Tue Jun 10 02:23:08.759817 2025] [wsgi:error] [pid 9185:tid 9185]   File "/usr/local/lib/python3.13/importlib/__init__.py", line 88, in import_module
+[Tue Jun 10 02:23:08.759819 2025] [wsgi:error] [pid 9185:tid 9185]     return _bootstrap._gcd_import(name[level:], package, level)
+[Tue Jun 10 02:23:08.759821 2025] [wsgi:error] [pid 9185:tid 9185]            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:23:08.759824 2025] [wsgi:error] [pid 9185:tid 9185]   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+[Tue Jun 10 02:23:08.759827 2025] [wsgi:error] [pid 9185:tid 9185]   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+[Tue Jun 10 02:23:08.759831 2025] [wsgi:error] [pid 9185:tid 9185]   File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+[Tue Jun 10 02:23:08.759834 2025] [wsgi:error] [pid 9185:tid 9185]   File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+[Tue Jun 10 02:23:08.759837 2025] [wsgi:error] [pid 9185:tid 9185]   File "<frozen importlib._bootstrap_external>", line 1022, in exec_module
+[Tue Jun 10 02:23:08.759841 2025] [wsgi:error] [pid 9185:tid 9185]   File "<frozen importlib._bootstrap_external>", line 1160, in get_code
+[Tue Jun 10 02:23:08.759844 2025] [wsgi:error] [pid 9185:tid 9185]   File "<frozen importlib._bootstrap_external>", line 1090, in source_to_code
+[Tue Jun 10 02:23:08.759850 2025] [wsgi:error] [pid 9185:tid 9185]   File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+[Tue Jun 10 02:23:08.759872 2025] [wsgi:error] [pid 9185:tid 9185]   File "/mnt/django/blog/blog/settings.py", line 134
+[Tue Jun 10 02:23:08.759877 2025] [wsgi:error] [pid 9185:tid 9185]     BASE_DIR  'static'
+[Tue Jun 10 02:23:08.759881 2025] [wsgi:error] [pid 9185:tid 9185]               ^^^^^^^^
+[Tue Jun 10 02:23:08.759884 2025] [wsgi:error] [pid 9185:tid 9185] SyntaxError: invalid syntax
+[Tue Jun 10 02:23:46.518441 2025] [mpm_event:notice] [pid 8866:tid 8866] AH00494: SIGHUP received.  Attempting to restart
+[Tue Jun 10 02:23:46.586481 2025] [mpm_event:notice] [pid 8866:tid 8866] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Tue Jun 10 02:23:46.586493 2025] [core:notice] [pid 8866:tid 8866] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Tue Jun 10 02:23:50.411740 2025] [wsgi:error] [pid 9208:tid 9228] [remote 192.168.231.128:44904] Not Found: /192.168.231.129/css/style.css
+[Tue Jun 10 02:23:50.419729 2025] [wsgi:error] [pid 9208:tid 9224] [remote 192.168.231.128:44904] Not Found: /192.168.231.129/imgs/uchlogo.png
+[Tue Jun 10 02:23:50.437633 2025] [wsgi:error] [pid 9208:tid 9228] [remote 192.168.231.128:44904] Not Found: /favicon.ico
+[Tue Jun 10 02:25:09.109381 2025] [mpm_event:notice] [pid 8866:tid 8866] AH00494: SIGHUP received.  Attempting to restart
+[Tue Jun 10 02:25:09.214318 2025] [mpm_event:notice] [pid 8866:tid 8866] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Tue Jun 10 02:25:09.214331 2025] [core:notice] [pid 8866:tid 8866] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Tue Jun 10 02:25:12.824996 2025] [wsgi:error] [pid 9260:tid 9280] [remote 192.168.231.128:38732] Not Found: /favicon.ico
+[Tue Jun 10 02:30:16.011314 2025] [mpm_event:notice] [pid 8866:tid 8866] AH00494: SIGHUP received.  Attempting to restart
+[Tue Jun 10 02:30:16.111630 2025] [mpm_event:notice] [pid 8866:tid 8866] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Tue Jun 10 02:30:16.111643 2025] [core:notice] [pid 8866:tid 8866] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Tue Jun 10 02:30:16.290084 2025] [wsgi:error] [pid 9360:tid 9360] mod_wsgi (pid=9360): Failed to exec Python script file '/mnt/django/blog/apache-wsgi/handler.wsgi'.
+[Tue Jun 10 02:30:16.290111 2025] [wsgi:error] [pid 9360:tid 9360] mod_wsgi (pid=9360): Exception occurred processing WSGI script '/mnt/django/blog/apache-wsgi/handler.wsgi'.
+[Tue Jun 10 02:30:16.291200 2025] [wsgi:error] [pid 9360:tid 9360] Traceback (most recent call last):
+[Tue Jun 10 02:30:16.292292 2025] [wsgi:error] [pid 9360:tid 9360]   File "/mnt/django/blog/apache-wsgi/handler.wsgi", line 90, in <module>
+[Tue Jun 10 02:30:16.292305 2025] [wsgi:error] [pid 9360:tid 9360]     handler = mod_wsgi.server.ApplicationHandler(entry_point,
+[Tue Jun 10 02:30:16.292309 2025] [wsgi:error] [pid 9360:tid 9360]             application_type=application_type, callable_object=callable_object,
+[Tue Jun 10 02:30:16.292311 2025] [wsgi:error] [pid 9360:tid 9360]     ...<2 lines>...
+[Tue Jun 10 02:30:16.292312 2025] [wsgi:error] [pid 9360:tid 9360]             debugger_startup=debugger_startup, enable_recorder=enable_recorder,
+[Tue Jun 10 02:30:16.292323 2025] [wsgi:error] [pid 9360:tid 9360]             recorder_directory=recorder_directory)
+[Tue Jun 10 02:30:16.292331 2025] [wsgi:error] [pid 9360:tid 9360]   File "/mnt/django/myenv/lib/python3.13/site-packages/mod_wsgi/server/__init__.py", line 1477, in __init__
+[Tue Jun 10 02:30:16.292333 2025] [wsgi:error] [pid 9360:tid 9360]     exec(code, self.module.__dict__)
+[Tue Jun 10 02:30:16.292334 2025] [wsgi:error] [pid 9360:tid 9360]     ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:30:16.292343 2025] [wsgi:error] [pid 9360:tid 9360]   File "/mnt/django/blog/blog/wsgi.py", line 18, in <module>
+[Tue Jun 10 02:30:16.292345 2025] [wsgi:error] [pid 9360:tid 9360]     application = get_wsgi_application()
+[Tue Jun 10 02:30:16.292349 2025] [wsgi:error] [pid 9360:tid 9360]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+[Tue Jun 10 02:30:16.292351 2025] [wsgi:error] [pid 9360:tid 9360]     django.setup(set_prefix=False)
+[Tue Jun 10 02:30:16.292353 2025] [wsgi:error] [pid 9360:tid 9360]     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:30:16.292357 2025] [wsgi:error] [pid 9360:tid 9360]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/__init__.py", line 19, in setup
+[Tue Jun 10 02:30:16.292374 2025] [wsgi:error] [pid 9360:tid 9360]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Tue Jun 10 02:30:16.292375 2025] [wsgi:error] [pid 9360:tid 9360]                       ^^^^^^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:30:16.292382 2025] [wsgi:error] [pid 9360:tid 9360]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/conf/__init__.py", line 81, in __getattr__
+[Tue Jun 10 02:30:16.292384 2025] [wsgi:error] [pid 9360:tid 9360]     self._setup(name)
+[Tue Jun 10 02:30:16.292385 2025] [wsgi:error] [pid 9360:tid 9360]     ~~~~~~~~~~~^^^^^^
+[Tue Jun 10 02:30:16.292389 2025] [wsgi:error] [pid 9360:tid 9360]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/conf/__init__.py", line 68, in _setup
+[Tue Jun 10 02:30:16.292391 2025] [wsgi:error] [pid 9360:tid 9360]     self._wrapped = Settings(settings_module)
+[Tue Jun 10 02:30:16.292392 2025] [wsgi:error] [pid 9360:tid 9360]                     ~~~~~~~~^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:30:16.292396 2025] [wsgi:error] [pid 9360:tid 9360]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/conf/__init__.py", line 166, in __init__
+[Tue Jun 10 02:30:16.292398 2025] [wsgi:error] [pid 9360:tid 9360]     mod = importlib.import_module(self.SETTINGS_MODULE)
+[Tue Jun 10 02:30:16.292401 2025] [wsgi:error] [pid 9360:tid 9360]   File "/usr/local/lib/python3.13/importlib/__init__.py", line 88, in import_module
+[Tue Jun 10 02:30:16.292403 2025] [wsgi:error] [pid 9360:tid 9360]     return _bootstrap._gcd_import(name[level:], package, level)
+[Tue Jun 10 02:30:16.292404 2025] [wsgi:error] [pid 9360:tid 9360]            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:30:16.292407 2025] [wsgi:error] [pid 9360:tid 9360]   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+[Tue Jun 10 02:30:16.292411 2025] [wsgi:error] [pid 9360:tid 9360]   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+[Tue Jun 10 02:30:16.292414 2025] [wsgi:error] [pid 9360:tid 9360]   File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+[Tue Jun 10 02:30:16.292417 2025] [wsgi:error] [pid 9360:tid 9360]   File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+[Tue Jun 10 02:30:16.292421 2025] [wsgi:error] [pid 9360:tid 9360]   File "<frozen importlib._bootstrap_external>", line 1022, in exec_module
+[Tue Jun 10 02:30:16.292424 2025] [wsgi:error] [pid 9360:tid 9360]   File "<frozen importlib._bootstrap_external>", line 1160, in get_code
+[Tue Jun 10 02:30:16.292427 2025] [wsgi:error] [pid 9360:tid 9360]   File "<frozen importlib._bootstrap_external>", line 1090, in source_to_code
+[Tue Jun 10 02:30:16.292431 2025] [wsgi:error] [pid 9360:tid 9360]   File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+[Tue Jun 10 02:30:16.292455 2025] [wsgi:error] [pid 9360:tid 9360]   File "/mnt/django/blog/blog/settings.py", line 135
+[Tue Jun 10 02:30:16.292461 2025] [wsgi:error] [pid 9360:tid 9360]     / 'static'
+[Tue Jun 10 02:30:16.292464 2025] [wsgi:error] [pid 9360:tid 9360]     ^
+[Tue Jun 10 02:30:16.292468 2025] [wsgi:error] [pid 9360:tid 9360] SyntaxError: invalid syntax
+[Tue Jun 10 02:30:20.560780 2025] [wsgi:error] [pid 9360:tid 9376] [remote 192.168.231.128:50342] mod_wsgi (pid=9360): Failed to exec Python script file '/mnt/django/blog/apache-wsgi/handler.wsgi'.
+[Tue Jun 10 02:30:20.560815 2025] [wsgi:error] [pid 9360:tid 9376] [remote 192.168.231.128:50342] mod_wsgi (pid=9360): Exception occurred processing WSGI script '/mnt/django/blog/apache-wsgi/handler.wsgi'.
+[Tue Jun 10 02:30:20.561292 2025] [wsgi:error] [pid 9360:tid 9376] [remote 192.168.231.128:50342] Traceback (most recent call last):
+[Tue Jun 10 02:30:20.562080 2025] [wsgi:error] [pid 9360:tid 9376] [remote 192.168.231.128:50342]   File "/mnt/django/blog/apache-wsgi/handler.wsgi", line 90, in <module>
+[Tue Jun 10 02:30:20.562092 2025] [wsgi:error] [pid 9360:tid 9376] [remote 192.168.231.128:50342]     handler = mod_wsgi.server.ApplicationHandler(entry_point,
+[Tue Jun 10 02:30:20.562094 2025] [wsgi:error] [pid 9360:tid 9376] [remote 192.168.231.128:50342]             application_type=application_type, callable_object=callable_object,
+[Tue Jun 10 02:30:20.562096 2025] [wsgi:error] [pid 9360:tid 9376] [remote 192.168.231.128:50342]     ...<2 lines>...
+[Tue Jun 10 02:30:20.562097 2025] [wsgi:error] [pid 9360:tid 9376] [remote 192.168.231.128:50342]             debugger_startup=debugger_startup, enable_recorder=enable_recorder,
+[Tue Jun 10 02:30:20.562099 2025] [wsgi:error] [pid 9360:tid 9376] [remote 192.168.231.128:50342]             recorder_directory=recorder_directory)
+[Tue Jun 10 02:30:20.562105 2025] [wsgi:error] [pid 9360:tid 9376] [remote 192.168.231.128:50342]   File "/mnt/django/myenv/lib/python3.13/site-packages/mod_wsgi/server/__init__.py", line 1477, in __init__
+[Tue Jun 10 02:30:20.562108 2025] [wsgi:error] [pid 9360:tid 9376] [remote 192.168.231.128:50342]     exec(code, self.module.__dict__)
+[Tue Jun 10 02:30:20.562109 2025] [wsgi:error] [pid 9360:tid 9376] [remote 192.168.231.128:50342]     ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:30:20.562114 2025] [wsgi:error] [pid 9360:tid 9376] [remote 192.168.231.128:50342]   File "/mnt/django/blog/blog/wsgi.py", line 18, in <module>
+[Tue Jun 10 02:30:20.562116 2025] [wsgi:error] [pid 9360:tid 9376] [remote 192.168.231.128:50342]     application = get_wsgi_application()
+[Tue Jun 10 02:30:20.562120 2025] [wsgi:error] [pid 9360:tid 9376] [remote 192.168.231.128:50342]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+[Tue Jun 10 02:30:20.562122 2025] [wsgi:error] [pid 9360:tid 9376] [remote 192.168.231.128:50342]     django.setup(set_prefix=False)
+[Tue Jun 10 02:30:20.562123 2025] [wsgi:error] [pid 9360:tid 9376] [remote 192.168.231.128:50342]     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:30:20.562127 2025] [wsgi:error] [pid 9360:tid 9376] [remote 192.168.231.128:50342]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/__init__.py", line 19, in setup
+[Tue Jun 10 02:30:20.562129 2025] [wsgi:error] [pid 9360:tid 9376] [remote 192.168.231.128:50342]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Tue Jun 10 02:30:20.562131 2025] [wsgi:error] [pid 9360:tid 9376] [remote 192.168.231.128:50342]                       ^^^^^^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:30:20.562135 2025] [wsgi:error] [pid 9360:tid 9376] [remote 192.168.231.128:50342]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/conf/__init__.py", line 81, in __getattr__
+[Tue Jun 10 02:30:20.562137 2025] [wsgi:error] [pid 9360:tid 9376] [remote 192.168.231.128:50342]     self._setup(name)
+[Tue Jun 10 02:30:20.562138 2025] [wsgi:error] [pid 9360:tid 9376] [remote 192.168.231.128:50342]     ~~~~~~~~~~~^^^^^^
+[Tue Jun 10 02:30:20.562157 2025] [wsgi:error] [pid 9360:tid 9376] [remote 192.168.231.128:50342]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/conf/__init__.py", line 68, in _setup
+[Tue Jun 10 02:30:20.562159 2025] [wsgi:error] [pid 9360:tid 9376] [remote 192.168.231.128:50342]     self._wrapped = Settings(settings_module)
+[Tue Jun 10 02:30:20.562160 2025] [wsgi:error] [pid 9360:tid 9376] [remote 192.168.231.128:50342]                     ~~~~~~~~^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:30:20.562164 2025] [wsgi:error] [pid 9360:tid 9376] [remote 192.168.231.128:50342]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/conf/__init__.py", line 166, in __init__
+[Tue Jun 10 02:30:20.562166 2025] [wsgi:error] [pid 9360:tid 9376] [remote 192.168.231.128:50342]     mod = importlib.import_module(self.SETTINGS_MODULE)
+[Tue Jun 10 02:30:20.562170 2025] [wsgi:error] [pid 9360:tid 9376] [remote 192.168.231.128:50342]   File "/usr/local/lib/python3.13/importlib/__init__.py", line 88, in import_module
+[Tue Jun 10 02:30:20.562172 2025] [wsgi:error] [pid 9360:tid 9376] [remote 192.168.231.128:50342]     return _bootstrap._gcd_import(name[level:], package, level)
+[Tue Jun 10 02:30:20.562174 2025] [wsgi:error] [pid 9360:tid 9376] [remote 192.168.231.128:50342]            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:30:20.562177 2025] [wsgi:error] [pid 9360:tid 9376] [remote 192.168.231.128:50342]   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+[Tue Jun 10 02:30:20.562181 2025] [wsgi:error] [pid 9360:tid 9376] [remote 192.168.231.128:50342]   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+[Tue Jun 10 02:30:20.562184 2025] [wsgi:error] [pid 9360:tid 9376] [remote 192.168.231.128:50342]   File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+[Tue Jun 10 02:30:20.562188 2025] [wsgi:error] [pid 9360:tid 9376] [remote 192.168.231.128:50342]   File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+[Tue Jun 10 02:30:20.562205 2025] [wsgi:error] [pid 9360:tid 9376] [remote 192.168.231.128:50342]   File "<frozen importlib._bootstrap_external>", line 1022, in exec_module
+[Tue Jun 10 02:30:20.562212 2025] [wsgi:error] [pid 9360:tid 9376] [remote 192.168.231.128:50342]   File "<frozen importlib._bootstrap_external>", line 1160, in get_code
+[Tue Jun 10 02:30:20.562216 2025] [wsgi:error] [pid 9360:tid 9376] [remote 192.168.231.128:50342]   File "<frozen importlib._bootstrap_external>", line 1090, in source_to_code
+[Tue Jun 10 02:30:20.562219 2025] [wsgi:error] [pid 9360:tid 9376] [remote 192.168.231.128:50342]   File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+[Tue Jun 10 02:30:20.562266 2025] [wsgi:error] [pid 9360:tid 9376] [remote 192.168.231.128:50342]   File "/mnt/django/blog/blog/settings.py", line 135
+[Tue Jun 10 02:30:20.562275 2025] [wsgi:error] [pid 9360:tid 9376] [remote 192.168.231.128:50342]     / 'static'
+[Tue Jun 10 02:30:20.562278 2025] [wsgi:error] [pid 9360:tid 9376] [remote 192.168.231.128:50342]     ^
+[Tue Jun 10 02:30:20.562282 2025] [wsgi:error] [pid 9360:tid 9376] [remote 192.168.231.128:50342] SyntaxError: invalid syntax
+[Tue Jun 10 02:30:20.631665 2025] [wsgi:error] [pid 9360:tid 9380] [remote 192.168.231.128:50346] mod_wsgi (pid=9360): Failed to exec Python script file '/mnt/django/blog/apache-wsgi/handler.wsgi'.
+[Tue Jun 10 02:30:20.631695 2025] [wsgi:error] [pid 9360:tid 9380] [remote 192.168.231.128:50346] mod_wsgi (pid=9360): Exception occurred processing WSGI script '/mnt/django/blog/apache-wsgi/handler.wsgi'.
+[Tue Jun 10 02:30:20.632112 2025] [wsgi:error] [pid 9360:tid 9380] [remote 192.168.231.128:50346] Traceback (most recent call last):
+[Tue Jun 10 02:30:20.632908 2025] [wsgi:error] [pid 9360:tid 9380] [remote 192.168.231.128:50346]   File "/mnt/django/blog/apache-wsgi/handler.wsgi", line 90, in <module>
+[Tue Jun 10 02:30:20.632918 2025] [wsgi:error] [pid 9360:tid 9380] [remote 192.168.231.128:50346]     handler = mod_wsgi.server.ApplicationHandler(entry_point,
+[Tue Jun 10 02:30:20.632929 2025] [wsgi:error] [pid 9360:tid 9380] [remote 192.168.231.128:50346]             application_type=application_type, callable_object=callable_object,
+[Tue Jun 10 02:30:20.632931 2025] [wsgi:error] [pid 9360:tid 9380] [remote 192.168.231.128:50346]     ...<2 lines>...
+[Tue Jun 10 02:30:20.632933 2025] [wsgi:error] [pid 9360:tid 9380] [remote 192.168.231.128:50346]             debugger_startup=debugger_startup, enable_recorder=enable_recorder,
+[Tue Jun 10 02:30:20.632934 2025] [wsgi:error] [pid 9360:tid 9380] [remote 192.168.231.128:50346]             recorder_directory=recorder_directory)
+[Tue Jun 10 02:30:20.632940 2025] [wsgi:error] [pid 9360:tid 9380] [remote 192.168.231.128:50346]   File "/mnt/django/myenv/lib/python3.13/site-packages/mod_wsgi/server/__init__.py", line 1477, in __init__
+[Tue Jun 10 02:30:20.632943 2025] [wsgi:error] [pid 9360:tid 9380] [remote 192.168.231.128:50346]     exec(code, self.module.__dict__)
+[Tue Jun 10 02:30:20.632944 2025] [wsgi:error] [pid 9360:tid 9380] [remote 192.168.231.128:50346]     ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:30:20.632948 2025] [wsgi:error] [pid 9360:tid 9380] [remote 192.168.231.128:50346]   File "/mnt/django/blog/blog/wsgi.py", line 18, in <module>
+[Tue Jun 10 02:30:20.632950 2025] [wsgi:error] [pid 9360:tid 9380] [remote 192.168.231.128:50346]     application = get_wsgi_application()
+[Tue Jun 10 02:30:20.632954 2025] [wsgi:error] [pid 9360:tid 9380] [remote 192.168.231.128:50346]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+[Tue Jun 10 02:30:20.632956 2025] [wsgi:error] [pid 9360:tid 9380] [remote 192.168.231.128:50346]     django.setup(set_prefix=False)
+[Tue Jun 10 02:30:20.632958 2025] [wsgi:error] [pid 9360:tid 9380] [remote 192.168.231.128:50346]     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:30:20.632961 2025] [wsgi:error] [pid 9360:tid 9380] [remote 192.168.231.128:50346]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/__init__.py", line 19, in setup
+[Tue Jun 10 02:30:20.632964 2025] [wsgi:error] [pid 9360:tid 9380] [remote 192.168.231.128:50346]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Tue Jun 10 02:30:20.632965 2025] [wsgi:error] [pid 9360:tid 9380] [remote 192.168.231.128:50346]                       ^^^^^^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:30:20.632969 2025] [wsgi:error] [pid 9360:tid 9380] [remote 192.168.231.128:50346]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/conf/__init__.py", line 81, in __getattr__
+[Tue Jun 10 02:30:20.632971 2025] [wsgi:error] [pid 9360:tid 9380] [remote 192.168.231.128:50346]     self._setup(name)
+[Tue Jun 10 02:30:20.632972 2025] [wsgi:error] [pid 9360:tid 9380] [remote 192.168.231.128:50346]     ~~~~~~~~~~~^^^^^^
+[Tue Jun 10 02:30:20.632976 2025] [wsgi:error] [pid 9360:tid 9380] [remote 192.168.231.128:50346]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/conf/__init__.py", line 68, in _setup
+[Tue Jun 10 02:30:20.632978 2025] [wsgi:error] [pid 9360:tid 9380] [remote 192.168.231.128:50346]     self._wrapped = Settings(settings_module)
+[Tue Jun 10 02:30:20.632979 2025] [wsgi:error] [pid 9360:tid 9380] [remote 192.168.231.128:50346]                     ~~~~~~~~^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:30:20.632983 2025] [wsgi:error] [pid 9360:tid 9380] [remote 192.168.231.128:50346]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/conf/__init__.py", line 166, in __init__
+[Tue Jun 10 02:30:20.632985 2025] [wsgi:error] [pid 9360:tid 9380] [remote 192.168.231.128:50346]     mod = importlib.import_module(self.SETTINGS_MODULE)
+[Tue Jun 10 02:30:20.632989 2025] [wsgi:error] [pid 9360:tid 9380] [remote 192.168.231.128:50346]   File "/usr/local/lib/python3.13/importlib/__init__.py", line 88, in import_module
+[Tue Jun 10 02:30:20.632990 2025] [wsgi:error] [pid 9360:tid 9380] [remote 192.168.231.128:50346]     return _bootstrap._gcd_import(name[level:], package, level)
+[Tue Jun 10 02:30:20.632992 2025] [wsgi:error] [pid 9360:tid 9380] [remote 192.168.231.128:50346]            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:30:20.632998 2025] [wsgi:error] [pid 9360:tid 9380] [remote 192.168.231.128:50346]   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+[Tue Jun 10 02:30:20.633002 2025] [wsgi:error] [pid 9360:tid 9380] [remote 192.168.231.128:50346]   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+[Tue Jun 10 02:30:20.633005 2025] [wsgi:error] [pid 9360:tid 9380] [remote 192.168.231.128:50346]   File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+[Tue Jun 10 02:30:20.633009 2025] [wsgi:error] [pid 9360:tid 9380] [remote 192.168.231.128:50346]   File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+[Tue Jun 10 02:30:20.633012 2025] [wsgi:error] [pid 9360:tid 9380] [remote 192.168.231.128:50346]   File "<frozen importlib._bootstrap_external>", line 1022, in exec_module
+[Tue Jun 10 02:30:20.633016 2025] [wsgi:error] [pid 9360:tid 9380] [remote 192.168.231.128:50346]   File "<frozen importlib._bootstrap_external>", line 1160, in get_code
+[Tue Jun 10 02:30:20.633019 2025] [wsgi:error] [pid 9360:tid 9380] [remote 192.168.231.128:50346]   File "<frozen importlib._bootstrap_external>", line 1090, in source_to_code
+[Tue Jun 10 02:30:20.633022 2025] [wsgi:error] [pid 9360:tid 9380] [remote 192.168.231.128:50346]   File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+[Tue Jun 10 02:30:20.633038 2025] [wsgi:error] [pid 9360:tid 9380] [remote 192.168.231.128:50346]   File "/mnt/django/blog/blog/settings.py", line 135
+[Tue Jun 10 02:30:20.633043 2025] [wsgi:error] [pid 9360:tid 9380] [remote 192.168.231.128:50346]     / 'static'
+[Tue Jun 10 02:30:20.633047 2025] [wsgi:error] [pid 9360:tid 9380] [remote 192.168.231.128:50346]     ^
+[Tue Jun 10 02:30:20.633050 2025] [wsgi:error] [pid 9360:tid 9380] [remote 192.168.231.128:50346] SyntaxError: invalid syntax
+[Tue Jun 10 02:30:37.310065 2025] [wsgi:error] [pid 9396:tid 9396] mod_wsgi (pid=9396): Failed to exec Python script file '/mnt/django/blog/apache-wsgi/handler.wsgi'.
+[Tue Jun 10 02:30:37.310112 2025] [wsgi:error] [pid 9396:tid 9396] mod_wsgi (pid=9396): Exception occurred processing WSGI script '/mnt/django/blog/apache-wsgi/handler.wsgi'.
+[Tue Jun 10 02:30:37.311179 2025] [wsgi:error] [pid 9396:tid 9396] Traceback (most recent call last):
+[Tue Jun 10 02:30:37.312176 2025] [wsgi:error] [pid 9396:tid 9396]   File "/mnt/django/blog/apache-wsgi/handler.wsgi", line 90, in <module>
+[Tue Jun 10 02:30:37.312186 2025] [wsgi:error] [pid 9396:tid 9396]     handler = mod_wsgi.server.ApplicationHandler(entry_point,
+[Tue Jun 10 02:30:37.312188 2025] [wsgi:error] [pid 9396:tid 9396]             application_type=application_type, callable_object=callable_object,
+[Tue Jun 10 02:30:37.312189 2025] [wsgi:error] [pid 9396:tid 9396]     ...<2 lines>...
+[Tue Jun 10 02:30:37.312190 2025] [wsgi:error] [pid 9396:tid 9396]             debugger_startup=debugger_startup, enable_recorder=enable_recorder,
+[Tue Jun 10 02:30:37.312192 2025] [wsgi:error] [pid 9396:tid 9396]             recorder_directory=recorder_directory)
+[Tue Jun 10 02:30:37.312198 2025] [wsgi:error] [pid 9396:tid 9396]   File "/mnt/django/myenv/lib/python3.13/site-packages/mod_wsgi/server/__init__.py", line 1477, in __init__
+[Tue Jun 10 02:30:37.312200 2025] [wsgi:error] [pid 9396:tid 9396]     exec(code, self.module.__dict__)
+[Tue Jun 10 02:30:37.312202 2025] [wsgi:error] [pid 9396:tid 9396]     ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:30:37.312209 2025] [wsgi:error] [pid 9396:tid 9396]   File "/mnt/django/blog/blog/wsgi.py", line 18, in <module>
+[Tue Jun 10 02:30:37.312212 2025] [wsgi:error] [pid 9396:tid 9396]     application = get_wsgi_application()
+[Tue Jun 10 02:30:37.312216 2025] [wsgi:error] [pid 9396:tid 9396]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+[Tue Jun 10 02:30:37.312218 2025] [wsgi:error] [pid 9396:tid 9396]     django.setup(set_prefix=False)
+[Tue Jun 10 02:30:37.312219 2025] [wsgi:error] [pid 9396:tid 9396]     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:30:37.312230 2025] [wsgi:error] [pid 9396:tid 9396]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/__init__.py", line 19, in setup
+[Tue Jun 10 02:30:37.312233 2025] [wsgi:error] [pid 9396:tid 9396]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Tue Jun 10 02:30:37.312234 2025] [wsgi:error] [pid 9396:tid 9396]                       ^^^^^^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:30:37.312250 2025] [wsgi:error] [pid 9396:tid 9396]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/conf/__init__.py", line 81, in __getattr__
+[Tue Jun 10 02:30:37.312255 2025] [wsgi:error] [pid 9396:tid 9396]     self._setup(name)
+[Tue Jun 10 02:30:37.312256 2025] [wsgi:error] [pid 9396:tid 9396]     ~~~~~~~~~~~^^^^^^
+[Tue Jun 10 02:30:37.312260 2025] [wsgi:error] [pid 9396:tid 9396]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/conf/__init__.py", line 68, in _setup
+[Tue Jun 10 02:30:37.312262 2025] [wsgi:error] [pid 9396:tid 9396]     self._wrapped = Settings(settings_module)
+[Tue Jun 10 02:30:37.312264 2025] [wsgi:error] [pid 9396:tid 9396]                     ~~~~~~~~^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:30:37.312267 2025] [wsgi:error] [pid 9396:tid 9396]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/conf/__init__.py", line 166, in __init__
+[Tue Jun 10 02:30:37.312269 2025] [wsgi:error] [pid 9396:tid 9396]     mod = importlib.import_module(self.SETTINGS_MODULE)
+[Tue Jun 10 02:30:37.312273 2025] [wsgi:error] [pid 9396:tid 9396]   File "/usr/local/lib/python3.13/importlib/__init__.py", line 88, in import_module
+[Tue Jun 10 02:30:37.312274 2025] [wsgi:error] [pid 9396:tid 9396]     return _bootstrap._gcd_import(name[level:], package, level)
+[Tue Jun 10 02:30:37.312276 2025] [wsgi:error] [pid 9396:tid 9396]            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:30:37.312279 2025] [wsgi:error] [pid 9396:tid 9396]   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+[Tue Jun 10 02:30:37.312292 2025] [wsgi:error] [pid 9396:tid 9396]   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+[Tue Jun 10 02:30:37.312301 2025] [wsgi:error] [pid 9396:tid 9396]   File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+[Tue Jun 10 02:30:37.312305 2025] [wsgi:error] [pid 9396:tid 9396]   File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+[Tue Jun 10 02:30:37.312308 2025] [wsgi:error] [pid 9396:tid 9396]   File "<frozen importlib._bootstrap_external>", line 1022, in exec_module
+[Tue Jun 10 02:30:37.312311 2025] [wsgi:error] [pid 9396:tid 9396]   File "<frozen importlib._bootstrap_external>", line 1160, in get_code
+[Tue Jun 10 02:30:37.312314 2025] [wsgi:error] [pid 9396:tid 9396]   File "<frozen importlib._bootstrap_external>", line 1090, in source_to_code
+[Tue Jun 10 02:30:37.312317 2025] [wsgi:error] [pid 9396:tid 9396]   File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+[Tue Jun 10 02:30:37.312337 2025] [wsgi:error] [pid 9396:tid 9396]   File "/mnt/django/blog/blog/settings.py", line 135
+[Tue Jun 10 02:30:37.312342 2025] [wsgi:error] [pid 9396:tid 9396]     / 'static'
+[Tue Jun 10 02:30:37.312346 2025] [wsgi:error] [pid 9396:tid 9396]     ^
+[Tue Jun 10 02:30:37.312349 2025] [wsgi:error] [pid 9396:tid 9396] SyntaxError: invalid syntax
+[Tue Jun 10 02:32:31.194010 2025] [mpm_event:notice] [pid 8866:tid 8866] AH00494: SIGHUP received.  Attempting to restart
+[Tue Jun 10 02:32:31.293982 2025] [mpm_event:notice] [pid 8866:tid 8866] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Tue Jun 10 02:32:31.293995 2025] [core:notice] [pid 8866:tid 8866] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Tue Jun 10 02:32:35.113103 2025] [wsgi:error] [pid 9434:tid 9454] [remote 192.168.231.128:60506] Not Found: /192.168.231.129/css/style.css
+[Tue Jun 10 02:32:35.124423 2025] [wsgi:error] [pid 9434:tid 9450] [remote 192.168.231.128:60506] Not Found: /192.168.231.129/imgs/uchlogo.png
+[Tue Jun 10 02:32:35.132418 2025] [wsgi:error] [pid 9434:tid 9454] [remote 192.168.231.128:60506] Not Found: /favicon.ico
+[Tue Jun 10 02:34:39.993893 2025] [mpm_event:notice] [pid 8866:tid 8866] AH00494: SIGHUP received.  Attempting to restart
+[Tue Jun 10 02:34:40.093179 2025] [mpm_event:notice] [pid 8866:tid 8866] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Tue Jun 10 02:34:40.093205 2025] [core:notice] [pid 8866:tid 8866] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Tue Jun 10 02:34:40.263819 2025] [wsgi:error] [pid 9495:tid 9495] mod_wsgi (pid=9495): Failed to exec Python script file '/mnt/django/blog/apache-wsgi/handler.wsgi'.
+[Tue Jun 10 02:34:40.263858 2025] [wsgi:error] [pid 9495:tid 9495] mod_wsgi (pid=9495): Exception occurred processing WSGI script '/mnt/django/blog/apache-wsgi/handler.wsgi'.
+[Tue Jun 10 02:34:40.265391 2025] [wsgi:error] [pid 9495:tid 9495] Traceback (most recent call last):
+[Tue Jun 10 02:34:40.266462 2025] [wsgi:error] [pid 9495:tid 9495]   File "/mnt/django/blog/apache-wsgi/handler.wsgi", line 90, in <module>
+[Tue Jun 10 02:34:40.266474 2025] [wsgi:error] [pid 9495:tid 9495]     handler = mod_wsgi.server.ApplicationHandler(entry_point,
+[Tue Jun 10 02:34:40.266476 2025] [wsgi:error] [pid 9495:tid 9495]             application_type=application_type, callable_object=callable_object,
+[Tue Jun 10 02:34:40.266477 2025] [wsgi:error] [pid 9495:tid 9495]     ...<2 lines>...
+[Tue Jun 10 02:34:40.266479 2025] [wsgi:error] [pid 9495:tid 9495]             debugger_startup=debugger_startup, enable_recorder=enable_recorder,
+[Tue Jun 10 02:34:40.266480 2025] [wsgi:error] [pid 9495:tid 9495]             recorder_directory=recorder_directory)
+[Tue Jun 10 02:34:40.266487 2025] [wsgi:error] [pid 9495:tid 9495]   File "/mnt/django/myenv/lib/python3.13/site-packages/mod_wsgi/server/__init__.py", line 1477, in __init__
+[Tue Jun 10 02:34:40.266489 2025] [wsgi:error] [pid 9495:tid 9495]     exec(code, self.module.__dict__)
+[Tue Jun 10 02:34:40.266491 2025] [wsgi:error] [pid 9495:tid 9495]     ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:34:40.266499 2025] [wsgi:error] [pid 9495:tid 9495]   File "/mnt/django/blog/blog/wsgi.py", line 18, in <module>
+[Tue Jun 10 02:34:40.266501 2025] [wsgi:error] [pid 9495:tid 9495]     application = get_wsgi_application()
+[Tue Jun 10 02:34:40.266505 2025] [wsgi:error] [pid 9495:tid 9495]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+[Tue Jun 10 02:34:40.266507 2025] [wsgi:error] [pid 9495:tid 9495]     django.setup(set_prefix=False)
+[Tue Jun 10 02:34:40.266509 2025] [wsgi:error] [pid 9495:tid 9495]     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:34:40.266513 2025] [wsgi:error] [pid 9495:tid 9495]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/__init__.py", line 19, in setup
+[Tue Jun 10 02:34:40.266515 2025] [wsgi:error] [pid 9495:tid 9495]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Tue Jun 10 02:34:40.266516 2025] [wsgi:error] [pid 9495:tid 9495]                       ^^^^^^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:34:40.266520 2025] [wsgi:error] [pid 9495:tid 9495]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/conf/__init__.py", line 81, in __getattr__
+[Tue Jun 10 02:34:40.266522 2025] [wsgi:error] [pid 9495:tid 9495]     self._setup(name)
+[Tue Jun 10 02:34:40.266524 2025] [wsgi:error] [pid 9495:tid 9495]     ~~~~~~~~~~~^^^^^^
+[Tue Jun 10 02:34:40.266527 2025] [wsgi:error] [pid 9495:tid 9495]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/conf/__init__.py", line 68, in _setup
+[Tue Jun 10 02:34:40.266552 2025] [wsgi:error] [pid 9495:tid 9495]     self._wrapped = Settings(settings_module)
+[Tue Jun 10 02:34:40.266554 2025] [wsgi:error] [pid 9495:tid 9495]                     ~~~~~~~~^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:34:40.266561 2025] [wsgi:error] [pid 9495:tid 9495]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/conf/__init__.py", line 166, in __init__
+[Tue Jun 10 02:34:40.266563 2025] [wsgi:error] [pid 9495:tid 9495]     mod = importlib.import_module(self.SETTINGS_MODULE)
+[Tue Jun 10 02:34:40.266567 2025] [wsgi:error] [pid 9495:tid 9495]   File "/usr/local/lib/python3.13/importlib/__init__.py", line 88, in import_module
+[Tue Jun 10 02:34:40.266569 2025] [wsgi:error] [pid 9495:tid 9495]     return _bootstrap._gcd_import(name[level:], package, level)
+[Tue Jun 10 02:34:40.266570 2025] [wsgi:error] [pid 9495:tid 9495]            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:34:40.266574 2025] [wsgi:error] [pid 9495:tid 9495]   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+[Tue Jun 10 02:34:40.266577 2025] [wsgi:error] [pid 9495:tid 9495]   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+[Tue Jun 10 02:34:40.266580 2025] [wsgi:error] [pid 9495:tid 9495]   File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+[Tue Jun 10 02:34:40.266584 2025] [wsgi:error] [pid 9495:tid 9495]   File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+[Tue Jun 10 02:34:40.266587 2025] [wsgi:error] [pid 9495:tid 9495]   File "<frozen importlib._bootstrap_external>", line 1022, in exec_module
+[Tue Jun 10 02:34:40.266590 2025] [wsgi:error] [pid 9495:tid 9495]   File "<frozen importlib._bootstrap_external>", line 1160, in get_code
+[Tue Jun 10 02:34:40.266594 2025] [wsgi:error] [pid 9495:tid 9495]   File "<frozen importlib._bootstrap_external>", line 1090, in source_to_code
+[Tue Jun 10 02:34:40.266597 2025] [wsgi:error] [pid 9495:tid 9495]   File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+[Tue Jun 10 02:34:40.266619 2025] [wsgi:error] [pid 9495:tid 9495]   File "/mnt/django/blog/blog/settings.py", line 133
+[Tue Jun 10 02:34:40.266624 2025] [wsgi:error] [pid 9495:tid 9495]     192.168.231.129 / 'static'
+[Tue Jun 10 02:34:40.266628 2025] [wsgi:error] [pid 9495:tid 9495]     ^^^^^^^^^^^
+[Tue Jun 10 02:34:40.266631 2025] [wsgi:error] [pid 9495:tid 9495] SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[Tue Jun 10 02:34:43.675905 2025] [wsgi:error] [pid 9495:tid 9511] [remote 192.168.231.128:52932] mod_wsgi (pid=9495): Failed to exec Python script file '/mnt/django/blog/apache-wsgi/handler.wsgi'.
+[Tue Jun 10 02:34:43.675973 2025] [wsgi:error] [pid 9495:tid 9511] [remote 192.168.231.128:52932] mod_wsgi (pid=9495): Exception occurred processing WSGI script '/mnt/django/blog/apache-wsgi/handler.wsgi'.
+[Tue Jun 10 02:34:43.676438 2025] [wsgi:error] [pid 9495:tid 9511] [remote 192.168.231.128:52932] Traceback (most recent call last):
+[Tue Jun 10 02:34:43.677295 2025] [wsgi:error] [pid 9495:tid 9511] [remote 192.168.231.128:52932]   File "/mnt/django/blog/apache-wsgi/handler.wsgi", line 90, in <module>
+[Tue Jun 10 02:34:43.677304 2025] [wsgi:error] [pid 9495:tid 9511] [remote 192.168.231.128:52932]     handler = mod_wsgi.server.ApplicationHandler(entry_point,
+[Tue Jun 10 02:34:43.677307 2025] [wsgi:error] [pid 9495:tid 9511] [remote 192.168.231.128:52932]             application_type=application_type, callable_object=callable_object,
+[Tue Jun 10 02:34:43.677308 2025] [wsgi:error] [pid 9495:tid 9511] [remote 192.168.231.128:52932]     ...<2 lines>...
+[Tue Jun 10 02:34:43.677310 2025] [wsgi:error] [pid 9495:tid 9511] [remote 192.168.231.128:52932]             debugger_startup=debugger_startup, enable_recorder=enable_recorder,
+[Tue Jun 10 02:34:43.677325 2025] [wsgi:error] [pid 9495:tid 9511] [remote 192.168.231.128:52932]             recorder_directory=recorder_directory)
+[Tue Jun 10 02:34:43.677335 2025] [wsgi:error] [pid 9495:tid 9511] [remote 192.168.231.128:52932]   File "/mnt/django/myenv/lib/python3.13/site-packages/mod_wsgi/server/__init__.py", line 1477, in __init__
+[Tue Jun 10 02:34:43.677346 2025] [wsgi:error] [pid 9495:tid 9511] [remote 192.168.231.128:52932]     exec(code, self.module.__dict__)
+[Tue Jun 10 02:34:43.677347 2025] [wsgi:error] [pid 9495:tid 9511] [remote 192.168.231.128:52932]     ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:34:43.677352 2025] [wsgi:error] [pid 9495:tid 9511] [remote 192.168.231.128:52932]   File "/mnt/django/blog/blog/wsgi.py", line 18, in <module>
+[Tue Jun 10 02:34:43.677354 2025] [wsgi:error] [pid 9495:tid 9511] [remote 192.168.231.128:52932]     application = get_wsgi_application()
+[Tue Jun 10 02:34:43.677358 2025] [wsgi:error] [pid 9495:tid 9511] [remote 192.168.231.128:52932]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+[Tue Jun 10 02:34:43.677360 2025] [wsgi:error] [pid 9495:tid 9511] [remote 192.168.231.128:52932]     django.setup(set_prefix=False)
+[Tue Jun 10 02:34:43.677362 2025] [wsgi:error] [pid 9495:tid 9511] [remote 192.168.231.128:52932]     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:34:43.677366 2025] [wsgi:error] [pid 9495:tid 9511] [remote 192.168.231.128:52932]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/__init__.py", line 19, in setup
+[Tue Jun 10 02:34:43.677368 2025] [wsgi:error] [pid 9495:tid 9511] [remote 192.168.231.128:52932]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Tue Jun 10 02:34:43.677369 2025] [wsgi:error] [pid 9495:tid 9511] [remote 192.168.231.128:52932]                       ^^^^^^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:34:43.677373 2025] [wsgi:error] [pid 9495:tid 9511] [remote 192.168.231.128:52932]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/conf/__init__.py", line 81, in __getattr__
+[Tue Jun 10 02:34:43.677375 2025] [wsgi:error] [pid 9495:tid 9511] [remote 192.168.231.128:52932]     self._setup(name)
+[Tue Jun 10 02:34:43.677377 2025] [wsgi:error] [pid 9495:tid 9511] [remote 192.168.231.128:52932]     ~~~~~~~~~~~^^^^^^
+[Tue Jun 10 02:34:43.677380 2025] [wsgi:error] [pid 9495:tid 9511] [remote 192.168.231.128:52932]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/conf/__init__.py", line 68, in _setup
+[Tue Jun 10 02:34:43.677382 2025] [wsgi:error] [pid 9495:tid 9511] [remote 192.168.231.128:52932]     self._wrapped = Settings(settings_module)
+[Tue Jun 10 02:34:43.677384 2025] [wsgi:error] [pid 9495:tid 9511] [remote 192.168.231.128:52932]                     ~~~~~~~~^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:34:43.677387 2025] [wsgi:error] [pid 9495:tid 9511] [remote 192.168.231.128:52932]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/conf/__init__.py", line 166, in __init__
+[Tue Jun 10 02:34:43.677389 2025] [wsgi:error] [pid 9495:tid 9511] [remote 192.168.231.128:52932]     mod = importlib.import_module(self.SETTINGS_MODULE)
+[Tue Jun 10 02:34:43.677393 2025] [wsgi:error] [pid 9495:tid 9511] [remote 192.168.231.128:52932]   File "/usr/local/lib/python3.13/importlib/__init__.py", line 88, in import_module
+[Tue Jun 10 02:34:43.677395 2025] [wsgi:error] [pid 9495:tid 9511] [remote 192.168.231.128:52932]     return _bootstrap._gcd_import(name[level:], package, level)
+[Tue Jun 10 02:34:43.677396 2025] [wsgi:error] [pid 9495:tid 9511] [remote 192.168.231.128:52932]            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:34:43.677400 2025] [wsgi:error] [pid 9495:tid 9511] [remote 192.168.231.128:52932]   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+[Tue Jun 10 02:34:43.677403 2025] [wsgi:error] [pid 9495:tid 9511] [remote 192.168.231.128:52932]   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+[Tue Jun 10 02:34:43.677407 2025] [wsgi:error] [pid 9495:tid 9511] [remote 192.168.231.128:52932]   File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+[Tue Jun 10 02:34:43.677414 2025] [wsgi:error] [pid 9495:tid 9511] [remote 192.168.231.128:52932]   File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+[Tue Jun 10 02:34:43.677419 2025] [wsgi:error] [pid 9495:tid 9511] [remote 192.168.231.128:52932]   File "<frozen importlib._bootstrap_external>", line 1022, in exec_module
+[Tue Jun 10 02:34:43.677426 2025] [wsgi:error] [pid 9495:tid 9511] [remote 192.168.231.128:52932]   File "<frozen importlib._bootstrap_external>", line 1160, in get_code
+[Tue Jun 10 02:34:43.677430 2025] [wsgi:error] [pid 9495:tid 9511] [remote 192.168.231.128:52932]   File "<frozen importlib._bootstrap_external>", line 1090, in source_to_code
+[Tue Jun 10 02:34:43.677433 2025] [wsgi:error] [pid 9495:tid 9511] [remote 192.168.231.128:52932]   File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+[Tue Jun 10 02:34:43.677456 2025] [wsgi:error] [pid 9495:tid 9511] [remote 192.168.231.128:52932]   File "/mnt/django/blog/blog/settings.py", line 133
+[Tue Jun 10 02:34:43.677461 2025] [wsgi:error] [pid 9495:tid 9511] [remote 192.168.231.128:52932]     192.168.231.129 / 'static'
+[Tue Jun 10 02:34:43.677465 2025] [wsgi:error] [pid 9495:tid 9511] [remote 192.168.231.128:52932]     ^^^^^^^^^^^
+[Tue Jun 10 02:34:43.677468 2025] [wsgi:error] [pid 9495:tid 9511] [remote 192.168.231.128:52932] SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[Tue Jun 10 02:34:43.739886 2025] [wsgi:error] [pid 9495:tid 9515] [remote 192.168.231.128:52940] mod_wsgi (pid=9495): Failed to exec Python script file '/mnt/django/blog/apache-wsgi/handler.wsgi'.
+[Tue Jun 10 02:34:43.739930 2025] [wsgi:error] [pid 9495:tid 9515] [remote 192.168.231.128:52940] mod_wsgi (pid=9495): Exception occurred processing WSGI script '/mnt/django/blog/apache-wsgi/handler.wsgi'.
+[Tue Jun 10 02:34:43.740351 2025] [wsgi:error] [pid 9495:tid 9515] [remote 192.168.231.128:52940] Traceback (most recent call last):
+[Tue Jun 10 02:34:43.741160 2025] [wsgi:error] [pid 9495:tid 9515] [remote 192.168.231.128:52940]   File "/mnt/django/blog/apache-wsgi/handler.wsgi", line 90, in <module>
+[Tue Jun 10 02:34:43.741170 2025] [wsgi:error] [pid 9495:tid 9515] [remote 192.168.231.128:52940]     handler = mod_wsgi.server.ApplicationHandler(entry_point,
+[Tue Jun 10 02:34:43.741172 2025] [wsgi:error] [pid 9495:tid 9515] [remote 192.168.231.128:52940]             application_type=application_type, callable_object=callable_object,
+[Tue Jun 10 02:34:43.741174 2025] [wsgi:error] [pid 9495:tid 9515] [remote 192.168.231.128:52940]     ...<2 lines>...
+[Tue Jun 10 02:34:43.741175 2025] [wsgi:error] [pid 9495:tid 9515] [remote 192.168.231.128:52940]             debugger_startup=debugger_startup, enable_recorder=enable_recorder,
+[Tue Jun 10 02:34:43.741177 2025] [wsgi:error] [pid 9495:tid 9515] [remote 192.168.231.128:52940]             recorder_directory=recorder_directory)
+[Tue Jun 10 02:34:43.741183 2025] [wsgi:error] [pid 9495:tid 9515] [remote 192.168.231.128:52940]   File "/mnt/django/myenv/lib/python3.13/site-packages/mod_wsgi/server/__init__.py", line 1477, in __init__
+[Tue Jun 10 02:34:43.741185 2025] [wsgi:error] [pid 9495:tid 9515] [remote 192.168.231.128:52940]     exec(code, self.module.__dict__)
+[Tue Jun 10 02:34:43.741187 2025] [wsgi:error] [pid 9495:tid 9515] [remote 192.168.231.128:52940]     ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:34:43.741191 2025] [wsgi:error] [pid 9495:tid 9515] [remote 192.168.231.128:52940]   File "/mnt/django/blog/blog/wsgi.py", line 18, in <module>
+[Tue Jun 10 02:34:43.741193 2025] [wsgi:error] [pid 9495:tid 9515] [remote 192.168.231.128:52940]     application = get_wsgi_application()
+[Tue Jun 10 02:34:43.741197 2025] [wsgi:error] [pid 9495:tid 9515] [remote 192.168.231.128:52940]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+[Tue Jun 10 02:34:43.741199 2025] [wsgi:error] [pid 9495:tid 9515] [remote 192.168.231.128:52940]     django.setup(set_prefix=False)
+[Tue Jun 10 02:34:43.741200 2025] [wsgi:error] [pid 9495:tid 9515] [remote 192.168.231.128:52940]     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:34:43.741204 2025] [wsgi:error] [pid 9495:tid 9515] [remote 192.168.231.128:52940]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/__init__.py", line 19, in setup
+[Tue Jun 10 02:34:43.741214 2025] [wsgi:error] [pid 9495:tid 9515] [remote 192.168.231.128:52940]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Tue Jun 10 02:34:43.741216 2025] [wsgi:error] [pid 9495:tid 9515] [remote 192.168.231.128:52940]                       ^^^^^^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:34:43.741220 2025] [wsgi:error] [pid 9495:tid 9515] [remote 192.168.231.128:52940]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/conf/__init__.py", line 81, in __getattr__
+[Tue Jun 10 02:34:43.741222 2025] [wsgi:error] [pid 9495:tid 9515] [remote 192.168.231.128:52940]     self._setup(name)
+[Tue Jun 10 02:34:43.741224 2025] [wsgi:error] [pid 9495:tid 9515] [remote 192.168.231.128:52940]     ~~~~~~~~~~~^^^^^^
+[Tue Jun 10 02:34:43.741227 2025] [wsgi:error] [pid 9495:tid 9515] [remote 192.168.231.128:52940]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/conf/__init__.py", line 68, in _setup
+[Tue Jun 10 02:34:43.741229 2025] [wsgi:error] [pid 9495:tid 9515] [remote 192.168.231.128:52940]     self._wrapped = Settings(settings_module)
+[Tue Jun 10 02:34:43.741231 2025] [wsgi:error] [pid 9495:tid 9515] [remote 192.168.231.128:52940]                     ~~~~~~~~^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:34:43.741234 2025] [wsgi:error] [pid 9495:tid 9515] [remote 192.168.231.128:52940]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/conf/__init__.py", line 166, in __init__
+[Tue Jun 10 02:34:43.741236 2025] [wsgi:error] [pid 9495:tid 9515] [remote 192.168.231.128:52940]     mod = importlib.import_module(self.SETTINGS_MODULE)
+[Tue Jun 10 02:34:43.741240 2025] [wsgi:error] [pid 9495:tid 9515] [remote 192.168.231.128:52940]   File "/usr/local/lib/python3.13/importlib/__init__.py", line 88, in import_module
+[Tue Jun 10 02:34:43.741242 2025] [wsgi:error] [pid 9495:tid 9515] [remote 192.168.231.128:52940]     return _bootstrap._gcd_import(name[level:], package, level)
+[Tue Jun 10 02:34:43.741244 2025] [wsgi:error] [pid 9495:tid 9515] [remote 192.168.231.128:52940]            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:34:43.741247 2025] [wsgi:error] [pid 9495:tid 9515] [remote 192.168.231.128:52940]   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+[Tue Jun 10 02:34:43.741250 2025] [wsgi:error] [pid 9495:tid 9515] [remote 192.168.231.128:52940]   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+[Tue Jun 10 02:34:43.741254 2025] [wsgi:error] [pid 9495:tid 9515] [remote 192.168.231.128:52940]   File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+[Tue Jun 10 02:34:43.741257 2025] [wsgi:error] [pid 9495:tid 9515] [remote 192.168.231.128:52940]   File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+[Tue Jun 10 02:34:43.741261 2025] [wsgi:error] [pid 9495:tid 9515] [remote 192.168.231.128:52940]   File "<frozen importlib._bootstrap_external>", line 1022, in exec_module
+[Tue Jun 10 02:34:43.741264 2025] [wsgi:error] [pid 9495:tid 9515] [remote 192.168.231.128:52940]   File "<frozen importlib._bootstrap_external>", line 1160, in get_code
+[Tue Jun 10 02:34:43.741268 2025] [wsgi:error] [pid 9495:tid 9515] [remote 192.168.231.128:52940]   File "<frozen importlib._bootstrap_external>", line 1090, in source_to_code
+[Tue Jun 10 02:34:43.741271 2025] [wsgi:error] [pid 9495:tid 9515] [remote 192.168.231.128:52940]   File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+[Tue Jun 10 02:34:43.741288 2025] [wsgi:error] [pid 9495:tid 9515] [remote 192.168.231.128:52940]   File "/mnt/django/blog/blog/settings.py", line 133
+[Tue Jun 10 02:34:43.741292 2025] [wsgi:error] [pid 9495:tid 9515] [remote 192.168.231.128:52940]     192.168.231.129 / 'static'
+[Tue Jun 10 02:34:43.741310 2025] [wsgi:error] [pid 9495:tid 9515] [remote 192.168.231.128:52940]     ^^^^^^^^^^^
+[Tue Jun 10 02:34:43.741318 2025] [wsgi:error] [pid 9495:tid 9515] [remote 192.168.231.128:52940] SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[Tue Jun 10 02:35:00.304726 2025] [wsgi:error] [pid 9527:tid 9527] mod_wsgi (pid=9527): Failed to exec Python script file '/mnt/django/blog/apache-wsgi/handler.wsgi'.
+[Tue Jun 10 02:35:00.304800 2025] [wsgi:error] [pid 9527:tid 9527] mod_wsgi (pid=9527): Exception occurred processing WSGI script '/mnt/django/blog/apache-wsgi/handler.wsgi'.
+[Tue Jun 10 02:35:00.305919 2025] [wsgi:error] [pid 9527:tid 9527] Traceback (most recent call last):
+[Tue Jun 10 02:35:00.306958 2025] [wsgi:error] [pid 9527:tid 9527]   File "/mnt/django/blog/apache-wsgi/handler.wsgi", line 90, in <module>
+[Tue Jun 10 02:35:00.306968 2025] [wsgi:error] [pid 9527:tid 9527]     handler = mod_wsgi.server.ApplicationHandler(entry_point,
+[Tue Jun 10 02:35:00.306970 2025] [wsgi:error] [pid 9527:tid 9527]             application_type=application_type, callable_object=callable_object,
+[Tue Jun 10 02:35:00.306972 2025] [wsgi:error] [pid 9527:tid 9527]     ...<2 lines>...
+[Tue Jun 10 02:35:00.306973 2025] [wsgi:error] [pid 9527:tid 9527]             debugger_startup=debugger_startup, enable_recorder=enable_recorder,
+[Tue Jun 10 02:35:00.306975 2025] [wsgi:error] [pid 9527:tid 9527]             recorder_directory=recorder_directory)
+[Tue Jun 10 02:35:00.306982 2025] [wsgi:error] [pid 9527:tid 9527]   File "/mnt/django/myenv/lib/python3.13/site-packages/mod_wsgi/server/__init__.py", line 1477, in __init__
+[Tue Jun 10 02:35:00.306984 2025] [wsgi:error] [pid 9527:tid 9527]     exec(code, self.module.__dict__)
+[Tue Jun 10 02:35:00.306985 2025] [wsgi:error] [pid 9527:tid 9527]     ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:35:00.306993 2025] [wsgi:error] [pid 9527:tid 9527]   File "/mnt/django/blog/blog/wsgi.py", line 18, in <module>
+[Tue Jun 10 02:35:00.306995 2025] [wsgi:error] [pid 9527:tid 9527]     application = get_wsgi_application()
+[Tue Jun 10 02:35:00.306999 2025] [wsgi:error] [pid 9527:tid 9527]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+[Tue Jun 10 02:35:00.307002 2025] [wsgi:error] [pid 9527:tid 9527]     django.setup(set_prefix=False)
+[Tue Jun 10 02:35:00.307003 2025] [wsgi:error] [pid 9527:tid 9527]     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:35:00.307007 2025] [wsgi:error] [pid 9527:tid 9527]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/__init__.py", line 19, in setup
+[Tue Jun 10 02:35:00.307009 2025] [wsgi:error] [pid 9527:tid 9527]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Tue Jun 10 02:35:00.307010 2025] [wsgi:error] [pid 9527:tid 9527]                       ^^^^^^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:35:00.307014 2025] [wsgi:error] [pid 9527:tid 9527]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/conf/__init__.py", line 81, in __getattr__
+[Tue Jun 10 02:35:00.307016 2025] [wsgi:error] [pid 9527:tid 9527]     self._setup(name)
+[Tue Jun 10 02:35:00.307017 2025] [wsgi:error] [pid 9527:tid 9527]     ~~~~~~~~~~~^^^^^^
+[Tue Jun 10 02:35:00.307021 2025] [wsgi:error] [pid 9527:tid 9527]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/conf/__init__.py", line 68, in _setup
+[Tue Jun 10 02:35:00.307023 2025] [wsgi:error] [pid 9527:tid 9527]     self._wrapped = Settings(settings_module)
+[Tue Jun 10 02:35:00.307024 2025] [wsgi:error] [pid 9527:tid 9527]                     ~~~~~~~~^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:35:00.307028 2025] [wsgi:error] [pid 9527:tid 9527]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/conf/__init__.py", line 166, in __init__
+[Tue Jun 10 02:35:00.307029 2025] [wsgi:error] [pid 9527:tid 9527]     mod = importlib.import_module(self.SETTINGS_MODULE)
+[Tue Jun 10 02:35:00.307033 2025] [wsgi:error] [pid 9527:tid 9527]   File "/usr/local/lib/python3.13/importlib/__init__.py", line 88, in import_module
+[Tue Jun 10 02:35:00.307035 2025] [wsgi:error] [pid 9527:tid 9527]     return _bootstrap._gcd_import(name[level:], package, level)
+[Tue Jun 10 02:35:00.307036 2025] [wsgi:error] [pid 9527:tid 9527]            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:35:00.307039 2025] [wsgi:error] [pid 9527:tid 9527]   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+[Tue Jun 10 02:35:00.307047 2025] [wsgi:error] [pid 9527:tid 9527]   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+[Tue Jun 10 02:35:00.307051 2025] [wsgi:error] [pid 9527:tid 9527]   File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+[Tue Jun 10 02:35:00.307054 2025] [wsgi:error] [pid 9527:tid 9527]   File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+[Tue Jun 10 02:35:00.307058 2025] [wsgi:error] [pid 9527:tid 9527]   File "<frozen importlib._bootstrap_external>", line 1022, in exec_module
+[Tue Jun 10 02:35:00.307061 2025] [wsgi:error] [pid 9527:tid 9527]   File "<frozen importlib._bootstrap_external>", line 1160, in get_code
+[Tue Jun 10 02:35:00.307064 2025] [wsgi:error] [pid 9527:tid 9527]   File "<frozen importlib._bootstrap_external>", line 1090, in source_to_code
+[Tue Jun 10 02:35:00.307068 2025] [wsgi:error] [pid 9527:tid 9527]   File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+[Tue Jun 10 02:35:00.307088 2025] [wsgi:error] [pid 9527:tid 9527]   File "/mnt/django/blog/blog/settings.py", line 133
+[Tue Jun 10 02:35:00.307093 2025] [wsgi:error] [pid 9527:tid 9527]     192.168.231.129 / 'static'
+[Tue Jun 10 02:35:00.307096 2025] [wsgi:error] [pid 9527:tid 9527]     ^^^^^^^^^^^
+[Tue Jun 10 02:35:00.307100 2025] [wsgi:error] [pid 9527:tid 9527] SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[Tue Jun 10 02:35:11.976727 2025] [mpm_event:notice] [pid 8866:tid 8866] AH00494: SIGHUP received.  Attempting to restart
+[Tue Jun 10 02:35:12.045003 2025] [mpm_event:notice] [pid 8866:tid 8866] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Tue Jun 10 02:35:12.045029 2025] [core:notice] [pid 8866:tid 8866] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Tue Jun 10 02:35:12.217910 2025] [wsgi:error] [pid 9546:tid 9546] mod_wsgi (pid=9546): Failed to exec Python script file '/mnt/django/blog/apache-wsgi/handler.wsgi'.
+[Tue Jun 10 02:35:12.217958 2025] [wsgi:error] [pid 9546:tid 9546] mod_wsgi (pid=9546): Exception occurred processing WSGI script '/mnt/django/blog/apache-wsgi/handler.wsgi'.
+[Tue Jun 10 02:35:12.219086 2025] [wsgi:error] [pid 9546:tid 9546] Traceback (most recent call last):
+[Tue Jun 10 02:35:12.220157 2025] [wsgi:error] [pid 9546:tid 9546]   File "/mnt/django/blog/apache-wsgi/handler.wsgi", line 90, in <module>
+[Tue Jun 10 02:35:12.220167 2025] [wsgi:error] [pid 9546:tid 9546]     handler = mod_wsgi.server.ApplicationHandler(entry_point,
+[Tue Jun 10 02:35:12.220169 2025] [wsgi:error] [pid 9546:tid 9546]             application_type=application_type, callable_object=callable_object,
+[Tue Jun 10 02:35:12.220170 2025] [wsgi:error] [pid 9546:tid 9546]     ...<2 lines>...
+[Tue Jun 10 02:35:12.220172 2025] [wsgi:error] [pid 9546:tid 9546]             debugger_startup=debugger_startup, enable_recorder=enable_recorder,
+[Tue Jun 10 02:35:12.220173 2025] [wsgi:error] [pid 9546:tid 9546]             recorder_directory=recorder_directory)
+[Tue Jun 10 02:35:12.220180 2025] [wsgi:error] [pid 9546:tid 9546]   File "/mnt/django/myenv/lib/python3.13/site-packages/mod_wsgi/server/__init__.py", line 1477, in __init__
+[Tue Jun 10 02:35:12.220182 2025] [wsgi:error] [pid 9546:tid 9546]     exec(code, self.module.__dict__)
+[Tue Jun 10 02:35:12.220183 2025] [wsgi:error] [pid 9546:tid 9546]     ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:35:12.220187 2025] [wsgi:error] [pid 9546:tid 9546]   File "/mnt/django/blog/blog/wsgi.py", line 18, in <module>
+[Tue Jun 10 02:35:12.220189 2025] [wsgi:error] [pid 9546:tid 9546]     application = get_wsgi_application()
+[Tue Jun 10 02:35:12.220193 2025] [wsgi:error] [pid 9546:tid 9546]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+[Tue Jun 10 02:35:12.220200 2025] [wsgi:error] [pid 9546:tid 9546]     django.setup(set_prefix=False)
+[Tue Jun 10 02:35:12.220201 2025] [wsgi:error] [pid 9546:tid 9546]     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:35:12.220206 2025] [wsgi:error] [pid 9546:tid 9546]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/__init__.py", line 19, in setup
+[Tue Jun 10 02:35:12.220208 2025] [wsgi:error] [pid 9546:tid 9546]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Tue Jun 10 02:35:12.220209 2025] [wsgi:error] [pid 9546:tid 9546]                       ^^^^^^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:35:12.220213 2025] [wsgi:error] [pid 9546:tid 9546]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/conf/__init__.py", line 81, in __getattr__
+[Tue Jun 10 02:35:12.220215 2025] [wsgi:error] [pid 9546:tid 9546]     self._setup(name)
+[Tue Jun 10 02:35:12.220216 2025] [wsgi:error] [pid 9546:tid 9546]     ~~~~~~~~~~~^^^^^^
+[Tue Jun 10 02:35:12.220220 2025] [wsgi:error] [pid 9546:tid 9546]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/conf/__init__.py", line 68, in _setup
+[Tue Jun 10 02:35:12.220221 2025] [wsgi:error] [pid 9546:tid 9546]     self._wrapped = Settings(settings_module)
+[Tue Jun 10 02:35:12.220223 2025] [wsgi:error] [pid 9546:tid 9546]                     ~~~~~~~~^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:35:12.220226 2025] [wsgi:error] [pid 9546:tid 9546]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/conf/__init__.py", line 166, in __init__
+[Tue Jun 10 02:35:12.220228 2025] [wsgi:error] [pid 9546:tid 9546]     mod = importlib.import_module(self.SETTINGS_MODULE)
+[Tue Jun 10 02:35:12.220231 2025] [wsgi:error] [pid 9546:tid 9546]   File "/usr/local/lib/python3.13/importlib/__init__.py", line 88, in import_module
+[Tue Jun 10 02:35:12.220233 2025] [wsgi:error] [pid 9546:tid 9546]     return _bootstrap._gcd_import(name[level:], package, level)
+[Tue Jun 10 02:35:12.220234 2025] [wsgi:error] [pid 9546:tid 9546]            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:35:12.220238 2025] [wsgi:error] [pid 9546:tid 9546]   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+[Tue Jun 10 02:35:12.220241 2025] [wsgi:error] [pid 9546:tid 9546]   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+[Tue Jun 10 02:35:12.220244 2025] [wsgi:error] [pid 9546:tid 9546]   File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+[Tue Jun 10 02:35:12.220259 2025] [wsgi:error] [pid 9546:tid 9546]   File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+[Tue Jun 10 02:35:12.220266 2025] [wsgi:error] [pid 9546:tid 9546]   File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+[Tue Jun 10 02:35:12.220269 2025] [wsgi:error] [pid 9546:tid 9546]   File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+[Tue Jun 10 02:35:12.220273 2025] [wsgi:error] [pid 9546:tid 9546]   File "/mnt/django/blog/blog/settings.py", line 133, in <module>
+[Tue Jun 10 02:35:12.220275 2025] [wsgi:error] [pid 9546:tid 9546]     '192.168.231.129' / 'static'
+[Tue Jun 10 02:35:12.220276 2025] [wsgi:error] [pid 9546:tid 9546]     ~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+[Tue Jun 10 02:35:12.220287 2025] [wsgi:error] [pid 9546:tid 9546] TypeError: unsupported operand type(s) for /: 'str' and 'str'
+[Tue Jun 10 02:35:15.110603 2025] [wsgi:error] [pid 9546:tid 9562] [remote 192.168.231.128:47036] mod_wsgi (pid=9546): Failed to exec Python script file '/mnt/django/blog/apache-wsgi/handler.wsgi'.
+[Tue Jun 10 02:35:15.110648 2025] [wsgi:error] [pid 9546:tid 9562] [remote 192.168.231.128:47036] mod_wsgi (pid=9546): Exception occurred processing WSGI script '/mnt/django/blog/apache-wsgi/handler.wsgi'.
+[Tue Jun 10 02:35:15.111075 2025] [wsgi:error] [pid 9546:tid 9562] [remote 192.168.231.128:47036] Traceback (most recent call last):
+[Tue Jun 10 02:35:15.111954 2025] [wsgi:error] [pid 9546:tid 9562] [remote 192.168.231.128:47036]   File "/mnt/django/blog/apache-wsgi/handler.wsgi", line 90, in <module>
+[Tue Jun 10 02:35:15.111970 2025] [wsgi:error] [pid 9546:tid 9562] [remote 192.168.231.128:47036]     handler = mod_wsgi.server.ApplicationHandler(entry_point,
+[Tue Jun 10 02:35:15.111972 2025] [wsgi:error] [pid 9546:tid 9562] [remote 192.168.231.128:47036]             application_type=application_type, callable_object=callable_object,
+[Tue Jun 10 02:35:15.111974 2025] [wsgi:error] [pid 9546:tid 9562] [remote 192.168.231.128:47036]     ...<2 lines>...
+[Tue Jun 10 02:35:15.111975 2025] [wsgi:error] [pid 9546:tid 9562] [remote 192.168.231.128:47036]             debugger_startup=debugger_startup, enable_recorder=enable_recorder,
+[Tue Jun 10 02:35:15.111977 2025] [wsgi:error] [pid 9546:tid 9562] [remote 192.168.231.128:47036]             recorder_directory=recorder_directory)
+[Tue Jun 10 02:35:15.111983 2025] [wsgi:error] [pid 9546:tid 9562] [remote 192.168.231.128:47036]   File "/mnt/django/myenv/lib/python3.13/site-packages/mod_wsgi/server/__init__.py", line 1477, in __init__
+[Tue Jun 10 02:35:15.111985 2025] [wsgi:error] [pid 9546:tid 9562] [remote 192.168.231.128:47036]     exec(code, self.module.__dict__)
+[Tue Jun 10 02:35:15.111987 2025] [wsgi:error] [pid 9546:tid 9562] [remote 192.168.231.128:47036]     ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:35:15.111991 2025] [wsgi:error] [pid 9546:tid 9562] [remote 192.168.231.128:47036]   File "/mnt/django/blog/blog/wsgi.py", line 18, in <module>
+[Tue Jun 10 02:35:15.111993 2025] [wsgi:error] [pid 9546:tid 9562] [remote 192.168.231.128:47036]     application = get_wsgi_application()
+[Tue Jun 10 02:35:15.111997 2025] [wsgi:error] [pid 9546:tid 9562] [remote 192.168.231.128:47036]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+[Tue Jun 10 02:35:15.111999 2025] [wsgi:error] [pid 9546:tid 9562] [remote 192.168.231.128:47036]     django.setup(set_prefix=False)
+[Tue Jun 10 02:35:15.112000 2025] [wsgi:error] [pid 9546:tid 9562] [remote 192.168.231.128:47036]     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:35:15.112004 2025] [wsgi:error] [pid 9546:tid 9562] [remote 192.168.231.128:47036]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/__init__.py", line 19, in setup
+[Tue Jun 10 02:35:15.112006 2025] [wsgi:error] [pid 9546:tid 9562] [remote 192.168.231.128:47036]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Tue Jun 10 02:35:15.112008 2025] [wsgi:error] [pid 9546:tid 9562] [remote 192.168.231.128:47036]                       ^^^^^^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:35:15.112012 2025] [wsgi:error] [pid 9546:tid 9562] [remote 192.168.231.128:47036]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/conf/__init__.py", line 81, in __getattr__
+[Tue Jun 10 02:35:15.112013 2025] [wsgi:error] [pid 9546:tid 9562] [remote 192.168.231.128:47036]     self._setup(name)
+[Tue Jun 10 02:35:15.112015 2025] [wsgi:error] [pid 9546:tid 9562] [remote 192.168.231.128:47036]     ~~~~~~~~~~~^^^^^^
+[Tue Jun 10 02:35:15.112019 2025] [wsgi:error] [pid 9546:tid 9562] [remote 192.168.231.128:47036]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/conf/__init__.py", line 68, in _setup
+[Tue Jun 10 02:35:15.112021 2025] [wsgi:error] [pid 9546:tid 9562] [remote 192.168.231.128:47036]     self._wrapped = Settings(settings_module)
+[Tue Jun 10 02:35:15.112022 2025] [wsgi:error] [pid 9546:tid 9562] [remote 192.168.231.128:47036]                     ~~~~~~~~^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:35:15.112026 2025] [wsgi:error] [pid 9546:tid 9562] [remote 192.168.231.128:47036]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/conf/__init__.py", line 166, in __init__
+[Tue Jun 10 02:35:15.112028 2025] [wsgi:error] [pid 9546:tid 9562] [remote 192.168.231.128:47036]     mod = importlib.import_module(self.SETTINGS_MODULE)
+[Tue Jun 10 02:35:15.112031 2025] [wsgi:error] [pid 9546:tid 9562] [remote 192.168.231.128:47036]   File "/usr/local/lib/python3.13/importlib/__init__.py", line 88, in import_module
+[Tue Jun 10 02:35:15.112033 2025] [wsgi:error] [pid 9546:tid 9562] [remote 192.168.231.128:47036]     return _bootstrap._gcd_import(name[level:], package, level)
+[Tue Jun 10 02:35:15.112037 2025] [wsgi:error] [pid 9546:tid 9562] [remote 192.168.231.128:47036]            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:35:15.112041 2025] [wsgi:error] [pid 9546:tid 9562] [remote 192.168.231.128:47036]   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+[Tue Jun 10 02:35:15.112045 2025] [wsgi:error] [pid 9546:tid 9562] [remote 192.168.231.128:47036]   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+[Tue Jun 10 02:35:15.112048 2025] [wsgi:error] [pid 9546:tid 9562] [remote 192.168.231.128:47036]   File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+[Tue Jun 10 02:35:15.112051 2025] [wsgi:error] [pid 9546:tid 9562] [remote 192.168.231.128:47036]   File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+[Tue Jun 10 02:35:15.112055 2025] [wsgi:error] [pid 9546:tid 9562] [remote 192.168.231.128:47036]   File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+[Tue Jun 10 02:35:15.112058 2025] [wsgi:error] [pid 9546:tid 9562] [remote 192.168.231.128:47036]   File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+[Tue Jun 10 02:35:15.112062 2025] [wsgi:error] [pid 9546:tid 9562] [remote 192.168.231.128:47036]   File "/mnt/django/blog/blog/settings.py", line 133, in <module>
+[Tue Jun 10 02:35:15.112064 2025] [wsgi:error] [pid 9546:tid 9562] [remote 192.168.231.128:47036]     '192.168.231.129' / 'static'
+[Tue Jun 10 02:35:15.112065 2025] [wsgi:error] [pid 9546:tid 9562] [remote 192.168.231.128:47036]     ~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+[Tue Jun 10 02:35:15.112077 2025] [wsgi:error] [pid 9546:tid 9562] [remote 192.168.231.128:47036] TypeError: unsupported operand type(s) for /: 'str' and 'str'
+[Tue Jun 10 02:35:15.165309 2025] [wsgi:error] [pid 9546:tid 9566] [remote 192.168.231.128:47052] mod_wsgi (pid=9546): Failed to exec Python script file '/mnt/django/blog/apache-wsgi/handler.wsgi'.
+[Tue Jun 10 02:35:15.165339 2025] [wsgi:error] [pid 9546:tid 9566] [remote 192.168.231.128:47052] mod_wsgi (pid=9546): Exception occurred processing WSGI script '/mnt/django/blog/apache-wsgi/handler.wsgi'.
+[Tue Jun 10 02:35:15.165725 2025] [wsgi:error] [pid 9546:tid 9566] [remote 192.168.231.128:47052] Traceback (most recent call last):
+[Tue Jun 10 02:35:15.166550 2025] [wsgi:error] [pid 9546:tid 9566] [remote 192.168.231.128:47052]   File "/mnt/django/blog/apache-wsgi/handler.wsgi", line 90, in <module>
+[Tue Jun 10 02:35:15.166560 2025] [wsgi:error] [pid 9546:tid 9566] [remote 192.168.231.128:47052]     handler = mod_wsgi.server.ApplicationHandler(entry_point,
+[Tue Jun 10 02:35:15.166562 2025] [wsgi:error] [pid 9546:tid 9566] [remote 192.168.231.128:47052]             application_type=application_type, callable_object=callable_object,
+[Tue Jun 10 02:35:15.166564 2025] [wsgi:error] [pid 9546:tid 9566] [remote 192.168.231.128:47052]     ...<2 lines>...
+[Tue Jun 10 02:35:15.166565 2025] [wsgi:error] [pid 9546:tid 9566] [remote 192.168.231.128:47052]             debugger_startup=debugger_startup, enable_recorder=enable_recorder,
+[Tue Jun 10 02:35:15.166567 2025] [wsgi:error] [pid 9546:tid 9566] [remote 192.168.231.128:47052]             recorder_directory=recorder_directory)
+[Tue Jun 10 02:35:15.166573 2025] [wsgi:error] [pid 9546:tid 9566] [remote 192.168.231.128:47052]   File "/mnt/django/myenv/lib/python3.13/site-packages/mod_wsgi/server/__init__.py", line 1477, in __init__
+[Tue Jun 10 02:35:15.166575 2025] [wsgi:error] [pid 9546:tid 9566] [remote 192.168.231.128:47052]     exec(code, self.module.__dict__)
+[Tue Jun 10 02:35:15.166576 2025] [wsgi:error] [pid 9546:tid 9566] [remote 192.168.231.128:47052]     ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:35:15.166581 2025] [wsgi:error] [pid 9546:tid 9566] [remote 192.168.231.128:47052]   File "/mnt/django/blog/blog/wsgi.py", line 18, in <module>
+[Tue Jun 10 02:35:15.166583 2025] [wsgi:error] [pid 9546:tid 9566] [remote 192.168.231.128:47052]     application = get_wsgi_application()
+[Tue Jun 10 02:35:15.166594 2025] [wsgi:error] [pid 9546:tid 9566] [remote 192.168.231.128:47052]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+[Tue Jun 10 02:35:15.166597 2025] [wsgi:error] [pid 9546:tid 9566] [remote 192.168.231.128:47052]     django.setup(set_prefix=False)
+[Tue Jun 10 02:35:15.166598 2025] [wsgi:error] [pid 9546:tid 9566] [remote 192.168.231.128:47052]     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:35:15.166603 2025] [wsgi:error] [pid 9546:tid 9566] [remote 192.168.231.128:47052]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/__init__.py", line 19, in setup
+[Tue Jun 10 02:35:15.166605 2025] [wsgi:error] [pid 9546:tid 9566] [remote 192.168.231.128:47052]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Tue Jun 10 02:35:15.166606 2025] [wsgi:error] [pid 9546:tid 9566] [remote 192.168.231.128:47052]                       ^^^^^^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:35:15.166610 2025] [wsgi:error] [pid 9546:tid 9566] [remote 192.168.231.128:47052]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/conf/__init__.py", line 81, in __getattr__
+[Tue Jun 10 02:35:15.166612 2025] [wsgi:error] [pid 9546:tid 9566] [remote 192.168.231.128:47052]     self._setup(name)
+[Tue Jun 10 02:35:15.166614 2025] [wsgi:error] [pid 9546:tid 9566] [remote 192.168.231.128:47052]     ~~~~~~~~~~~^^^^^^
+[Tue Jun 10 02:35:15.166617 2025] [wsgi:error] [pid 9546:tid 9566] [remote 192.168.231.128:47052]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/conf/__init__.py", line 68, in _setup
+[Tue Jun 10 02:35:15.166619 2025] [wsgi:error] [pid 9546:tid 9566] [remote 192.168.231.128:47052]     self._wrapped = Settings(settings_module)
+[Tue Jun 10 02:35:15.166621 2025] [wsgi:error] [pid 9546:tid 9566] [remote 192.168.231.128:47052]                     ~~~~~~~~^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:35:15.166624 2025] [wsgi:error] [pid 9546:tid 9566] [remote 192.168.231.128:47052]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/conf/__init__.py", line 166, in __init__
+[Tue Jun 10 02:35:15.166626 2025] [wsgi:error] [pid 9546:tid 9566] [remote 192.168.231.128:47052]     mod = importlib.import_module(self.SETTINGS_MODULE)
+[Tue Jun 10 02:35:15.166630 2025] [wsgi:error] [pid 9546:tid 9566] [remote 192.168.231.128:47052]   File "/usr/local/lib/python3.13/importlib/__init__.py", line 88, in import_module
+[Tue Jun 10 02:35:15.166632 2025] [wsgi:error] [pid 9546:tid 9566] [remote 192.168.231.128:47052]     return _bootstrap._gcd_import(name[level:], package, level)
+[Tue Jun 10 02:35:15.166633 2025] [wsgi:error] [pid 9546:tid 9566] [remote 192.168.231.128:47052]            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:35:15.166636 2025] [wsgi:error] [pid 9546:tid 9566] [remote 192.168.231.128:47052]   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+[Tue Jun 10 02:35:15.166640 2025] [wsgi:error] [pid 9546:tid 9566] [remote 192.168.231.128:47052]   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+[Tue Jun 10 02:35:15.166643 2025] [wsgi:error] [pid 9546:tid 9566] [remote 192.168.231.128:47052]   File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+[Tue Jun 10 02:35:15.166647 2025] [wsgi:error] [pid 9546:tid 9566] [remote 192.168.231.128:47052]   File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+[Tue Jun 10 02:35:15.166685 2025] [wsgi:error] [pid 9546:tid 9566] [remote 192.168.231.128:47052]   File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+[Tue Jun 10 02:35:15.166702 2025] [wsgi:error] [pid 9546:tid 9566] [remote 192.168.231.128:47052]   File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+[Tue Jun 10 02:35:15.166710 2025] [wsgi:error] [pid 9546:tid 9566] [remote 192.168.231.128:47052]   File "/mnt/django/blog/blog/settings.py", line 133, in <module>
+[Tue Jun 10 02:35:15.166712 2025] [wsgi:error] [pid 9546:tid 9566] [remote 192.168.231.128:47052]     '192.168.231.129' / 'static'
+[Tue Jun 10 02:35:15.166717 2025] [wsgi:error] [pid 9546:tid 9566] [remote 192.168.231.128:47052]     ~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+[Tue Jun 10 02:35:15.166728 2025] [wsgi:error] [pid 9546:tid 9566] [remote 192.168.231.128:47052] TypeError: unsupported operand type(s) for /: 'str' and 'str'
+[Tue Jun 10 02:35:31.239932 2025] [wsgi:error] [pid 9578:tid 9578] mod_wsgi (pid=9578): Failed to exec Python script file '/mnt/django/blog/apache-wsgi/handler.wsgi'.
+[Tue Jun 10 02:35:31.239999 2025] [wsgi:error] [pid 9578:tid 9578] mod_wsgi (pid=9578): Exception occurred processing WSGI script '/mnt/django/blog/apache-wsgi/handler.wsgi'.
+[Tue Jun 10 02:35:31.241087 2025] [wsgi:error] [pid 9578:tid 9578] Traceback (most recent call last):
+[Tue Jun 10 02:35:31.242155 2025] [wsgi:error] [pid 9578:tid 9578]   File "/mnt/django/blog/apache-wsgi/handler.wsgi", line 90, in <module>
+[Tue Jun 10 02:35:31.242165 2025] [wsgi:error] [pid 9578:tid 9578]     handler = mod_wsgi.server.ApplicationHandler(entry_point,
+[Tue Jun 10 02:35:31.242167 2025] [wsgi:error] [pid 9578:tid 9578]             application_type=application_type, callable_object=callable_object,
+[Tue Jun 10 02:35:31.242169 2025] [wsgi:error] [pid 9578:tid 9578]     ...<2 lines>...
+[Tue Jun 10 02:35:31.242170 2025] [wsgi:error] [pid 9578:tid 9578]             debugger_startup=debugger_startup, enable_recorder=enable_recorder,
+[Tue Jun 10 02:35:31.242172 2025] [wsgi:error] [pid 9578:tid 9578]             recorder_directory=recorder_directory)
+[Tue Jun 10 02:35:31.242178 2025] [wsgi:error] [pid 9578:tid 9578]   File "/mnt/django/myenv/lib/python3.13/site-packages/mod_wsgi/server/__init__.py", line 1477, in __init__
+[Tue Jun 10 02:35:31.242180 2025] [wsgi:error] [pid 9578:tid 9578]     exec(code, self.module.__dict__)
+[Tue Jun 10 02:35:31.242182 2025] [wsgi:error] [pid 9578:tid 9578]     ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:35:31.242186 2025] [wsgi:error] [pid 9578:tid 9578]   File "/mnt/django/blog/blog/wsgi.py", line 18, in <module>
+[Tue Jun 10 02:35:31.242188 2025] [wsgi:error] [pid 9578:tid 9578]     application = get_wsgi_application()
+[Tue Jun 10 02:35:31.242191 2025] [wsgi:error] [pid 9578:tid 9578]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+[Tue Jun 10 02:35:31.242193 2025] [wsgi:error] [pid 9578:tid 9578]     django.setup(set_prefix=False)
+[Tue Jun 10 02:35:31.242194 2025] [wsgi:error] [pid 9578:tid 9578]     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:35:31.242198 2025] [wsgi:error] [pid 9578:tid 9578]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/__init__.py", line 19, in setup
+[Tue Jun 10 02:35:31.242200 2025] [wsgi:error] [pid 9578:tid 9578]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Tue Jun 10 02:35:31.242213 2025] [wsgi:error] [pid 9578:tid 9578]                       ^^^^^^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:35:31.242219 2025] [wsgi:error] [pid 9578:tid 9578]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/conf/__init__.py", line 81, in __getattr__
+[Tue Jun 10 02:35:31.242221 2025] [wsgi:error] [pid 9578:tid 9578]     self._setup(name)
+[Tue Jun 10 02:35:31.242223 2025] [wsgi:error] [pid 9578:tid 9578]     ~~~~~~~~~~~^^^^^^
+[Tue Jun 10 02:35:31.242226 2025] [wsgi:error] [pid 9578:tid 9578]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/conf/__init__.py", line 68, in _setup
+[Tue Jun 10 02:35:31.242228 2025] [wsgi:error] [pid 9578:tid 9578]     self._wrapped = Settings(settings_module)
+[Tue Jun 10 02:35:31.242229 2025] [wsgi:error] [pid 9578:tid 9578]                     ~~~~~~~~^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:35:31.242233 2025] [wsgi:error] [pid 9578:tid 9578]   File "/mnt/django/myenv/lib/python3.13/site-packages/django/conf/__init__.py", line 166, in __init__
+[Tue Jun 10 02:35:31.242235 2025] [wsgi:error] [pid 9578:tid 9578]     mod = importlib.import_module(self.SETTINGS_MODULE)
+[Tue Jun 10 02:35:31.242238 2025] [wsgi:error] [pid 9578:tid 9578]   File "/usr/local/lib/python3.13/importlib/__init__.py", line 88, in import_module
+[Tue Jun 10 02:35:31.242248 2025] [wsgi:error] [pid 9578:tid 9578]     return _bootstrap._gcd_import(name[level:], package, level)
+[Tue Jun 10 02:35:31.242250 2025] [wsgi:error] [pid 9578:tid 9578]            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[Tue Jun 10 02:35:31.242254 2025] [wsgi:error] [pid 9578:tid 9578]   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+[Tue Jun 10 02:35:31.242257 2025] [wsgi:error] [pid 9578:tid 9578]   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+[Tue Jun 10 02:35:31.242261 2025] [wsgi:error] [pid 9578:tid 9578]   File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+[Tue Jun 10 02:35:31.242264 2025] [wsgi:error] [pid 9578:tid 9578]   File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+[Tue Jun 10 02:35:31.242267 2025] [wsgi:error] [pid 9578:tid 9578]   File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+[Tue Jun 10 02:35:31.242270 2025] [wsgi:error] [pid 9578:tid 9578]   File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+[Tue Jun 10 02:35:31.242274 2025] [wsgi:error] [pid 9578:tid 9578]   File "/mnt/django/blog/blog/settings.py", line 133, in <module>
+[Tue Jun 10 02:35:31.242275 2025] [wsgi:error] [pid 9578:tid 9578]     '192.168.231.129' / 'static'
+[Tue Jun 10 02:35:31.242277 2025] [wsgi:error] [pid 9578:tid 9578]     ~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+[Tue Jun 10 02:35:31.242288 2025] [wsgi:error] [pid 9578:tid 9578] TypeError: unsupported operand type(s) for /: 'str' and 'str'
+[Tue Jun 10 02:36:45.531074 2025] [mpm_event:notice] [pid 8866:tid 8866] AH00494: SIGHUP received.  Attempting to restart
+[Tue Jun 10 02:36:45.583936 2025] [mpm_event:notice] [pid 8866:tid 8866] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Tue Jun 10 02:36:45.583958 2025] [core:notice] [pid 8866:tid 8866] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Tue Jun 10 02:36:49.479697 2025] [wsgi:error] [pid 9609:tid 9629] [remote 192.168.231.128:40204] Not Found: /favicon.ico
+[Tue Jun 10 02:38:20.344764 2025] [mpm_event:notice] [pid 8866:tid 8866] AH00494: SIGHUP received.  Attempting to restart
+[Tue Jun 10 02:38:20.461240 2025] [mpm_event:notice] [pid 8866:tid 8866] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Tue Jun 10 02:38:20.461252 2025] [core:notice] [pid 8866:tid 8866] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Tue Jun 10 02:38:24.175068 2025] [wsgi:error] [pid 9681:tid 9701] [remote 192.168.231.128:59990] Not Found: /192.168.231.129/css/style.css
+[Tue Jun 10 02:38:24.183244 2025] [wsgi:error] [pid 9681:tid 9697] [remote 192.168.231.128:59990] Not Found: /192.168.231.129/imgs/uchlogo.png
+[Tue Jun 10 02:38:24.192955 2025] [wsgi:error] [pid 9681:tid 9701] [remote 192.168.231.128:59990] Not Found: /favicon.ico
+[Tue Jun 10 02:39:33.393242 2025] [mpm_event:notice] [pid 8866:tid 8866] AH00494: SIGHUP received.  Attempting to restart
+[Tue Jun 10 02:39:33.512170 2025] [mpm_event:notice] [pid 8866:tid 8866] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Tue Jun 10 02:39:33.512183 2025] [core:notice] [pid 8866:tid 8866] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Tue Jun 10 02:39:37.178370 2025] [wsgi:error] [pid 9730:tid 9750] [remote 192.168.231.128:58042] Not Found: /192.168.231.129/static/css/style.css
+[Tue Jun 10 02:39:37.184786 2025] [wsgi:error] [pid 9730:tid 9746] [remote 192.168.231.128:58042] Not Found: /192.168.231.129/static/imgs/uchlogo.png
+[Tue Jun 10 02:39:37.219421 2025] [wsgi:error] [pid 9730:tid 9750] [remote 192.168.231.128:58042] Not Found: /favicon.ico
+[Tue Jun 10 02:42:39.448586 2025] [mpm_event:notice] [pid 8866:tid 8866] AH00491: caught SIGTERM, shutting down
+[Tue Jun 10 02:46:12.147346 2025] [mpm_event:notice] [pid 9924:tid 9924] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Tue Jun 10 02:46:12.147584 2025] [core:notice] [pid 9924:tid 9924] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Tue Jun 10 02:46:32.840722 2025] [mpm_event:notice] [pid 9924:tid 9924] AH00491: caught SIGTERM, shutting down
+[Tue Jun 10 02:46:34.869623 2025] [mpm_event:notice] [pid 9967:tid 9967] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Tue Jun 10 02:46:34.869713 2025] [core:notice] [pid 9967:tid 9967] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Tue Jun 10 02:46:39.655848 2025] [wsgi:error] [pid 9971:tid 9992] [remote 192.168.231.128:52098] Not Found: /favicon.ico
+[Tue Jun 10 02:46:41.762139 2025] [wsgi:error] [pid 9971:tid 9992] [remote 192.168.231.128:52112] Not Found: /favicon.ico
+[Tue Jun 10 02:46:42.945936 2025] [wsgi:error] [pid 9971:tid 9992] [remote 192.168.231.128:52112] Not Found: /favicon.ico
+[Tue Jun 10 02:46:44.213902 2025] [wsgi:error] [pid 9971:tid 9992] [remote 192.168.231.128:52112] Not Found: /favicon.ico
+[Tue Jun 10 02:46:55.963177 2025] [wsgi:error] [pid 9971:tid 9992] [remote 192.168.231.128:44928] Not Found: /favicon.ico
+[Tue Jun 10 02:47:07.364428 2025] [wsgi:error] [pid 9971:tid 9992] [remote 192.168.231.128:47748] Not Found: /favicon.ico
+[Tue Jun 10 02:47:15.166377 2025] [mpm_event:notice] [pid 9967:tid 9967] AH00491: caught SIGTERM, shutting down
+[Wed Jun 11 08:46:28.644181 2025] [mpm_event:notice] [pid 8155:tid 8155] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Wed Jun 11 08:46:28.645158 2025] [core:notice] [pid 8155:tid 8155] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Wed Jun 11 08:46:33.986146 2025] [wsgi:error] [pid 8159:tid 8180] [remote 192.168.231.128:49102] Not Found: /favicon.ico
+[Wed Jun 11 08:46:35.196375 2025] [wsgi:error] [pid 8159:tid 8180] [remote 192.168.231.128:49102] Not Found: /favicon.ico
+[Wed Jun 11 08:46:36.520061 2025] [wsgi:error] [pid 8159:tid 8180] [remote 192.168.231.128:49102] Not Found: /favicon.ico
+[Wed Jun 11 08:57:54.448676 2025] [wsgi:error] [pid 8159:tid 8180] [remote 192.168.231.128:52770] Not Found: /favicon.ico
+[Wed Jun 11 08:57:55.560130 2025] [wsgi:error] [pid 8159:tid 8180] [remote 192.168.231.128:52770] Not Found: /favicon.ico
+[Wed Jun 11 08:57:56.814776 2025] [wsgi:error] [pid 8159:tid 8180] [remote 192.168.231.128:52770] Not Found: /favicon.ico
+[Wed Jun 11 08:58:15.970509 2025] [wsgi:error] [pid 8159:tid 8180] [remote 192.168.231.128:33590] Not Found: /favicon.ico
+[Wed Jun 11 08:58:16.800736 2025] [wsgi:error] [pid 8159:tid 8180] [remote 192.168.231.128:33590] Not Found: /favicon.ico
+[Wed Jun 11 08:58:18.215362 2025] [wsgi:error] [pid 8159:tid 8180] [remote 192.168.231.128:33590] Not Found: /favicon.ico
+[Wed Jun 11 08:58:19.494751 2025] [wsgi:error] [pid 8159:tid 8180] [remote 192.168.231.128:33590] Not Found: /favicon.ico
+[Wed Jun 11 08:58:21.273368 2025] [wsgi:error] [pid 8159:tid 8180] [remote 192.168.231.128:33590] Not Found: /favicon.ico
+[Wed Jun 11 09:00:33.970184 2025] [mpm_event:notice] [pid 8155:tid 8155] AH00491: caught SIGTERM, shutting down
+[Mon Jun 16 20:52:32.171658 2025] [mpm_event:notice] [pid 3036:tid 3036] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Mon Jun 16 20:52:32.174592 2025] [core:notice] [pid 3036:tid 3036] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Mon Jun 16 20:53:25.498435 2025] [mpm_event:notice] [pid 3036:tid 3036] AH00491: caught SIGTERM, shutting down
+[Mon Jun 16 20:56:29.134230 2025] [mpm_event:notice] [pid 3190:tid 3190] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Mon Jun 16 20:56:29.134309 2025] [core:notice] [pid 3190:tid 3190] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Mon Jun 16 20:56:45.534886 2025] [wsgi:error] [pid 3194:tid 3211] [remote 192.168.231.128:38168] Not Found: /favicon.ico
+[Mon Jun 16 20:56:46.581028 2025] [wsgi:error] [pid 3194:tid 3211] [remote 192.168.231.128:38168] Not Found: /favicon.ico
+[Mon Jun 16 20:56:48.238158 2025] [wsgi:error] [pid 3194:tid 3211] [remote 192.168.231.128:38168] Not Found: /favicon.ico
+[Mon Jun 16 20:56:49.548631 2025] [wsgi:error] [pid 3194:tid 3214] [remote 192.168.231.128:38168] Not Found: /favicon.ico
+[Mon Jun 16 20:56:51.229956 2025] [wsgi:error] [pid 3194:tid 3214] [remote 192.168.231.128:38168] Not Found: /favicon.ico
+[Mon Jun 16 20:56:52.374797 2025] [wsgi:error] [pid 3194:tid 3214] [remote 192.168.231.128:38168] Not Found: /favicon.ico
+[Mon Jun 16 20:56:53.582950 2025] [wsgi:error] [pid 3194:tid 3214] [remote 192.168.231.128:38168] Not Found: /favicon.ico
+[Mon Jun 16 20:56:54.859579 2025] [wsgi:error] [pid 3194:tid 3211] [remote 192.168.231.128:38168] Not Found: /favicon.ico
+[Mon Jun 16 20:56:55.853053 2025] [wsgi:error] [pid 3194:tid 3211] [remote 192.168.231.128:38168] Not Found: /favicon.ico
+[Mon Jun 16 20:57:02.764263 2025] [mpm_event:notice] [pid 3190:tid 3190] AH00491: caught SIGTERM, shutting down

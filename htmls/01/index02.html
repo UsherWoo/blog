@@ -1,0 +1,19 @@
+<!--
+	htmls/01/index02.html
+-->
+{%extends 'base.html'%}
+{%block title%}歡迎{%endblock%}
+{%block headmessage%}産品列表{%endblock%}
+{%block content%}
+	<table>
+	<tr bgcolor="lightgreen"><td>編號</td><td>名稱</td><td>價格</td><td>大小</td></tr>
+	{%for product in products%}
+	<tr>
+	<td><a href="/product/{{product.sku}}">{{product.sku}}</a></td>
+	<td>{{product.name}}</td>
+	<td>{{product.price}}</td>
+	<td>{{product.size}}</td>
+	</tr>
+	{%endfor%}
+	</table>
+{%endblock%}

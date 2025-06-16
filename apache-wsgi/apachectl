@@ -1,9 +1,9 @@
 #!/usr/bin/bash
 
-# ['/mnt/django/myenv/bin/mod_wsgi-express', 'setup-server', 'blog/wsgi.py', '--host=192.168.231.129', '--port=8000', '--user', 'apache', '--group', 'apache', '--server-root=apache-wsgi']
+# ['/mnt/django/myenv/bin/mod_wsgi-express', 'setup-server', 'blog/wsgi.py', '--user', 'apache', '--group', 'apache', '--server-root=apache-wsgi', '--url-alias', '/static', '/mnt/django/blog/statics']
 
 HTTPD="/usr/sbin/httpd"
-HTTPD_ARGS="-f /mnt/django/blog/apache-wsgi/httpd.conf -DMOD_WSGI_KEEP_ALIVE -DMOD_WSGI_WITH_LISTENER_HOST -DMOD_WSGI_MPM_ENABLE_EVENT_MODULE -DMOD_WSGI_MPM_EXISTS_EVENT_MODULE -DMOD_WSGI_MPM_EXISTS_WORKER_MODULE -DMOD_WSGI_MPM_EXISTS_PREFORK_MODULE"
+HTTPD_ARGS="-f /mnt/django/blog/apache-wsgi/httpd.conf -DMOD_WSGI_KEEP_ALIVE -DMOD_WSGI_MPM_ENABLE_EVENT_MODULE -DMOD_WSGI_MPM_EXISTS_EVENT_MODULE -DMOD_WSGI_MPM_EXISTS_WORKER_MODULE -DMOD_WSGI_MPM_EXISTS_PREFORK_MODULE"
 
 HTTPD_COMMAND="$HTTPD $HTTPD_ARGS"
 
@@ -21,7 +21,7 @@ MOD_WSGI_SERVER_ROOT="/mnt/django/blog/apache-wsgi"
 
 export MOD_WSGI_SERVER_ROOT
 
-MOD_WSGI_LISTENER_HOST="192.168.231.129"
+MOD_WSGI_LISTENER_HOST="localhost"
 
 export MOD_WSGI_LISTENER_HOST
 
@@ -72,7 +72,7 @@ if test -f /mnt/django/blog/apache-wsgi/envvars; then
     . /mnt/django/blog/apache-wsgi/envvars
 fi
 
-STATUSURL="http://192.168.231.129:8000/server-status"
+STATUSURL="http://localhost:8000/server-status"
 
 if [ "x$ARGV" = "x" ]; then
     ARGV="-h"
@@ -81,7 +81,7 @@ fi
 GDB="gdb"
 ENABLE_GDB="False"
 
-PROCESS_NAME="httpd (mod_wsgi-express)        "
+PROCESS_NAME="httpd (mod_wsgi-express)  "
 
 cd $MOD_WSGI_WORKING_DIRECTORY
 

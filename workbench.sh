@@ -1,0 +1,1 @@
+/home/usher/Programs/workbench/sqlworkbench.sh

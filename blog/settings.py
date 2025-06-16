@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'mod_wsgi.server',
-    'home'
+    'home'       #這行,自行設定
 ]
 
 MIDDLEWARE = [
@@ -56,7 +56,7 @@ ROOT_URLCONF = 'blog.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'htmls/01'],
+        'DIRS': [BASE_DIR / 'htmls/01'],    #這行,自行設定
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -82,7 +82,7 @@ DATABASES = {
     }
 }
 '''
-DATABASES = {
+DATABASES = {   #資料庫在哪,自行設定
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'blogdb',
@@ -127,8 +127,9 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
-STATIC_ROOT = 'statics'
+STATIC_ROOT = 'statics'     #這行,自行設定
 STATIC_URL = 'static/'
+#STATIC_URL = 'http://192.168.231.129/static/'
 STATICFILES_DIRS = [
     BASE_DIR / 'static'
 ]
