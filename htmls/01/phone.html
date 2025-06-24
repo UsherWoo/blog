@@ -1,0 +1,26 @@
+<!--
+	htmls/01/phone.html
+-->
+{%extends 'base.html'%}
+{%block title%}{{phone.name | default:'查無此號'}}{%endblock%}
+{%block headmessage%}
+	<h3><a onclick="history.back()">回上頁</a></h3>
+{%endblock%}
+{%block content%}
+{%load static%}
+{%if phone%}
+	<p>{{phone.name}}</p>
+	<p>{{phone.price}}</p>
+	<p>{{phone.year}} : {{phone.model.maker.country}}</p>
+	<p>{{phone.description}}</p>
+	{%for photo in photos%}
+		{%if photo.url != 'http://localhost'%}
+			<img src="{{photo.url}}">
+		{%elif photo.media != 'non'%}
+			<img src="{%static '/imgs/'%}{{photo.media}}">
+		{%endif%}
+	{%empty%}		尚無圖片		
+	{%endfor%}
+{%else%}	查無此號
+{%endif%}
+{%endblock%}

@@ -1,0 +1,28 @@
+<!--
+	htmls/01/index03.html
+-->
+{%extends 'base.html'%}
+{%block title%}歡迎{%endblock%}
+{%block headmessage%}
+<script>
+window.onload=function(){
+    document.getElementById("v{{tv_no}}").style.backgroundColor="pink";
+}
+</script>
+	<table>
+	<tr bgcolor="lightgreen"><td>影音列表</td>
+	{%for tv in tv_list%}
+		{%with i=forloop.counter0 %}
+		<td id="v{{i}}" width="15%">
+		<a href="{%url 'tv-url' i%}">{{tv.name}}</a></td>
+		{%endwith%}
+	{%endfor%}
+	</tr>
+	</table>
+{%endblock%}
+{%block content%}
+	<table><tr><td>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/{{tv.code}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; gyroscope; picture-in-picture; web-share" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+	</td></tr>
+	</table>
+{%endblock%}

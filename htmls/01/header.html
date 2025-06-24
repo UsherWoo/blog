@@ -4,6 +4,15 @@
 {%load static%}
 <table><tr>
 <td><a href="/"><img src="{%static '/imgs/uchlogo.png'%}" width="40"></a></td>
-<td align="center" width="80%"><h1>Welcome</h1></td>
+<td align="center" width="70%"><h1>Welcome</h1></td>
+<!--td align="right"><h3>{%if userName%}{{userName}}{%endif%}</h3></td-->
+<td align="right"><h3>
+{%if request.session.userName%}{{request.session.userName}}{%endif%}</h3></td>
+<td align="right">
+{%if request.session.userName%}<a href="/logout">登出</a>
+{%else%}<a href="/login">登入</a>{%endif%}
+</td>
 <td align="right"><a href="/product">産品</a></td>
+<td align="right"><a href="/video/0">影視</a></td>
+<td align="right"><a href="/phone">手機</a></td>
 <td align="right"><a href="/about">關於</a></td></tr></table>
