@@ -12,7 +12,9 @@ from home import views05
 urlpatterns = [
     path('',views01.homepage),        #根目錄，呼叫homepage函式
     path('admin/', admin.site.urls),  #管理目錄，呼叫公版網址
-    path('post/<str:slug>',views01.showPost),
+    path('post/<int:id>',views01.showPost),
+    path('post/add/',views01.addPost),
+    path('post/del/',views01.delPost),
     path('about/', views01.about),
     path('product/', views02.homepage),
     path('product/<str:sku>', views02.showProduct),

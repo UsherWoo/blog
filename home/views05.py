@@ -3,7 +3,10 @@ home/views05.py
 '''
 from django.shortcuts import render,redirect
 from datetime import datetime
-Member = {'王小明':'123','b':'456'}
+Member = {
+    '王小明':'123',
+    'b':'456'
+}
 
 def login(request):    #定義網頁函式
     now = datetime.now()

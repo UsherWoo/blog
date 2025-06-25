@@ -3,9 +3,54 @@
 -->
 {%extends 'base.html'%}
 {%block title%}歡迎{%endblock%}
-{%block headmessage%}文章列表{%endblock%}
+{%block headmessage%}最新消息
+	{%if request.session.userName%}
+	-	<a href="/post/add/">新增</a>
+	{%endif%}
+{%endblock%}
 {%block content%}
-	{%for post in posts%}
-		<p><a href="/post/{{post.slug}}">{{post}}</a></p>
-	{%endfor%}
+<script>
+function foo(obj){
+/*	var inputs = document.getElementsByTagName("input");
+	for (var i = 0; i < inputs.length; i++) {
+		if (inputs[i].type == "checkbox") {
+			inputs[i].checked = obj.checked; 
+		}  
+	} */
+	var inputs = document.querySelectorAll("input[type='checkbox']");
+/*	for(var i = 0; i < inputs.length; i++) {
+		inputs[i].checked = obj.checked;   
+	} */
+	inputs.forEach(i => {i.checked = obj.checked;});
+}
+</script>
+{%if request.session.userName%}<form action="post/del/" method="POST">
+{% csrf_token %}{%endif%}
+<table style="width:80%" align="center">
+{%if request.session.userName%}
+<tr bgcolor="lightgreen"><td><input type="checkbox" onclick="foo(this);">全選</td>
+<td style="text-align: right;"><input type='submit' value='刪除'></td></tr>{%endif%}
+{%for post in posts%}
+	<tr>
+{%if request.session.userName%}
+<td><input type="checkbox" value="{{post.id}}" name="selected_items"></td>
+{%endif%}
+	<td><a href="/post/{{post.id}}">{{post}}</a></td>
+	<td>{{post.pub_date}}</td></tr>
+{%endfor%}
+<tr><td></td><td>
+	{% if posts.has_previous %}
+		<a href="?page=1">&laquo;最前</a>
+		<a href="?page={{ posts.previous_page_number }}">前頁</a>
+	{% endif %}
+	<span>
+		Page {{ posts.number }} of {{ posts.paginator.num_pages }}.
+	</span>
+	{% if posts.has_next %}
+		<a href="?page={{ posts.next_page_number }}">後頁</a>
+		<a href="?page={{ posts.paginator.num_pages }}">最後 &raquo;</a>
+	{% endif %}
+</td></tr>
+</table>
+{%if request.session.userName%}</form>{%endif%}
 {%endblock%}

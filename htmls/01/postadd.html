@@ -1,0 +1,15 @@
+<!--
+	htmls/01/postadd.html
+-->
+{%extends 'base.html'%}
+{%block title%}新增{%endblock%}
+{%block headmessage%}
+	新增 － <a href='/'>回首頁</a>
+{%endblock%}
+{%block content%}
+<form action="." method="POST">{% csrf_token %}
+	<table>{{postForm.as_table}}</table>
+	<input type='submit' value='貼吧'>
+	<input type='reset' value='清除'>
+</form>
+{%endblock%}

@@ -1181,3 +1181,18 @@
 [Mon Jun 16 20:56:54.859579 2025] [wsgi:error] [pid 3194:tid 3211] [remote 192.168.231.128:38168] Not Found: /favicon.ico
 [Mon Jun 16 20:56:55.853053 2025] [wsgi:error] [pid 3194:tid 3211] [remote 192.168.231.128:38168] Not Found: /favicon.ico
 [Mon Jun 16 20:57:02.764263 2025] [mpm_event:notice] [pid 3190:tid 3190] AH00491: caught SIGTERM, shutting down
+[Tue Jun 24 10:23:19.072121 2025] [mpm_event:notice] [pid 3271:tid 3271] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Tue Jun 24 10:23:19.072681 2025] [core:notice] [pid 3271:tid 3271] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Tue Jun 24 10:34:01.979248 2025] [wsgi:error] [pid 3275:tid 3292] [remote 192.168.231.1:63474] Not Found: /favicon.ico
+[Tue Jun 24 10:58:53.258948 2025] [wsgi:error] [pid 3275:tid 3296] [remote 192.168.231.128:46782] Not Found: /favicon.ico
+[Tue Jun 24 10:58:54.919095 2025] [wsgi:error] [pid 3275:tid 3296] [remote 192.168.231.128:46782] Not Found: /favicon.ico
+[Tue Jun 24 10:59:23.136828 2025] [wsgi:error] [pid 3275:tid 3292] [remote 192.168.231.128:47028] Not Found: /favicon.ico
+[Tue Jun 24 10:59:25.870482 2025] [wsgi:error] [pid 3275:tid 3292] [remote 192.168.231.128:47036] Not Found: /favicon.ico
+[Tue Jun 24 10:59:59.540784 2025] [wsgi:error] [pid 3275:tid 3296] [remote 192.168.231.128:40462] Not Found: /favicon.ico
+[Tue Jun 24 11:00:01.822190 2025] [wsgi:error] [pid 3275:tid 3292] [remote 192.168.231.128:40478] Not Found: /favicon.ico
+[Tue Jun 24 11:00:04.350422 2025] [wsgi:error] [pid 3275:tid 3292] [remote 192.168.231.128:40484] Not Found: /favicon.ico
+[Tue Jun 24 11:00:13.973018 2025] [mpm_event:notice] [pid 3271:tid 3271] AH00494: SIGHUP received.  Attempting to restart
+[Tue Jun 24 11:00:14.184396 2025] [mpm_event:notice] [pid 3271:tid 3271] AH00489: Apache/2.4.62 (Rocky Linux) mod_wsgi/5.0.2 Python/3.13 configured -- resuming normal operations
+[Tue Jun 24 11:00:14.184420 2025] [core:notice] [pid 3271:tid 3271] AH00094: Command line: 'httpd (mod_wsgi-express)   -f /mnt/django/blog/apache-wsgi/httpd.conf -D MOD_WSGI_KEEP_ALIVE -D MOD_WSGI_MPM_ENABLE_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_EVENT_MODULE -D MOD_WSGI_MPM_EXISTS_WORKER_MODULE -D MOD_WSGI_MPM_EXISTS_PREFORK_MODULE'
+[Tue Jun 24 11:00:18.849074 2025] [wsgi:error] [pid 4668:tid 4688] [remote 192.168.231.128:39264] Not Found: /favicon.ico
+[Tue Jun 24 11:00:44.592778 2025] [mpm_event:notice] [pid 3271:tid 3271] AH00491: caught SIGTERM, shutting down
