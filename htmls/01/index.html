@@ -24,15 +24,18 @@ function foo(obj){
 	inputs.forEach(i => {i.checked = obj.checked;});
 }
 </script>
-{%if request.session.userName%}<form action="post/del/" method="POST">
+{#%if request.session.userName%#}<!--form action="post/del/" method="POST"-->
+{%if user.is_authenticated%}<form action="post/del/" method="POST">
 {% csrf_token %}{%endif%}
 <table style="width:80%" align="center">
-{%if request.session.userName%}
+{#%if request.session.userName%#}
+{%if user.is_authenticated%}
 <tr bgcolor="lightgreen"><td><input type="checkbox" onclick="foo(this);">全選</td>
 <td style="text-align: right;"><input type='submit' value='刪除'></td></tr>{%endif%}
 {%for post in posts%}
 	<tr>
-{%if request.session.userName%}
+{#%if request.session.userName%#}
+{%if user.is_authenticated%}
 <td><input type="checkbox" value="{{post.id}}" name="selected_items"></td>
 {%endif%}
 	<td><a href="/post/{{post.id}}">{{post}}</a></td>
@@ -52,5 +55,6 @@ function foo(obj){
 	{% endif %}
 </td></tr>
 </table>
-{%if request.session.userName%}</form>{%endif%}
+{%if user.is_authenticated%}</form>{%endif%}
+{#%if request.session.userName%}</form>{%endif%#}
 {%endblock%}
